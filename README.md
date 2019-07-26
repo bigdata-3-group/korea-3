@@ -4,7 +4,11 @@
 
 [공유드라이브](https://drive.google.com/drive/folders/1XqVgN4gg_LFpAc17NTcVrHIEMJDY3zCC)
 
-### 스터디 정리
+[학습관리시스템]([https://lms.sunde41.net](https://lms.sunde41.net/))
 
-[남궁찬](https://github.com/getChan/data_campus)
+##  Cyberaffiti
+
+> #### <인터넷방송 폭력성 산출을 통한 필터링 시스템>
+
+[중간발표 pdf](/docs/프로젝트_중간발표_제출용.pdf)
 
