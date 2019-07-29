@@ -4,11 +4,9 @@
 
 [공유드라이브](https://drive.google.com/drive/folders/1XqVgN4gg_LFpAc17NTcVrHIEMJDY3zCC)
 
-[학습관리시스템]([https://lms.sunde41.net](https://lms.sunde41.net/))
-
 ##  Cyberaffiti
 
-> #### <인터넷방송 폭력성 산출을 통한 필터링 시스템>
+> ### <인터넷방송 폭력성 산출을 통한 필터링 시스템>
 
-[중간발표 pdf](./docs/프로젝트_중간발표_제출용.pdf)
+
 
