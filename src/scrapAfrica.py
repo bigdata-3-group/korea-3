@@ -9,8 +9,6 @@ def get_chat(url):
     return xmltree instance
     '''
 
-    from download import download
-    from bs4 import BeautifulSoup
     html = download('get', url) ## 파싱 동영상 url
     dom = BeautifulSoup(html.text, 'lxml') ## dom화
     metatag = dom.select_one("meta[property='og:image']")['content'] ## key찾는 과정
