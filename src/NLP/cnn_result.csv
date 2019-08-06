@@ -1,245 +1,245 @@
 ,chat,predict
-0,ìŠ¬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.1622906e-06
-1,ë¯¸ëµë„/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9992361
-2,ë¸Œë² /Noun í˜•/Suffix ê²Œì´/Noun ì•„ë‹˜/Adjective ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.9997816
-3,ì™œ/Noun ëˆì–´/Verb ã„±ã……ã„²/KoreanParticle ì•¼/Exclamation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99999094
-4,ì´/Determiner ìƒˆ/Modifier ê¸°/Noun ë¦¬ì•¡ì…˜/Noun í•œê²°ê°™ë„¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999686
-5,í‰¤/Noun -\/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.99929714
-6,ã…†ã…‚/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99840343
-7,ì˜¥ëœ°/Noun ì•„/Josa !/Punctuation ë”°ë‹¹/Verb í–‰/Noun ì–µì–µì–µ/Noun ì˜ì°¨/Noun ì˜ì°¨/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9717297
-8,ì°½/Noun ì„œ/Josa ì´ë¶€/Noun ë„/Noun ëƒ„ìƒˆ/Noun ë§ê³ ì‹¶ë‹¤/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.9999995
-9,ë‹˜/Noun ì´/Josa ìŠ¤íŠ¸ë¦¬ë¨¸/Noun ì—ê²Œ/Josa ì¸ì‚¬/Noun í•©ë‹ˆë‹¤/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-10,ì˜¥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.387732e-06
-11,ë§íˆ¬/Noun ê°€/Josa ì™œ/Noun ì´ë ‡ê²Œ/Adverb ê±´ë°©ì ¸ì¡Œëƒ/Adjective ìŠ¤í°ì„œ/Noun ì¸ë°/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99818456
-12,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-13,ì–´ì œ/Noun ë¬´ìŠ¨/Noun ì¼ì´/Modifier ìˆì–´ë‚˜ìš”/Adjective ??/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.0
-14,ì•„í•¡/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.92544883
-15,ì–´ë””ì„œ/Adverb ì‹œì²­ì/Noun ì•/Noun ì—ì„œ/Josa ì•„ì´/Noun C/Alpha ê±°ë ¤/Noun ëª»/VerbPrefix ë˜/Verb ë¨¹ì€/Verb ìƒˆê¸°ê°€/Verb <PAD> <PAD> <PAD> <PAD> ,0.9998843
-16,ëŒ•/Noun ì¥/Suffix ê¿/Noun ì—/Josa ì¸ìœ¡/Noun ì¹˜í‚¨/Noun ë¨¹ì/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.9995047
-17,ìŒë€/Noun ì„±/Suffix <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.9994973
-18,ì˜¥/Noun ì“°ë¦¬/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,5.9604645e-08
-19,ì•„ê°€ë¦¬/Noun ë‹«ê³ /Verb ê²œ/Noun í•´/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99917114
-20,ë¯¸ì• /Noun ì‹œ/Modifier ì´ë°œ/Noun ë ¨/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.99999464
-21,ë­”/Modifier ì¼/Noun ì¸ë°/Josa ã…‚ã……/KoreanParticle ì•„/Exclamation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.99728286
-22,ê°œì°½/Noun ì„/Noun ì´/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.999909
-23,ë¸Œë² /Noun í˜•/Suffix ëª¨ì/Noun ì™œ/Noun ê±°ê¾¸ë¡œ/Noun ì“°ì„¸ìš”/Verb ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.0010614395
-24,ì‹ ê²½/Noun ì“°ì´ë©´/Verb ì‹ /Modifier ê²½/Modifier ì •ì‹ ê³¼/Noun ê°€/Josa ì”¨/Noun 1/Number ë°œì•„/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9996457
-25,ì°½ì„/Noun ì´ë¶€/Noun ë„/Noun ëƒ…/Verb ã…/KoreanParticle ìƒˆë§êµë‹¤/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9999997
-26,ê´€ì‹¬/Noun ì—†ëŠ”/Adjective ì²™/Noun í•˜ë”ë‹ˆ/Verb ë­”ê°€/Noun ì§„ì§œ/Noun ê°™ìœ¼ë‹ˆê¹Œ/Adjective ì•„ì£¼/Noun ë¶€ë“¤ë¶€ë“¤í•˜ëŠ”êµ¬ë§Œ/Adjective ã…‹ã…‹ã…‹/KoreanParticle <PAD> ,0.99970603
-27,ì˜¥ëœ°/Noun ì•„/Josa ë”°ë‹¹/Verb í–‰/Noun ì–µì–µ/Noun ì˜¥/Noun ./Punctuation ë–¨/Verb ./Punctuation ì˜¥/Noun ë–¨/Verb ./Punctuation ì˜¥/Noun ./Pun,0.18953088
-28,ëƒëƒ/Noun ëƒ/Josa í•´ì¤­/Noun ë¯¸ëµë†/Noun ì•„/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.99888253
-29,ìˆ˜ë¶„/Noun ì„­ì·¨/Noun !/Punctuation ìˆ˜ë¶„/Noun ì„­ì·¨/Noun !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,1.2606382e-05
-30,ë¸íƒ€/Noun ìŠ¤í† ë¦¬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,2.7120113e-06
-31,ã…‹ã…‹ã…‹/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.028576761
-32,ìŠ¬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.1622906e-06
-33,ë¹„í•˜/Verb ì¡°/Modifier ì˜·/Noun ë‚˜/Josa í•˜ë„¤/Verb í•œë§ˆë””/Noun ë¡œ/Josa ì„¸ëª…/Noun ì¡ë„¤/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99958956
-34,ë¸Œë² /Noun ì˜/Josa ì§‘ì€/Verb ì•„í”„ë¦¬ì¹´/Noun í‹°ë¹„/Noun ê°€/Josa ì•„ë‹Œ/Adjective íŠ¸ìœ„ì¹˜/Noun í‹°ë¹„/Noun ë¼ì„œ/Josa ì§‘ì•ˆì¼/Noun ì´/Josa ìˆì—ˆë‹¤ê³ /Adjective í‘œí˜„/,4.7683716e-07
-35,ë‹˜/Noun ì´/Josa ìŠ¤íŠ¸ë¦¬ë¨¸/Noun ì—ê²Œ/Josa ì¸ì‚¬/Noun í•©ë‹ˆë‹¤/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-36,ì–´ì œ/Noun ë¶ˆë €ë‹¨/Verb ë…¸ë˜/Noun ì œëª©/Noun ë­/Noun ëƒ/Josa ê³ /Noun 10/Number ë²ˆ/Noun ë¬»ëŠ”/Verb ì¤‘/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.0
-37,ì˜¥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.387732e-06
-38,ë¸Œë² /Noun íƒˆëª¨/Noun íƒˆëª¨/Noun ë¹”/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999999
-39,ë¬´ìŠ¨/Modifier ì¼/Modifier ì¸ì§€/Noun ë§/Noun ë„ì•ˆ/Noun í•˜/Suffix ëŠ”/Josa ë³‘ì‹ /Noun ì´/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.99912095
-40,ì¸/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00021129847
-41,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-42,ê²Œì„/Noun í•˜/Suffix ë¼ê³ /Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99105716
-43,ì˜¤ë“œë¦¬/Noun ìƒŒë“œ/Noun ë¸Œë² /Noun ë¶€ê³„/Noun ì •ì•„/Noun ë‹˜/Suffix ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.004795462
-44,ê°œ/Noun ã…‚ã……/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999118
-45,ì—„ë§ˆ/Noun ê°€/Josa ë‚¨ì/Noun ëª©/Noun ì†Œë¦°/Noun ë°/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,2.9951334e-05
-46,ì‹œ/Modifier ì´ë°œ/Noun ë¸Œë² /Noun ê°œ/Noun ìƒˆ/Modifier ì• ë¼/Noun ì•¼/Josa ë°©ì†¡/Noun ì•ˆ/VerbPrefix ë„ëƒ/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <,0.9999956
-47,ã…‹ã…‹ã…‹/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.028576761
-48,ë˜/Noun ê±¸ì–´/Verb ë´/Verb ì‹­/Modifier ìƒˆ/Noun ì•¼/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.9999739
-49,ë¸Œë² /Noun í˜•/Suffix ë„ˆë¬´/Adverb ì˜ìƒê¸´ê±°/Adjective ì•„ë‹ˆì•¼/Adjective ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,6.556511e-07
-50,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-51,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-52,ë³µëŒì´/Noun ì‹ /Noun 1/Number ê³ /Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.36834425
-53,ìŠ¬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.1622906e-06
-54,ë‹˜/Noun ì´/Josa ìŠ¤íŠ¸ë¦¬ë¨¸/Noun ë¥¼/Josa ì—´ë ¬íˆ/Adjective ì‘ì›/Noun í•©ë‹ˆë‹¤/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
-55,ì†Œí™˜/Noun ìˆ /Noun ìœ ë„/Noun í•œë‹¤/Verb ë³‘/Noun ã…‚/KoreanParticle ì‹ /Noun ì´/Josa ì˜ì§€ë§ˆë¼/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999235
-56,ìŠ¤í°/Noun ë°›ì„/Verb ìƒê°/Noun ì—/Josa ì‹ ë‚œê±°/Adjective ë´ë¼/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.9978764
-57,ì‘/Noun -/Punctuation ë„ˆ/Noun -/Punctuation ì°½/Noun -/Punctuation ì„/Noun -/Punctuation ì´/Noun -/Punctuation ì/Noun -/Punctu,0.99983776
-58,ë¬´/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,2.6226044e-06
-59,ì´/Noun ë¯¸ëµë…•/Noun ì•„/Josa ì•„í”„ë¦¬ì¹´/Noun ì™œì•ˆ/Noun ì¼°ì–´/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9992832
-60,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-61,ëª©ì†Œë¦¬/Noun ë ˆì•Œ/Noun ê·¹/Modifier í˜/Noun ì´ë„¤/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9994884
-62,ì°½ì„/Noun ì´ë¶€/Noun ë„/Noun ëƒ„/Verb ìƒ˜/Noun ë§ê³ ì‹œ/Verb íŒ“/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.9996743
-63,ë„ë„›/Noun í•˜ì§€ë§ˆë¼/Verb ì”¨/Noun ã…¡/KoreanParticle ë°œë ¨ë“¤/Noun ì•„/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.999498
-64,ì˜¥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.387732e-06
-65,ë¸Œë² /Noun ë°°ê²Œ/Verb ë”¸/Noun ë§Œë ™/Noun ë¸Œë² /Noun ë°°ê²Œ/Verb ë”¸/Noun ë§Œë ™/Noun ë¸Œë² /Noun ë°°ê²Œ/Verb ë”¸/Noun ë§Œë ™/Noun ë¸Œë² /Noun ë°°ê²Œ/Verb ë”¸/Noun ë§Œë ™/N,0.99998313
-66,"ë™ì„ /Noun ë‹˜/Suffix ,/Punctuation 1,000ì›/Number ê·¸ë¼ìƒ¤/Noun !/Punctuation -/Punctuation í•œ/Determiner ì°½ì„/Noun ì´/Determiner ìƒˆë¼/N",0.99972594
-67,ì–´í—ˆ/Exclamation ã„·ã„´/KoreanParticle ã„´ã„´/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,8.702278e-06
-68,ìŠ¬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.1622906e-06
-69,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-70,ëˆ/Noun ë²ŒëŸ¬/Verb ì§ì¥/Noun ê°€ì„œ/Verb ë„ˆ/Noun ì²˜ëŸ¼/Josa ì•‰ì•„ìˆìœ¼ë©´/Verb ëšë°°ê¸°/Noun ê¹¨ì§€ëŠ”ê±°ì—¬/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.999955
-71,ë¹™/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0016212761
-72,ì°½ì„/Noun ì´ë¶€/Noun ë„/Noun ëƒ„ìƒˆ/Noun ì/Suffix ê³³í”¼/Noun ë‹¤/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99999964
-73,ì‹œì²­ì/Noun ë¥¼/Josa ì¹œëª©/Noun í•˜ë„¤/Verb ã…‰ã…‰/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.99758464
-74,l/Alpha <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,2.9802322e-08
-75,í˜•/Noun ì´/Josa ì•ˆë³´/Noun ë‹ˆê¹Œ/Josa ë„ë°°/Noun í•˜ëŠ”ê±°/Verb ì•„ë‹ˆì•¼/Adjective í˜•/Noun ì´/Josa ì•ˆë³´/Noun ë‹ˆê¹Œ/Josa ë„ë°°/Noun í•˜ëŠ”ê±°/Verb ì•„ë‹ˆì•¼/Adjectiv,0.0
-76,ì˜¥/Noun ë–¨/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,3.439188e-05
-77,ë‹˜/Noun ì´/Josa ìŠ¤íŠ¸ë¦¬ë¨¸/Noun ë¥¼/Josa ì—´ë ¬íˆ/Adjective ì‘ì›/Noun í•©ë‹ˆë‹¤/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
-78,ë¸Œë² /Noun ë„ˆë¬´/Adverb ë†€ë¦¬ì§€ë§ê³ /Verb í›„ì›/Noun í•´ì£¼ì/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.009079635
-79,ìº¬/Noun ì—°ê·¹/Noun ë³´ëŠ”ê±°/Verb ê°™ì–´/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0006468594
-80,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-81,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-82,ë…¸ë˜/Noun êº¼/Suffix ë¼/Josa ì§„ì§œ/Noun ë’¤ì§€/Verb ê¸°ì „/Noun ì—/Josa ã…¡ã…¡/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99976164
-83,í•œê¸€/Noun ì´ë„¤/Josa ???/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.0062726736
-84,ê°€ë£¨/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.036432445
-85,ã…„/KoreanParticle ì•„/Exclamation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.58960474
-86,í˜•/Noun ë‚˜ì™”/Verb ìƒ¤/Noun í˜•/Suffix ë‚˜ì™”/Verb ìƒ¤/Noun í˜•/Suffix ë‚˜ì™”/Verb ìƒ¤/Noun í˜•/Suffix ë‚˜ì™”/Verb ìƒ¤/Noun í˜•/Suffix ë‚˜ì™”/Verb ìƒ¤/Noun í˜•/,5.662441e-07
-87,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-88,ë¸Œë² /Noun ë‹˜/Suffix ìë…€/Noun ê°€/Josa ëª‡/Modifier ì‚´/Noun ì¸ê°€ìš”/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.013279e-05
-89,ì˜/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
-90,ë¸Œë² /Noun í˜•/Suffix ê²Œì„/Noun ì–¸ì œ/Noun í•˜ìƒ¤/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00085926056
-91,He/Alpha LOVE/Alpha pillow/Alpha He/Alpha LOVE/Alpha Pillow/Alpha <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.9836475
-92,ë¸Œë² /Noun ë°°/Noun ë¹µë¹µ/Noun í•´ë‹¬ë¼ê³ /Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.026371598
-93,ì‘/Noun ì–´ì©Œë¼ê³ /Adverb ã…‹ã…‹/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00029280782
-94,ì´ìœì´/Noun ìˆ˜ìˆ /Noun ì´/Josa ì™œ/Noun ì´ìƒí•œë§ì´ëƒ/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.9999486
-95,í•´/Noun ìš”/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.0051251054
-96,ìŠ¬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.1622906e-06
-97,ì´ìƒ‰ê¸°/Noun íŒ”ë¡œìš°/Noun ëŠ”/Josa ê°ì‚¬í•˜ë‹¤ëŠ”ë§ë„/Verb ì•ˆ/VerbPrefix í•˜ë„¤/Verb ëˆ/Noun ë§Œ/Josa ë°íˆë„¤/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.99934566
-98,ë¸Œë² /Noun ê·¸ëƒ¥/Noun ì£½ìœ¼ë©´/Verb ì•ˆ/VerbPrefix ë¼ìš”/Verb ?/Punctuation ë”±íˆ/Adjective ìŠ¬í”„ì§€ë„/Adjective ì•Šì„ê²ƒ/Verb ê°™ì€ë°/Adjective <PAD> <PA,0.9993341
-99,ìŠ¬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.1622906e-06
-100,ì°¨/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
-101,ì•„í”„ë¦¬ì¹´/Noun ë„/Josa ì´ë…¸/Noun ë˜/Josa í‹€/Noun ê³ /Josa íŠ¸ìœ„ì¹˜/Noun ë„/Josa ì´ë…¸/Noun ë˜/Josa íŠ¸ë‹ˆê¹Œ/Verb ì§ˆë ¤/Verb <PAD> <PAD> <PAD> <PAD> <P,0.00020158291
-102,ì™€/Verb ì‚¬ê¸°ê¾¼/Noun ì´ë‹¤/Josa !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.999609
-103,ì¸ì§/Noun .../Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0006842911
-104,ë¸Œë¼ë³´/Noun ì¼ë² /Noun ë‹¤/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.9868386
-105,ì˜¥/Noun ëœ¨ë¼/Verb ìì± ìì± /Noun ì—Œ/Noun ..../Punctuation ì—Œ/Noun ..../Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,4.631281e-05
-106,"ì²­ê³„ì²œ/Noun í• ë ˜/Noun ì •/Noun ë‹˜/Suffix ,/Punctuation 1,000ì›/Number ê·¸ë¼ìƒ¤/Noun !/Punctuation -/Punctuation ë¸Œë² /Noun í˜•/Suffix ë‚´/Nou",0.99987763
-107,í•˜ì•„/Exclamation ë…¸ë¬´/Noun ì¡°/Modifier íƒ€/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.99977946
-108,ì§‘ì•ˆ/Noun ì‚¬/Modifier ì •ì´/Noun íŠ¸ìœ„ì¹˜/Noun ì—¿/Modifier êµ¬ë‚˜/Noun ~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.0032225847
-109,ëŠê·¸/Modifier ë¯¸ì• /Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.9918686
-110,ê³¼/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00038060546
-111,ì°¨/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
-112,ë¸Œë² /Noun ì˜¤ë¹ /Suffix ë¡œë¦¬ì½˜/Noun ì´ë¼ëŠ”/Josa ê²Œ/Noun ì‚¬ì‹¤/Noun ì´/Josa ìƒ¤/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9684029
-113,ì“°ë ˆê¸°/Noun ìƒˆë¼/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.99801683
-114,ë¸Œë² /Noun ì˜¤ë¹ /Noun ë ¤/Noun ì¤‘ìƒ/Noun ì‚¬ê±´/Noun í•´ëª…/Noun ì¢€/Noun ìš”/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99993944
-115,ì•„/Noun ê³ /Josa ì’¯/Noun ì´ê³ /Josa ë‹ˆ/Noun ê°€/Josa ê²œ/Noun ê³µë¶€/Noun ë¥¼/Josa í•´ì˜¤ë“ ê°€/Verb ì§€ê°€/Verb ëª»/VerbPrefix í•´ì„œ/Verb ëª°ë¼ì„œ/Verb ì²˜/Noun ,0.9994164
-116,ì†í¥ë¯¼/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.002166599
-117,ê°œ/Noun ë¸Œë² /Noun ì•¼/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.98728263
-118,í•œ/Determiner ì°½ì„/Noun ì• /Noun ã…¡/KoreanParticle ë¯¸/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.7808058
-119,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-120,ì°¨/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
-121,í˜•/Noun ë‚˜ì™”/Verb ìƒ¤/Noun í˜•/Suffix ë‚˜ì™”/Verb ìƒ¤/Noun í˜•/Suffix ë‚˜ì™”/Verb ìƒ¤/Noun í˜•/Suffix ë‚˜ì™”/Verb ìƒ¤/Noun í˜•/Suffix ë‚˜ì™”/Verb ìƒ¤/Noun í˜•/,5.662441e-07
-122,íƒˆëª¨/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.9991431
-123,ì €ëŸ´/Verb ë•Œ/Noun ë§ˆë‹¤/Josa ì§„ì§œ/Noun ì¹˜ê³ ì‹¶ë‹¤/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.9998684
-124,ã…‡/KoreanParticle ã…/KoreanParticle ì˜¤/Noun !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.015274942
-125,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-126,ë„ˆ/Noun í•œí…Œ/Josa ëˆ„ê°€/Noun í•´/Verb ë³‘ì‹ /Noun ì•„/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.98067737
-127,í…ŒëŸ¬/Noun ã„±ã„±/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.99657834
-128,ì˜¤ëŠ˜/Noun ì…ì˜í„´ë‹¤/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.9950845
-129,í˜•/Noun ì´/Josa ì•ˆë³´/Noun ë‹ˆê¹Œ/Josa ë„ë°°/Noun í•˜ëŠ”ê±°/Verb ì•„ë‹ˆì•¼/Adjective í˜•/Noun ì´/Josa ì•ˆë³´/Noun ë‹ˆê¹Œ/Josa ë„ë°°/Noun í•˜ëŠ”ê±°/Verb ì•„ë‹ˆì•¼/Adjectiv,0.0
-130,Alt/Alpha F/Alpha 4/Number ë¥¼/Noun ëˆ„ë¥´ë©´/Verb ì•„ì´í…œ/Noun ëª©ë¡/Noun ì´/Josa ë‚˜ì˜¨ë‹¹/Verb ~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> ,8.046627e-06
-131,ì˜¤ë¹ /Noun ë´‰ë¯¼/Noun ì´/Suffix ê°€/Josa ìš•/Noun í•´ì„œ/Verb ê¸°ë¶„/Noun ì•ˆì¢‹ìœ¼ë‹ˆê¹Œ/Adjective ê·€ì—¬ìš´/Adjective ì²™/Noun ìì œ/Noun í•´ì¤˜/Verb <PAD> <PAD> ,0.0002835393
-132,ì˜¥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.387732e-06
-133,í‰¤/Noun !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9955778
-134,ë¸Œë² /Noun ë°°/Noun ë¹µë¹µ/Noun í•´ë‹¬ë¼ê³ /Verb íƒ€ì½”ì•¼í‚¤/Noun ìƒˆ/Modifier í‚¤/Noun ì•¼/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.99998665
-135,ì§„ì§œ/Noun ì‹œì²­ì/Noun ì—¬ëŸ¬ë¶„/Noun ë¸Œë² /Noun ë‹˜/Suffix ë„ˆë¬´/Adverb ê´´ë¡­íˆì§€/Verb ë§ˆì„¸ìš”/Verb ë²•/Noun ì´/Josa ë¬´ì„­ì§€ë„/Adjective ì•ŠìŠµë‹ˆê¹Œ/Verb ë¸Œë² /Noun ë‹˜,8.493662e-06
-136,ë‹˜/Noun ì´/Josa ìŠ¤íŠ¸ë¦¬ë¨¸/Noun ë¥¼/Josa ì—´ë ¬íˆ/Adjective ì‘ì›/Noun í•©ë‹ˆë‹¤/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
-137,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-138,ì¤¬ê¹Œ/Verb í•´ëª…/Noun í•´ë¼/Verb ë¸Œë² /Noun ì–‘/Suffix <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.99767953
-139,ë¸Œë² /Noun í˜•/Suffix ì—°ì• /Noun í•´ë´„/Verb ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,8.940697e-07
-140,ë¯¸ì• /Noun í­í–‰/Noun íƒ€ì„/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99055195
-141,ì™œ/Noun í•‘í¬ìƒ‰/Noun ì˜·/Noun ë§Œ/Josa ì…ìŒ/Adjective ???/Punctuation ê²Œì´/Noun í•´ëª…/Noun ì¢€/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.99977565
-142,ë¸Œë² /Noun ì„œë“ /Noun í• /Verb ë•Œ/Noun ë’¤/Noun ì—ì„œ/Josa ì¹¼/Noun ë¡œ/Josa ë‚œë„ì§ˆ/Noun í•´/Verb ë²„ë¦¬ê³ ì‹¶ë‹¤/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.9995569
-143,ë„ìš°/Noun ë„ˆ/Noun í•˜ì§€ë§ˆ/Verb ë„ë ˆ/Noun í•˜ì§€ë§ˆ/Verb ë„/Noun í•˜ë„¤ì§€ë§ˆ/Verb ë„ë„í•˜ì§€ë§ˆ/Adjective ë„¤ë„¤/Noun í•˜ì§€ë§ˆ/Verb <PAD> <PAD> <PAD> <PAD> <PAD>,0.00034460425
-144,í˜•/Noun ì´/Josa ì“°ë ˆê¸°/Noun ë¼/Josa í•´ë„/Noun ì•ˆ/VerbPrefix ë³´ëŠ”ê±°/Verb ë³´ë‹¨/Josa ë³´ëŠ”ê²Œ/Verb ì¢‹ì•„/Adjective ì‚¬ë‘/Noun í•´/Verb <PAD> <PAD> <PA,0.9993099
-145,ì°½ì„/Noun ì´ë¶€/Noun ë„/Noun ëƒ„ìƒˆ/Noun ë§ˆì¡±/Noun ì‹œ/Modifier íŒ“/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.99999833
-146,ì˜¥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.387732e-06
-147,ë¸Œë² /Noun í˜•/Suffix ì•„/Josa ê¸°/Modifier í™˜/Noun ì´/Josa ì™”ì–´ìš©/Verb ~!/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,2.682209e-07
-148,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-149,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-150,ì´ì œ/Noun ë¶€í„°/Josa 30ë¶„/Number ì´ìƒ/Noun ì§€ê°/Noun í•˜ë©´/Verb ë¨¸ë¦¬ì¹´ë½/Noun 100/Number ê°œ/Noun ì”©/Suffix ìë¥´ê¸°/Verb ã…‡ã…‹/KoreanParticle ?/Pun,0.99998903
-151,í•‘ì‹ /Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.9561934
-152,ì¸ì‚¬/Noun ì¢€/Noun ê·¸ë§Œ/Adverb ë°•ì•„/Noun ë¼/Josa ì´/Determiner ê²ƒ/Noun ë“¤/Suffix ì•„/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.9650681
-153,ì˜¥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.387732e-06
-154,í•˜ê³ ì‹¶ì€/Verb ë§/Noun ìˆìœ¼ë©´/Adjective ê¾¸ì¤€íˆ/Adjective ë„ì˜¤/Noun ë„¤/Suffix ë¥¼/Josa í•˜ë©´ì„œ/Verb ë§/Noun í•˜/Suffix ë¼ëŠ”/Josa ê±°/Noun ë‹¤/Josa <PAD,0.99908674
-155,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-156,ë‚˜ì´/Noun ìƒ¤/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.020327806
-157,ã…‡/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0013328195
-158,ë¨¹ë°©/Noun ë„/Josa ë¨¹ìœ¼ë©´ì„œ/Verb í† í¬/Noun í•˜ì–ì•„/Verb ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,7.748604e-07
-159,l/Alpha <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,2.9802322e-08
-160,ìŠ¬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.1622906e-06
-161,ë…¸ì¼/Noun ì´ë‹¤/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.56899583
-162,ë¹™/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0016212761
-163,?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.07268724
-164,ì˜¥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.387732e-06
-165,ì•„/Exclamation ê´‘ê³ /Noun ì–‘/Modifier ì•„ì¹˜/Noun ì•¼/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.98471975
-166,ë¸Œë² /Noun í˜•/Suffix ê·¸ëƒ¥/Noun íŠ¸ìœ„ì¹˜/Noun ì—ì„œ/Josa ë°©ì†¡/Noun í•´/Verb ì•„í”„ë¦¬ì¹´/Noun ê°€ì§€ë§ˆ/Verb ì¬ë¯¸ì—†ë”ë¼/Adjective ì–´ì œ/Noun ë³´ë‹¤/Verb ë„ê³ /Verb ì¤ì–´/V,0.0
-167,ì¤˜/Verb íŒ¨ê±°/Noun ì‹¶ë‹¤/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.9975946
-168,ë¯¸ëµ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.9699404
-169,ë¸Œë² /Noun ë‹˜/Suffix ì¾ì“°/Noun ìš”/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.9947977
-170,ìì§€/Noun ì•¼/Josa êµ¬ë¼ì¹˜ì§€/Verb ë§ˆë¼/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.99960315
-171,ì˜¥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.387732e-06
-172,ì´/Determiner ìƒˆë¼/Noun ë„/Josa ì§„ì§œ/Noun ì†ë¬¼/Noun ì´ë‹¤/Josa ã…‹ã…‹ã…‹/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.99672747
-173,ì˜/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
-174,ë¸Œë² /Noun í˜•/Suffix ê²Œì´/Noun ì•„ë‹˜/Adjective ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.9997816
-175,ë¶¸ê°œ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.98412573
-176,ì™€/Verb ë¸Œë² /Noun ì˜/Josa ì¸ìƒ/Noun ìŠ¤í† ë¦¬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.0012082458
-177,ì˜¥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.387732e-06
-178,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-179,ì‹¹ë‘‘/Noun ì´/Josa ê³ ì¶”/Noun ì‹¹ë‘‘/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9857208
-180,ì°¨/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
-181,ã…Š/KoreanParticle ì•„/Exclamation ì„/Modifier ì´/Modifier ë¶•ì•Œ/Noun ëƒ„ìƒˆ/Noun ë§ê³ ì‹¶ë‹¤/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99982655
-182,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-183,ë³´/Noun 0/Number ì§€/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.99978685
-184,ë‹˜/Noun ì´/Josa ìŠ¤íŠ¸ë¦¬ë¨¸/Noun ë¥¼/Josa ì—´ë ¬íˆ/Adjective ì‘ì›/Noun í•©ë‹ˆë‹¤/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
-185,ë¸Œë² /Noun ./Punctuation ê²Œì´ìƒ¤/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99551785
-186,ë³ì‹ /Noun ì„¸ê¸°/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.98784256
-187,ì˜¥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.387732e-06
-188,ë­/Noun ì•¼/Josa ì´ìƒ‰ê¸°/Noun ë³µëŒì´/Noun ì˜€ìŒ/Verb ã…†ã…‚/KoreanParticle ë…„/Noun ì´/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.9999998
-189,ì†Œí™˜/Noun ìˆ /Noun ìœ ë„/Noun í•˜ë„¤/Verb ì‹œ/Noun ã…‚/KoreanParticle ë°œ/Noun ã…‹ã…‹ã…‹/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9978652
-190,ì‹¹ë‘‘/Noun ì´/Josa =/Punctuation ë¸Œë² /Noun ë¯¸ì• /Noun =/Punctuation ë¸Œë² /Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.96395195
-191,ì¸/Noun ì‹¸/Verb ì»´/Noun ã…‹ã…‹ã…‹/KoreanParticle ì‹œë°”/Noun ì´ë¦„/Noun ë´/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.7898683
-192,ì •ì‹ ë³‘/Noun ì/Suffix ìƒˆë¼/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.9360544
-193,ê·¼ë°/Adverb í™•ì‹¤íˆ/Adjective ë¹„ë‚œ/Noun ëŒ“ê¸€/Noun ì´/Josa ë§ì´/Adverb ì¤„ì–´ë“¤ì—ˆë„¤/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,1.4901161e-07
-194,ë–½/Noun !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.024497122
-195,ë³´/Noun ë“¤/Suffix ê¸°í•˜/Noun ê²Œ/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9976677
-196,ë¨¸/Noun ./Punctuation ê°€/Verb ./Punctuation ë¦¬/Noun í›„ë ¤ì¹˜ê³ ì‹¶ë‹¤/Verb ./Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.999725
-197,í†°í¬ë£¨ì¦ˆ/Noun ë¹„í•˜/Verb ã…‹ã…‹ã…‹/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00030079484
-198,ì˜¥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.387732e-06
-199,ì§€/Verb ìš•/Noun í•˜ëŠ”ë°/Verb ë¦¬ë“¬íƒ€ë„¤/Verb ì§„ì§œ/Noun ë³‘ì§„/Noun ì¸ê°€/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9994968
-200,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-201,ã……/KoreanParticle 1/Number ë°œë ¨ë“¤/Noun .../Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.999794
-202,ì–´/Noun ì•„/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.98427165
-203,ìŠ¬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.1622906e-06
-204,í˜•/Noun ì–´ì œ/Noun ë¶ˆë €ë˜/Verb ë…¸ë˜/Noun ì œëª©/Noun ë­/Noun ì•¼/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
-205,ã…ˆ/KoreanParticle 1/Number ë„/Noun í•˜ë„¤/Verb ë³‘/Noun 1/Number ì‹ /Modifier ëŒ€ë¨¸ë¦¬/Noun ìƒˆê¸°/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99999976
-206,ì•„/Exclamation ì§„ì§œ/Noun ì½”/Noun ì¡´/Noun ã„´ã„´ã„´/KoreanParticle ë‚˜ìŒ”/Noun ê²Œ/Josa ë•Œë¦°ë‹¤/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99994993
-207,ê²°í˜¼/Noun ì•ˆí•´/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.008336574
-208,ì‹œë°œ/Noun ë…„/Noun ì´/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.9999999
-209,ì¼€/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,5.662441e-07
-210,ë¨¸/Noun í•˜ëƒì´/Verb ã……ã…‹/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.989183
-211,ã…£/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-212,ì˜¦ëœ¨/Noun ë¼/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.04276979
-213,ì°½ì„/Noun ì´/Determiner ë¶•ì•Œ/Noun ëƒ„ìƒˆ/Noun ë§ê³ ì‹¶ë‹¤/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.9985154
-214,ì§€ê¸ˆ/Noun ê³¼ì/Noun ì†ŒìŠ¤/Noun ë¡œ/Josa ì˜¼/Noun ìŠ¤ë¦¬/Noun ì •/Noun ã…¡ã…¡ã…¡/KoreanParticle ì•¡/Noun ì°ì–´/Verb ë¨¹ëŠ”/Verb ì¤‘/Noun <PAD> <PAD> <PAD> ,0.0
-215,ì°½ì„/Noun ì´/Determiner ë¶•ì•Œ/Noun ëƒ„ìƒˆ/Noun ë§ê³ ì‹¶ë‹¤/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.9985154
-216,ã„µ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.94480634
-217,ì‘/Noun ë¸Œë¹¡/Noun ì´/Josa ë¸Œ/Noun ì‚¬ëª¨/Noun ë“¤/Verb ã„²ã…ˆ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.9899014
-218,ë¸Œë² /Noun ì•¼/Josa ë°©ì†¡/Noun ì ‘ì/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9849613
-219,ì‚´ê¸°/Noun ë„ˆë¬´/Adverb í˜ë“¤ì–´ì„œ/Adjective ì—¬ê¸°/Noun ì—ë‹¤/Josa ìš•/Noun í•˜ê³ /Josa ê°‘ë‹ˆë‹¤/Verb ./Punctuation ìŠ¤íŠ¸ë ˆìŠ¤/Noun í’€ì–´ì•¼ì§€/Verb <PAD> <PAD> <,0.999908
-220,ë‹ˆ/Noun ë¨¸ë¦¬/Noun ì—ëŠ”/Josa ìˆ˜ë¶„/Noun ì„­ì·¨/Noun ì•ˆ/VerbPrefix í•´ì£¼ëƒ/Verb ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.007435411
-221,ê´€ì‹¬ë³‘ì‚¬/Noun ì•¼/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.96978605
-222,ã…£/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-223,ë˜‘ë°”ë¡œ/Noun ì³/Verb ì•‰ì•„ë¼/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999909
-224,ëª©ì†Œë¦¬/Noun ê°€/Josa ê²Œì´/Noun ê°™ì€ë°/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.9908011
-225,ë¸Œë² /Noun ì˜¤ë¹ /Suffix ê²°í˜¼/Noun í•¨/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,8.2433224e-05
-226,ëˆë…/Noun ì˜¤ë¥¸/Noun ë¸Œë² /Noun ìƒˆê¸°/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.99985915
-227,ì˜¼/Noun ìŠ¤ë¦¬/Noun ì •/Noun 111/Number ì•¡/Noun ì°/Noun ë¨¹ì´/Noun ì•¼/Josa ë¶€/Noun ë¨¹ì´/Noun ì•¼/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD,0.99900246
-228,ì˜¤ëŠ˜/Noun ë„/Josa ëˆë²Œ/Noun ìƒê°/Noun ì—/Josa ì‹ ë‚¬ë„¤/Adjective ã…‹ã…‹ã…‹/KoreanParticle ì‹œë°œ/Noun ëŸ¼/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.9999993
-229,ë¸Œë² /Noun ë‹˜/Suffix ê·¸ëƒ¥/Noun ìì‚´/Noun í•´ì¤˜/Verb ìš¤/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99998534
-230,ë¯¸ëµë„/Noun ~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.99970233
-231,ì‹¹ë‘‘/Noun ì´/Josa ì±„íŒ…/Noun ì°½/Noun ê´€ë¦¬/Noun ì¤‘/Noun ì…ë‹ˆë‹¤/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0
-232,ë¸Œë² /Noun ì•ˆë…•í•˜/Adjective ìƒ¤/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.0020332932
-233,ê·¸ë§Œ/Adverb í•´/Noun ìš”/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0004068017
-234,ë‹˜/Noun ì´/Josa ìŠ¤íŠ¸ë¦¬ë¨¸/Noun ë¥¼/Josa ì—´ë ¬íˆ/Adjective ì‘ì›/Noun í•©ë‹ˆë‹¤/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
-235,ë„ë„ˆ/Noun 124ì‹œê°„/Number ëŒ€í™˜ì˜/Noun ë°©ì†¡/Noun ì´ì•¼/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.9798048
-236,ìŠ¬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.1622906e-06
-237,í”µì”/Noun ì•„/Josa ~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.99274004
-238,ì–´í—ˆ/Exclamation í•˜ì§€ë§ˆ/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0006239116
-239,ã…ˆã„¹/KoreanParticle ë§ˆë¼/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99687624
-240,ë¸Œë² /Noun ê±´ë¬¼/Noun ì£¼/Modifier ì— /Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.08597776
-241,ê·€ì‹ /Noun ì•ˆ/VerbPrefix ë¯¿ìœ¼ë©´/Verb íê°€/Noun ì»¨í…ì¸ /Noun í•´ë´/Verb ëˆ/Noun ì—†ë‹¤ê³ /Adjective ì•ˆ/VerbPrefix í• ê²Œ/Verb ë»”í•˜ì§€ë§Œ/Adjective ê±°ì§€/Noun ,0.99889934
-242,ì¤‘ë…¸/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.00044736266
-243,ëŒ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,5.543232e-06
+0,½ÏµÏ/Noun ÀÌ/Josa =/Punctuation ºêº£/Noun ¹Ì¾Ö/Noun =/Punctuation ºêº£/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9592854
+1,Ã¢¼®/Noun ÀÌ/Determiner ºØ¾Ë/Noun ³¿»õ/Noun ¸Â°í/Verb ÆÄ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999887
+2,ºêº£/Noun Çã/Verb ¹ú/Noun Ã¢³â/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9997867
+3,±è¿µÃ¶/Noun ¸í¿¹ÈÑ¼Õ/Noun ÈæÀÎ/Noun ºñÇÏ/Verb °ø¹«¿ø/Noun ÁØºñ/Noun »ı/Noun ºñÇÏ/Verb ÇØ¸í/Noun Á»/Noun ÇØÁÖ¼¼¿ä/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.9994473
+4,½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+5,ÀÌ½´/Noun ¹ß³â/Noun ¾Æ/Josa !/Punctuation Á¦´ë·Î/Noun ¾È/VerbPrefix ÇÏ³Ä/Verb !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9999923
+6,½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+7,¿Àºü/Noun °úÀÚ/Noun ¸¦/Josa ¸î/Modifier ½ÊºĞ/Noun À»/Josa ÃÄ/Verb ¸Ó°Å/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999585
+8,±×°Í/Noun µµ/Josa ¹Ì¾Ö/Noun °¡/Josa ÇÏÀÚ/Noun ³ª/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0007175505
+9,¾ö¸¶/Noun °¡/Josa Á¾±³/Noun ¿¡/Josa ºüÁ³¾î/Verb ¤Ñ¤Ñ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0008699894
+10,ºêº£/Noun ¾ß/Josa Â÷¶ó¸®/Noun ¿À¶ô½Ç/Noun °ÔÀÓ/Noun À»/Josa ÃÄÇØ/Verb ./Punctuation ³ëÀë/Noun °ÔÀÓ/Noun ¸¸/Josa ÃÄÇÏ³»/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99998635
+11,¸®¸§/Noun Å¸´Â°Å/Verb Á¦ÀÏ/Noun ¤¸/KoreanParticle °°´Ù/Adjective ¤»¤»¤»/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.99924195
+12,¿¹/Modifier ´Ş/Noun ¾Æ/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.8698449
+13,°Ë¿­/Noun ¤±¤º/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99988323
+14,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+15,³ë/Noun ¤Ñ/KoreanParticle Àë/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.4901161e-07
+16,Ã¢¼®/Noun ÀÌÇü/Noun °ÔÀÓ/Noun ¸»°í/Josa ¼ÒÅë/Noun ¹æ¼Û/Noun ÇØÁÖ¼¼¿©/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,2.3841858e-07
+17,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+18,ÀÌ±â/Noun ¾ß³ë/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9997072
+19,±×°Ô/Noun ¹¹/Noun ÀÎµ¥/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,4.887581e-06
+20,¿Ö´Ê¾ù³Ä/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0022701323
+21,Ã¢¼®/Noun ÀÌºÎ/Noun ¶ö/Noun ³¿»õ/Noun ¤¿¤¸/KoreanParticle °í½Í´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9999989
+22,±İ¾×/Noun Å¸Çù/Noun ÀÌ/Josa ¾È/VerbPrefix ´í´Ù/Verb ÀÌ°ÅÁö/Adverb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.834766e-06
+23,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+24,¹º/Modifier ÀÏ/Noun ÀÎµ¥/Josa ¤²¤µ/KoreanParticle ¾Æ/Exclamation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.99990094
+25,¾È¸¶¹æ/Noun °¡´À¶ó/Verb ¹Ù»¦³Ä/Adjective ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99971783
+26,¿Á/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+27,µ¹/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.4901161e-07
+28,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+29,´À±×/Modifier Çü/Noun ´ë¸Ó¸®/Noun ³Ä/Josa °í/Noun ´ë¸Ó¸®µ¶¼ö¸®/Noun »õ/Modifier ²¥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99982274
+30,Å¸ÄÚ¾ß³¢/Noun »õ³¢/Noun ¾ß/Josa ¹ä/Noun ÀÌ³ª/Josa ÃÄ/Verb ¸Ô¾î/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999653
+31,ÇØ¸í/Noun ÇØ/Verb ¤¶¤²/KoreanParticle ÇÏ·ç/Noun Áö³ª¸é/Verb ¾ø´ø/Adjective ÀÏ/Noun µÇ´Â°Å/Verb ÀÓ/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.9999863
+32,Áö¶ö/Noun Á»ÇÏÁö¸¶/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9997744
+33,¾Ö/Noun µé/Suffix ¾Æ/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00038322806
+34,´Ô/Suffix ...../Punctuation ¤Ô¤²¤Ó¤§/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99810195
+35,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+36,Â÷/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+37,¶Ç/Noun ¾ÆÀÌÀÛ/Noun ÇÏ¸é/Verb ³Í/Noun »ç¶÷/Noun »õ/Noun 1/Number ³¢/Noun °¡/Josa ¾Æ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99997395
+38,ºêº£/Noun Çü/Suffix ³ª/Noun ¾ÆÇÂµ¥/Adjective ¿ä¼ú/Noun °¡·ç/Noun Á»/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99331295
+39,¶½¶ß/Noun ½Î¿îµå/Noun !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99683964
+40,¾îµğ¼­/Adverb ½ÃÃ»ÀÚ/Noun ¾Õ/Noun ¿¡¼­/Josa ¿åÁú/Noun ÀÌ¾ß/Josa ¸ø/VerbPrefix ¹è¿ö/Verb ¸ÔÀº/Verb »õ±â/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.9998508
+41,ºê/Noun »ç¸ğ/Noun ²ôÁö¶ó/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9995326
+42,¾îÇã/Exclamation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.13248825e-05
+43,¶Ç/Noun °É¾î/Verb ºÁ/Verb ½Ê/Modifier »õ/Noun ¾ß/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9998504
+44,³Ü/Noun °í·Á/Noun ÇØÁÖ¼Å¼­/Verb °¨»çÇÕ´Ï´Ù/Verb ~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,5.8352947e-05
+45,³ªÀÌ/Noun 40/Number ÃÄ/Verb ¸Ô°í/Verb ·Îº¸Æ®/Noun ÁÁ¾ÆÇØ/Adjective ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.9999846
+46,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+47,Ä«Åå/Noun ¸ø/VerbPrefix ÀĞ°Ù´Ù¸Å/Verb °³/Noun -/Punctuation »õ/Noun -/Punctuation ±â/Noun ¾ß/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9999373
+48,Ä¡Áú/Noun À»/Josa Àß¸ø¸»ÇÑ/Verb °Å/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99756557
+49,Â÷/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+50,ºÎµæÀÌ/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00020229816
+51,ºêº£/Noun ¾ÆÀÌÀÛ/Noun ÆÄÀÏ/Noun Á¶/Modifier ¿¡µğ/Noun ¼Ç/Noun À¸·Î/Josa ±¸¸Å/Noun Çß´Ù/Verb ~~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,9.23872e-07
+52,¤Ó/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+53,¾Ã³ë´ä/Verb ¾ÆÀÌÅÛ/Noun ¸Ô¾ú³×/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9986762
+54,½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+55,¾Æ/Exclamation !/Punctuation ´©±¸/Noun ³Ä/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,7.3611736e-06
+56,Áö±İ/Noun °úÀÚ/Noun ¼Ò½º/Noun ·Î/Josa ¤Ô¤·¤Ç¤»/Noun ½º¸®/Noun Á¤/Noun ¤Ñ¤Ñ¤Ñ/KoreanParticle ¾×/Noun Âï¾î/Verb ¸Ô´Â/Verb Áß/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.9996477
+57,µ·/Noun ÀÌ/Josa ¾ÈµÇ´Ï±î/Adjective ¾ÆÇÁ¸®Ä«/Noun ¾È/VerbPrefix Æ®´Â°ÅÁö/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.00030392408
+58,Ã¤±İ/Noun °É¾î¼­/Verb ¾ÆÀÌµğ/Noun ´Ù½Ã/Noun ¸¸µé¾ú´Ù/Verb ½Ã/Noun 1/Number ¹ß³â/Noun ¾Æ/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999703
+59,¾ß/Exclamation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9809575
+60,¤´/KoreanParticle ¾Æ/Exclamation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.91046715
+61,°ÔÀÓ/Noun ÀÌ³ª/Josa ÇÏ¶ó/Noun °í/Josa ´ë¸Ó¸®/Noun ³à/Noun ³ª/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999696
+62,Ã¢¼®/Noun ÀÌºÎ/Noun ¶ö/Noun ³À/Verb ¤±/KoreanParticle »õ¸Â¤Ô¤¡¤Ê¤½´Ù/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999809
+63,½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+64,¿À¿À/Exclamation ÇÑ±¹¾î/Noun ¼³¸í/Noun ÁÁ´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,8.940697e-08
+65,Å¯Å¯/Adverb ´ëÁö¸¶/Verb Á¦¹ß/Noun ¤Ğ/KoreanParticle ÁøÂ¥/Noun Â¥Áõ³ª/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.9999467
+66,ºêº£/Noun ´Ô/Suffix ±×³É/Noun ÀÚ»ì/Noun ÇØÁà/Verb ¿è/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99990326
+67,°õÅÊÀÌ/Noun °ÔÀÓ/Noun µµ/Josa Á×ÀÎ´Ù/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.996629
+68,½ºÆù/Noun ÇØÁÖ¸é/Verb ÇÏ·í¹ã/Noun °°ÀÌ/Adverb Àß/Verb ¼ö/Noun ÀÖ/Adjective ³¶/Noun ¿ä/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99987334
+69,¤½/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00025641918
+70,¾ê/Noun µé/Suffix ¾Æ/Josa µµ/Noun ¹æ/Noun ÇÏÀÚ/Verb ÀÌ±â/Noun ¾ß/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9523836
+71,Æ¡/Noun -\/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99990344
+72,¹Ì¾Ö/Noun ÆøÇà/Noun Å¸ÀÓ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9995184
+73,ºêº£/Noun ÀÇ/Josa ÁıÀº/Verb ¾ÆÇÁ¸®Ä«/Noun Æ¼ºñ/Noun °¡/Josa ¾Æ´Ñ/Adjective Æ®À§Ä¡/Noun Æ¼ºñ/Noun ¶ó¼­/Josa Áı¾ÈÀÏ/Noun ÀÌ/Josa ÀÖ¾ú´Ù°í/Adjective Ç¥Çö/Modifier ÇÑ/Modifier °Å·¨/N,1.1920929e-07
+74,ÄÉ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+75,±×/Determiner ·¡±×/Noun ·©/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00051933527
+76,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+77,ºêº£/Noun Çü/Suffix µ·/Noun ¾ó¸¶/Noun ¸ğ¾Ò¾î¿ä/Verb ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00058323145
+78,ÇÏ´Â/Verb ÀÏ/Noun Àº/Josa ÀÖ°í/Adjective ??/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.727478e-05
+79,°ü½É/Noun ¾ø´Â/Adjective Ã´/Noun ÇÏ´õ´Ï/Verb ¹º°¡/Noun ÁøÂ¥/Noun °°À¸´Ï±î/Adjective ¾ÆÁÖ/Noun ºÎµéºÎµéÇÏ´Â±¸¸¸/Adjective ¤»¤»¤»/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99992365
+80,He/Alpha LOVE/Alpha pillow/Alpha He/Alpha LOVE/Alpha Pillow/Alpha <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.87164366
+81,¿Á/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+82,´Ô/Noun ÀÌ/Josa ½ºÆ®¸®¸Ó/Noun ¸¦/Josa ¿­·ÄÈ÷/Adjective ÀÀ¿ø/Noun ÇÕ´Ï´Ù/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
+83,¾ÆÀÌÀÛ/Noun ÇÏ½Ã³Ä/Verb °í¿ä/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,2.6226044e-06
+84,¹Ì¶ò³Õ/Noun ~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99907213
+85,¿Á/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+86,½Ã¹ß/Noun ³â/Noun ÀÌ/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999989
+87,¾¾¹ß/Noun ·³/Noun ÀÌ/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999942
+88,ÄÉÄÉÄĞÀ×/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00084251165
+89,½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+90,¾È/Noun ³É/Josa ~~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00035569072
+91,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+92,½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+93,Â÷/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+94,"´Ô/Suffix 1,000¿ø/Number ±×¶ó»ş/Noun !/Punctuation -/Punctuation ¶½¶ß¤Ô¤¨¤Æ¤¡¶ß¶½¶ß¤Ô¤¨¤Æ¤¡¶ß/Noun ¶½¶ß¤Ô¤¨¤Æ¤¡¶ß¶½¶ß¤Ô¤¨¤Æ¤¡¶ß/Noun ¶½¶ß¤Ô¤¨¤Æ¤¡¶ß¶½¶ß¤Ô¤¨¤Æ¤¡¶ß/Noun ¶½¶ß¤Ô¤¨¤Æ¤¡¶ß¶½¶ß¤Ô¤¨¤Æ¤¡¶ß/Noun ¶½¶ß¤Ô¤¨¤Æ¤¡¶ß¶½¶ß¤Ô¤¨¤Æ¤¡¶ß/Noun ¶½¶ß¤Ô¤¨¤Æ¤¡¶ß¶½¶ß¤Ô¤¨¤Æ¤¡¶ß/Noun ",0.99991095
+95,¤©¤·/KoreanParticle ·ç´Ù/Noun °¡/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00020819902
+96,Æø/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.3113022e-06
+97,Ã¢¼®/Noun ÀÌ/Determiner ºØ¾Ë/Noun ³¿»õ/Noun ¸Â°í½Í´Ù/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999988
+98,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+99,ÀÔ´ÚÃÄ/Noun °³/Noun 1/Number ¼¼/Modifier ³¢/Noun ¾ß/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999955
+100,¿Á/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+101,¿Í/Verb »ç±â²Û/Noun ÀÌ´Ù/Josa !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9978527
+102,¤»¤»¤»/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.006973475
+103,ÅèÅ©·çÁî/Noun ºñÇÏ/Verb ¤»¤»¤»/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,2.3663044e-05
+104,ºêº£/Noun ÃÊÁı/Noun Áß/Suffix <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+105,½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+106,´Ù¸¥/Noun ÄÉ¸¯ÅÍ¤Ô¤¾¤À¤¾/Noun ¿ä/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,3.5762787e-06
+107,°úÀÚ/Noun ÃÄ/Verb ¸Ôµç/Verb »ó°ü¾ø´Âµ¥/Adjective ³ë·¡/Noun ²¨/Verb ´Ş¶ó°í¿ä/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999701
+108,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+109,Ã¢¼®/Noun ¾Æ/Josa ³Ê/Noun ´ç´¢/Noun °ü¸®/Noun ¾ÈÇØ/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.98982394
+110,°³¶ì²®/Noun °Ô/Josa ¸»/Noun ÇÏ³×/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99960214
+111,³ë/Noun Å¯Å¯/Adverb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,8.165836e-06
+112,±İ¾×/Noun ¾ê±â/Noun ÇØ/Noun ¶ó/Josa ¸¶À½/Noun º¯ÇÑ´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.1920929e-07
+113,¿¼º´/Noun ÇÏ°íÀÖ³×/Verb ¤»¤»¤»/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9861368
+114,¤Ô¤¶¤Ä¤¡¤Ô¤¶¤Ä¤¡¤Ô¤¶¤Ä¤¡/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.989236
+115,ºêº£/Noun µ·±«¹Ä»õ±â/Noun ¤»¤»¤»/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99887496
+116,¿Á/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+117,°³/Noun -/Punctuation ³ë/Noun -/Punctuation Àë/Noun ./Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,2.0861626e-07
+118,ÁøÂ¥/Noun 500/Number °³/Noun ÃæÀü/Noun ÇØ³ùÀ¸´Ï±î/Verb ¿À´Ã/Noun Ãã¿ÀÁö°Ô/Verb Ãâ/Verb ÁØºñ/Noun ÇÏ°í/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.007583976
+119,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+120,¾îµğ/Noun °Ç¹æÁö°Ô/Adjective ÆÈ/Noun °É/Noun Ä¡°í/Josa ´Ù¸®/Noun ²¿/Noun °í/Josa ÃÄ/Verb ¾É¾Æ¼­/Verb ÀÏÀ»ÇÏ³Ä/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.999998
+121,ºêº£/Noun °¡/Josa ½ÈÀ¸¸é/Adjective ¿Á/Noun Àå¾ÖÀÎ/Noun °°À¸¸é/Adjective ½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.001542598
+122,¾îÇã/Exclamation ~~~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,2.0861626e-07
+123,½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+124,ºêº£/Noun ´Ô/Suffix ¤Ô¤¶¤Æ¤¢¾²/Noun ¿ä/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9891678
+125,±×³É/Noun Àû´çÈ÷/Adjective ¾Æ¹«/Modifier °Å³ª/Noun ÃÄÇØ/Verb º¡½Å/Noun ¾Æ/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99999607
+126,¤»¤»¤»/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.006973475
+127,ºêº£/Noun ¾ß/Josa ÆÒÆ¼/Noun ³ªÀÌ/Noun ¸Ô°í/Verb ¿Ö/Noun »ï°¢ÆÒÆ¼/Noun ÀÔ¾î/Verb ?/Punctuation µå·ÎÁî/Noun ¿Ö/Noun ¾È/VerbPrefix ÀÔÀ½/Adjective ?/Punctuation <PAD> <PAD,0.9999565
+128,ÀÌ/Determiner »õ/Modifier ±â/Noun ÈÄ¿ø/Noun À¸·Î/Josa ¿å/Noun ÇÏÁö¸¶¶ó/Verb ¼Ó/Noun À¸·Î/Josa ÁÁ¾ÆÇÏ¸é¼­/Adjective ±×/Determiner µ·/Noun À¸·Î/Josa ¾È¸ú¹æ/Noun °£´Ù/Noun ¤ı/Fo,0.9999504
+129,¸ğ¾ÆÀÌ/Noun ¼®/Modifier »óÀÌ/Noun µüÀÌ´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,6.246567e-05
+130,½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+131,ÆøÅº/Noun Á»²¨/Adjective ÆøÅº/Noun Á»/Noun ½á/Verb ÆøÅº/Noun Á»²¨/Adjective ÆøÅº/Noun Á»/Noun ½á/Verb ÆøÅº/Noun Á»²¨/Adjective ÆøÅº/Noun Á»/Noun ½á/Verb ÆøÅº/Noun Á»²¨/Adje,2.5331974e-05
+132,¿Ø/Modifier ÀÏ·Î/Noun ¼ÒÅë/Noun À»/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00060510635
+133,½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+134,Ã¢¼®/Noun ÀÌºÎ/Noun ¶ö/Noun ³¿/Verb »ù/Noun ÀÚ°í½Í´Ù/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99999964
+135,¾ÆÇÁ¸®Ä«/Noun ¸»°í/Josa Æ®À§Ä¡/Noun ¿È/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,4.7683716e-07
+136,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+137,ºêº£/Noun ÆäµµÇÊ¸®¾Æ/Noun ÇØ¸í/Noun ÇÏ/Suffix ¶ó/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9973481
+138,¤»¤»¤»/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.006973475
+139,¤Ô¤¾¤¿¤ª/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9696583
+140,ºêº£/Noun ¾ö¸¶/Noun »ì¾Æ°è¼Å/Verb ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9919038
+141,ºêº£/Noun Çü/Suffix ¹ÂÁ÷ºñµğ¿À/Noun ¾ğÁ¦/Noun ¸¸µé¾î¿ä/Verb Çö±âÁõ/Noun ³ª/Josa ¿ä/Noun ºêº£/Noun Çü/Suffix ¹ÂÁ÷ºñµğ¿À/Noun ¾ğÁ¦/Noun ¸¸µé¾î¿ä/Verb Çö±âÁõ/Noun ³ª/Josa ¿ä/Modifier ºêº£,0.92216206
+142,°¡½¿/Noun Ä·/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9998069
+143,¾Ã/Verb ¤Ñ/KoreanParticle ³ëÀë/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999722
+144,¿µ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+145,Áö±İ/Noun ´©°¡/Noun Ã¢¼®/Noun ÀÌ/Josa »¡¾ÆÁÖ°íÀÌ/Verb ¤Ë/KoreanParticle ´Ù/Adverb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.99959135
+146,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+147,´Ô/Noun ÀÌ/Josa ½ºÆ®¸®¸Ó/Noun ¸¦/Josa ¿­·ÄÈ÷/Adjective ÀÀ¿ø/Noun ÇÕ´Ï´Ù/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
+148,Çã°ø/Noun ¿¡´Ù°¡/Josa ¶§¸®´Â°Å/Verb ¤¸¤¤/KoreanParticle ¿ô±â/Noun ³×/Josa ¤»¤»/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99999
+149,Ä¼/Noun ¿¬±Ø/Noun º¸´Â°Å/Verb °°¾î/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00022560358
+150,´À±×/Modifier ¾ÆºÎÁö/Noun ´Â/Josa µÚ¤Ô¤¸¤Å¤µ/Noun ³Ä/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99907595
+151,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+152,½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+153,¹¹/Noun ³Ä/Josa ÇÑ±ÛÆĞÄ¡/Noun ½ÇÈ­/Noun ³Ä/Josa ½´ºÎ¶ö/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.94474125
+154,¿µ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+155,¿Á/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+156,IRL/Alpha ·Î/Noun ÇØ/Noun °Á/Adverb º´½Å/Noun ¾Æ/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99980056
+157,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+158,¹«½¼/Modifier ÀÏ/Modifier ÀÎÁö/Noun ¸»/Noun µµ¾È/Noun ÇÏ/Suffix ´Â/Josa º´½Å/Noun ÀÌ/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99700105
+159,½Å°æ/Noun ¾²ÀÌ¸é/Verb ½Å/Modifier °æ/Modifier Á¤½Å°ú/Noun °¡/Josa ¾¾/Noun 1/Number ¹ß¾Æ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99998105
+160,¾Æ°¡¸®/Noun ´İ°í/Verb °×/Noun ÇØ/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99991304
+161,ºêº£/Noun Çü/Suffix ¾È³ç/Noun !!!/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+162,º±½Å/Noun ¼¼±â/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9992871
+163,ºêº£/Noun ºêº£/Noun ±ØÇø/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9977598
+164,¹ä¸Ô¾ù¾î/Noun ¿ä/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0011642873
+165,ÀÎ/Noun ½Î/Verb ÄÄ/Noun ¤»¤»¤»/KoreanParticle ½Ã¹Ù/Noun ÀÌ¸§/Noun ºÁ/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.98390996
+166,Ã¢¼®/Noun ÀÌ/Determiner ºØ¾Ë/Noun ³¿»õ/Noun ¸Â°í½Í´Ù/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999988
+167,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+168,¿À´Ã/Noun ¹Ì¾Ö/Noun °¡/Josa ¸»´ë²Ù/Noun ÇÔ/Noun ?/Punctuation Ç¥Á¤/Noun ¿Ö/Noun Àú·¡/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9855318
+169,º¸È£/Noun º´»ç/Noun ¾ß/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9998021
+170,Ã¢¼®/Noun ÀÌ/Determiner ºØ¾Ë/Noun ³¿»õ/Noun ¤¿¤¸/KoreanParticle °í½Í´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9999893
+171,µ·/Noun ¿¡/Josa È¯ÀåÇÑ/Adjective ºêº£/Noun °¡/Josa µ·/Noun À»/Josa °ÅºÎ/Noun ÇÏ³×/Verb ¤§¤§¤§/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.99995387
+172,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+173,¤·/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00047165155
+174,"¹Ì¾Ö/Noun ,,,/Punctuation ÀÌ/Noun ,,,/Punctuation ½¬ºÒ´¤/Noun ,,,/Punctuation ¤¾¤¾¤¾/KoreanParticle ,,,/Punctuation ³ª/Noun µÎ/Josa ,,,/Punctuation ÇÔ/Noun ",0.99991554
+175,¿Í/Verb ½ºÆù/Noun ÇÑ/Josa ´Ù/Adverb °íÇÏ/Noun ´Ï±î/Josa ´«±òµÚÁıÈù´Ù/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9886826
+176,ÃÄ/Verb ¿ô´Â°Å/Verb ÁøÂ¥/Noun °³/Noun º´½Å/Noun °°´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999548
+177,ºêº£/Noun ´Ô/Suffix ¾È³çÇÏ¼¼¿ä/Adjective Á¦/Noun ´Ğ³×ÀÓ/Noun ÇÑ¹ø/Noun ¸¸/Josa ÀĞ¾îÁÖ¼¼¿ä/Verb ></Punctuation ></Punctuation ></Punctuation <PAD> <PAD> <PAD> <PAD> ,1.6093254e-06
+178,¤¸¤©/KoreanParticle ¸¶¶ó/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99985397
+179,Ã¢¼®/Noun ÀÌºÎ/Noun ¶ö/Noun ³¿»õ/Noun ¸Â°í½Í´Ù/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99999976
+180,¿Á/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+181,Ã¢¼®/Noun ÀÌÀÇ/Noun ÀÏ±â/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,2.0861626e-07
+182,¸ø²¤/Noun ²¨¸é¼­/Verb ¿Ö/Noun ÇÏ³Ä/Verb ¤µ/KoreanParticle 1/Number ¹ß·â/Noun ¾Æ/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99999285
+183,¿Í/Verb ¾ÆÇÁ¸®Ä«/Noun Á¦/Modifier ³¢/Noun °í/Josa Æ®À§Ä¡/Noun Å²°Å/Noun ³Ä/Josa ?/Punctuation ÀÌ/Determiner ½Ã¹Ù/Noun ·³/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99997926
+184,½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+185,ÀÔ/Noun ²¿¸®/Noun ¾Á·èÀÌ´Â°Å/Verb ºÁ¶ó/Verb Çø¿À/Noun ½º·´´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99997175
+186,½½/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+187,¿À´Ã/Noun µµ/Josa ¿ÀÇÁ´×/Noun ¸¸/Josa µè/Verb °í°¥/Noun °Ô/Josa ºêº£/Noun ¾ß/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00011280179
+188,Ã¢/Noun ¼­/Josa ÀÌºÎ/Noun ¶ö/Noun ³¿»õ/Noun ¸Â°í½Í´Ù/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999949
+189,Á×¾î¶ó/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9930235
+190,Ã¢¼®/Noun ÀÌÀÇ/Noun °ú°Å/Noun ÀÏ±â/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+191,¾ß/Exclamation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9809575
+192,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+193,¹Ù±ù/Noun ¿¡µµ/Josa ¾È/VerbPrefix ³ª°¡¸é¼­/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00015443563
+194,ºÒ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00017607212
+195,Ä®/Noun ·Î/Josa ºêº£/Noun ¹è/Noun Âñ·¯¼­/Verb ½ÉÀå/Noun ²¨³»ÀÚ/Verb ~-/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999197
+196,¾ê/Noun µé/Suffix ¾Æ/Josa µµ/Noun Ne/Alpha ÇÏÁö¸»ÀÚ/Verb ÀüºÎ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.4901161e-07
+197,ÀÌ/Noun ¹Ì¶ò³ç/Noun ¾Æ/Josa ¿À´Ã/Noun µµ/Josa ¿Ö/Noun Áö°¢/Noun Çß»ş/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9989473
+198,¿Á/Noun ¶ß¶ó/Verb µû¶û/Verb ÇØ/Noun ÇäÇä/Adverb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9721709
+199,¿Á/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+200,º¸/Noun -/Punctuation Áö/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999564
+201,½ÃÀÛ/Noun ÇÏ/Suffix ÀÚ¸¶ÀÚ/Noun È­/Noun ³»/Determiner ·Á¸é/Noun ¹æ¼Û/Noun Áı¾î/Verb ÃÄ¶ó/Verb ¤¶¤²/KoreanParticle ½ÃÀÛ/Noun ÇÏ/Suffix ÀÚ¸¶ÀÚ/Noun È­/Noun ³»/Determiner ·Á¸é,0.99989355
+202,´Ô/Noun ÀÌ/Josa ½ºÆ®¸®¸Ó/Noun ¸¦/Josa ¿­·ÄÈ÷/Adjective ÀÀ¿ø/Noun ÇÕ´Ï´Ù/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
+203,°á·Ğ/Noun =/Punctuation µµ/Noun -/Punctuation ³×/Noun ½÷¶ó/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.545684e-05
+204,¤»¤»¤»/KoreanParticle ¿ì¸®/Noun °¡/Josa ´õ/Noun Àß¾Æ´Âµ¥/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.2516975e-06
+205,¤µ/KoreanParticle ./Punctuation ¤²/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99999833
+206,ÀÌ/Determiner °Å/Noun ¸ŞÀÌÇÃ/Noun »ç¸·/Noun ¿¡¼­/Josa ³ª¿À´Â/Verb ³ë·¡/Noun ÀÎµ¥/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0002913773
+207,¿Á/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+208,¾îÇã/Exclamation À½¶õ/Noun ¼º/Suffix ¤Ô¤¨¤Ó¤¡/Noun !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999074
+209,¾ÆÇÁ¸®Ä«/Noun ¹Ùºü¼­/Adjective ÀÌ¸¸/Adverb ²ø/Noun °Ô/Josa ¸ö/Noun ÀÌ/Josa ¾ÆÆÄ¼­/Adjective >/Punctuation Æ®À§Ä¡/Noun :/Punctuation ³ª³ª/Noun ³­³ª/Noun ³ª³ª/Noun ³­/Josa ,9.23872e-07
+210,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+211,¤»¤»¤»/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.006973475
+212,¿Á/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+213,´Ô/Noun ÀÌ/Josa ½ºÆ®¸®¸Ó/Noun ¸¦/Josa ¿­·ÄÈ÷/Adjective ÀÀ¿ø/Noun ÇÕ´Ï´Ù/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
+214,±Í½Å/Noun ¾È/VerbPrefix ¹ÏÀ¸¸é/Verb Æó°¡/Noun ÄÁÅÙÃ÷/Noun ÇØºÁ/Verb µ·/Noun ¾ø´Ù°í/Adjective ¾È/VerbPrefix ÇÒ°Ô/Verb »·ÇÏÁö¸¸/Adjective °ÅÁö/Noun ½ÃÅ°/Verb <PAD> <PAD> <PAD,0.999222
+215,ÅèÅ©·çÁî/Noun µµ/Josa ´ë¸Ó¸®/Noun ³Ä/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.97341895
+216,¶Ò/Noun »©±â/Noun ±úÁú·¡/Verb ¤µ/KoreanParticle 1/Number ¹ß·â/Noun ¾Æ/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999856
+217,Ã¢¼®/Noun ÀÌ/Determiner ºØ¾Ë/Noun ³¿»õ/Noun ¸Â°í/Verb ÆÄ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999887
+218,¿Á/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+219,¤»¤»¤»/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.006973475
+220,¹¹/Noun ¾ß/Josa ºêº£/Noun ¿©±â/Noun ¼­ÇÏ/Noun ³Ä/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,6.9111586e-05
+221,¿Àºü/Noun ÀÚ¼¼/Noun °¡/Josa ¿Ö/Noun ÀÌ·¸°Ô/Adverb °Ç¹æÁö/Adjective »ş/Noun ¶Ñ/Noun µÎ¸®/Noun ¸ÂÀ»¶ó°í/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9999635
+222,½ÏµÏ/Noun ÀÌ/Josa Ã¤ÆÃ/Noun Ã¢/Noun °ü¸®/Noun Áß/Noun ÀÔ´Ï´Ù/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+223,¾Æ/Exclamation °³ÆĞ/Noun °í/Josa ½Í´Ù/Verb ¤¡/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99992585
+224,ÀÌ¤Ô¤µ¤À¤¢/Noun ¿Ö/Noun ¾È/VerbPrefix ¿À³Ä/Verb ??/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9567654
+225,Áö/Verb ¿å/Noun ÇÏ´Âµ¥/Verb ¸®µëÅ¸³×/Verb ÁøÂ¥/Noun º´Áø/Noun ÀÎ°¡/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9996569
+226,"gksrb/Alpha 5496/Number ´Ô/Suffix ,/Punctuation 1,000¿ø/Number ±×¶ó»ş/Noun !/Punctuation -/Punctuation ºêº£/Noun ´Ô/Suffix Àú/Noun ´Â/Josa ÁöÃ¼/Noun Àå¾Ö/Noun",0.9909742
+227,ºêº£/Noun ¼Ò¾Æ¼º¾Ö/Noun ÀÚ/Suffix ÇØ¸í/Noun ÇÏ/Suffix ¶ó/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9998602
+228,¼ÒÈ¯/Noun ¼ú/Noun À¯µµ/Noun ÇÏ³×/Verb ½Ã/Noun ¤²/KoreanParticle ¹ß/Noun ¤»¤»¤»/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.99997187
+229,¿Á/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+230,°³/Noun ³ªÀÌ½º/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.045059532
+231,¹¹/Noun ¾ß/Josa ÀÌ»ö±â/Noun º¹µ¹ÀÌ/Noun ¿´À½/Verb ¤¶¤²/KoreanParticle ³â/Noun ÀÌ/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99999976
+232,½Ã/Modifier ÀÌ¹ß/Noun ºêº£/Noun °³/Noun »õ/Modifier ¾Ö³¢/Noun ¾ß/Josa ¹æ¼Û/Noun ¾È/VerbPrefix ²ô³Ä/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.99999607
+233,¾îÇã/Exclamation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,3.093481e-05
+234,¼ÒÅë/Noun µµ/Josa ¾È/VerbPrefix ÇÏ´Â/Verb ¾²·¹±â/Noun »õ³¢/Noun °¡/Josa Á¿/Noun °°Àº/Adjective ³í¸®/Noun Æì³×/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.9999331
+235,ºŞ°³/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9796908
+236,ºêº£/Noun ³â/Noun ¾Æ/Josa ¿å/Noun ±×¸¸/Modifier Á»/Noun ÇÏ°í/Josa ½Í¾î/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999728
+237,Áö°¡/Verb º¸°í½ÍÀº/Verb Ã¤ÆÃ/Noun ¸¸/Josa ´«/Noun ¿¡/Josa µé¾î¿À´Â/Verb ½Å±âÇÑ/Adjective ´É·Â/Noun ÀÇ/Josa ¼ÒÀ¯ÀÚ/Noun ¤¹¤¹/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <,3.4570694e-06
+238,¤»¤»¤»/KoreanParticle ¾È¸¶¹æ/Noun vip/Alpha À¯Áö/Noun ÇØ¾ßÁö/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99962986
+239,ºêºı/Noun ÀÌ/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.95481133
+240,±×°Ç/Adverb ´Ï/Noun °¡/Josa ¿µ¾î/Noun ¸¦/Josa Á¸/Noun -/Punctuation ³ª/Noun ¸ø/VerbPrefix ÇØ¼­/Verb ±×·±°ÅÀİ¾Æ/Adjective ¤»¤»¤»/KoreanParticle <PAD> <PAD> <PAD> <PA,0.99991566
+241,Ä«Æ®/Noun ³ª/Josa ÇØ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.004751265
+242,¤¥/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9653636
+243,¹º/Modifier °³/Noun ¾Ã/Verb ¤¸/KoreanParticle °°Àº/Adjective ³í¸®/Noun ¾ß/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.99999535
