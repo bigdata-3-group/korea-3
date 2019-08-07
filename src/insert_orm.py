@@ -183,8 +183,8 @@ def insert_chat(chatdata, url_id):
 
 def insert_urlchat(url, bj, chatdata):
     """
-        아프리카 채팅데이터 저장 함수
-        
+       채팅 저장 함수
+       
         Parameter
         ----------
         url : 통 url을 넣으면 파싱해서 netloc, path, param 나눠서 저장해줍니다.
@@ -193,5 +193,25 @@ def insert_urlchat(url, bj, chatdata):
     """
     url_id = insert_url(url, bj)
     insert_chat(chatdata, url_id)
+    
+
+
+# In[ ]:
+
+
+def insert_urljamack(url, bj, jamack):
+    """
+        자막 저장 함수
+        
+        Parameter
+        -----------
+        url: 통 url http://~~~~~
+        bj: 비제이 아이디
+        jamack : (content, j_time)튜플(or리스트)들이 들어있는 리스트 형태
+        
+    """
+    url_id = insert_url(url, bj)
+    session.add_all([Jamack(content=j[0], j_time=j[1], url_id=url_id) for j in jamack])
+    
     
 
