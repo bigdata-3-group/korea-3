@@ -1,0 +1,245 @@
+,chat,predict
+0,싹둑/Noun 이/Josa =/Punctuation 브베/Noun 미애/Noun =/Punctuation 브베/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9592854
+1,창석/Noun 이/Determiner 붕알/Noun 냄새/Noun 맞고/Verb 파/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999887
+2,브베/Noun 허/Verb 벌/Noun 창년/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9997867
+3,김영철/Noun 명예훼손/Noun 흑인/Noun 비하/Verb 공무원/Noun 준비/Noun 생/Noun 비하/Verb 해명/Noun 좀/Noun 해주세요/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.9994473
+4,슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+5,이슈/Noun 발년/Noun 아/Josa !/Punctuation 제대로/Noun 안/VerbPrefix 하냐/Verb !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9999923
+6,슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+7,오빠/Noun 과자/Noun 를/Josa 몇/Modifier 십분/Noun 을/Josa 쳐/Verb 머거/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999585
+8,그것/Noun 도/Josa 미애/Noun 가/Josa 하자/Noun 나/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0007175505
+9,엄마/Noun 가/Josa 종교/Noun 에/Josa 빠졌어/Verb ㅡㅡ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0008699894
+10,브베/Noun 야/Josa 차라리/Noun 오락실/Noun 게임/Noun 을/Josa 쳐해/Verb ./Punctuation 노잼/Noun 게임/Noun 만/Josa 쳐하내/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99998635
+11,리름/Noun 타는거/Verb 제일/Noun ㅈ/KoreanParticle 같다/Adjective ㅋㅋㅋ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.99924195
+12,예/Modifier 달/Noun 아/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.8698449
+13,검열/Noun ㅁㅊ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99988323
+14,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+15,노/Noun ㅡ/KoreanParticle 잼/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.4901161e-07
+16,창석/Noun 이형/Noun 게임/Noun 말고/Josa 소통/Noun 방송/Noun 해주세여/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,2.3841858e-07
+17,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+18,이기/Noun 야노/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9997072
+19,그게/Noun 뭐/Noun 인데/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,4.887581e-06
+20,왜늦엇냐/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0022701323
+21,창석/Noun 이부/Noun 랄/Noun 냄새/Noun ㅏㅈ/KoreanParticle 고싶다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9999989
+22,금액/Noun 타협/Noun 이/Josa 안/VerbPrefix 댄다/Verb 이거지/Adverb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.834766e-06
+23,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+24,뭔/Modifier 일/Noun 인데/Josa ㅂㅅ/KoreanParticle 아/Exclamation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.99990094
+25,안마방/Noun 가느라/Verb 바빴냐/Adjective ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99971783
+26,옥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+27,돌/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.4901161e-07
+28,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+29,느그/Modifier 형/Noun 대머리/Noun 냐/Josa 고/Noun 대머리독수리/Noun 새/Modifier 꺄/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99982274
+30,타코야끼/Noun 새끼/Noun 야/Josa 밥/Noun 이나/Josa 쳐/Verb 먹어/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999653
+31,해명/Noun 해/Verb ㅆㅂ/KoreanParticle 하루/Noun 지나면/Verb 없던/Adjective 일/Noun 되는거/Verb 임/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.9999863
+32,지랄/Noun 좀하지마/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9997744
+33,애/Noun 들/Suffix 아/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00038322806
+34,님/Suffix ...../Punctuation ㅤㅂㅣㄷ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99810195
+35,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+36,차/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+37,또/Noun 아이작/Noun 하면/Verb 넌/Noun 사람/Noun 새/Noun 1/Number 끼/Noun 가/Josa 아니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99997395
+38,브베/Noun 형/Suffix 나/Noun 아픈데/Adjective 요술/Noun 가루/Noun 좀/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99331295
+39,떽뜨/Noun 싸운드/Noun !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99683964
+40,어디서/Adverb 시청자/Noun 앞/Noun 에서/Josa 욕질/Noun 이야/Josa 못/VerbPrefix 배워/Verb 먹은/Verb 새기/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.9998508
+41,브/Noun 사모/Noun 끄지라/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9995326
+42,어허/Exclamation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.13248825e-05
+43,또/Noun 걸어/Verb 봐/Verb 십/Modifier 새/Noun 야/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9998504
+44,넵/Noun 고려/Noun 해주셔서/Verb 감사합니다/Verb ~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,5.8352947e-05
+45,나이/Noun 40/Number 쳐/Verb 먹고/Verb 로보트/Noun 좋아해/Adjective ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.9999846
+46,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+47,카톡/Noun 못/VerbPrefix 읽겟다매/Verb 개/Noun -/Punctuation 새/Noun -/Punctuation 기/Noun 야/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9999373
+48,치질/Noun 을/Josa 잘못말한/Verb 거/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99756557
+49,차/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+50,부득이/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00020229816
+51,브베/Noun 아이작/Noun 파일/Noun 조/Modifier 에디/Noun 션/Noun 으로/Josa 구매/Noun 했다/Verb ~~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,9.23872e-07
+52,ㅣ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+53,씹노답/Verb 아이템/Noun 먹었네/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9986762
+54,슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+55,아/Exclamation !/Punctuation 누구/Noun 냐/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,7.3611736e-06
+56,지금/Noun 과자/Noun 소스/Noun 로/Josa ㅤㅇㅗㅋ/Noun 스리/Noun 정/Noun ㅡㅡㅡ/KoreanParticle 액/Noun 찍어/Verb 먹는/Verb 중/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.9996477
+57,돈/Noun 이/Josa 안되니까/Adjective 아프리카/Noun 안/VerbPrefix 트는거지/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.00030392408
+58,채금/Noun 걸어서/Verb 아이디/Noun 다시/Noun 만들었다/Verb 시/Noun 1/Number 발년/Noun 아/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999703
+59,야/Exclamation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9809575
+60,ㅄ/KoreanParticle 아/Exclamation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.91046715
+61,게임/Noun 이나/Josa 하라/Noun 고/Josa 대머리/Noun 녀/Noun 나/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999696
+62,창석/Noun 이부/Noun 랄/Noun 냅/Verb ㅁ/KoreanParticle 새맞ㅤㄱㅚㅍ다/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999809
+63,슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+64,오오/Exclamation 한국어/Noun 설명/Noun 좋다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,8.940697e-08
+65,킁킁/Adverb 대지마/Verb 제발/Noun ㅠ/KoreanParticle 진짜/Noun 짜증나/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.9999467
+66,브베/Noun 님/Suffix 그냥/Noun 자살/Noun 해줘/Verb 욤/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99990326
+67,곰탱이/Noun 게임/Noun 도/Josa 죽인다/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.996629
+68,스폰/Noun 해주면/Verb 하룻밤/Noun 같이/Adverb 잘/Verb 수/Noun 있/Adjective 낭/Noun 요/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99987334
+69,ㅍ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00025641918
+70,얘/Noun 들/Suffix 아/Josa 도/Noun 방/Noun 하자/Verb 이기/Noun 야/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9523836
+71,퉤/Noun -\/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99990344
+72,미애/Noun 폭행/Noun 타임/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9995184
+73,브베/Noun 의/Josa 집은/Verb 아프리카/Noun 티비/Noun 가/Josa 아닌/Adjective 트위치/Noun 티비/Noun 라서/Josa 집안일/Noun 이/Josa 있었다고/Adjective 표현/Modifier 한/Modifier 거랬/N,1.1920929e-07
+74,케/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+75,그/Determiner 래그/Noun 랭/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00051933527
+76,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+77,브베/Noun 형/Suffix 돈/Noun 얼마/Noun 모았어요/Verb ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00058323145
+78,하는/Verb 일/Noun 은/Josa 있고/Adjective ??/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.727478e-05
+79,관심/Noun 없는/Adjective 척/Noun 하더니/Verb 뭔가/Noun 진짜/Noun 같으니까/Adjective 아주/Noun 부들부들하는구만/Adjective ㅋㅋㅋ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99992365
+80,He/Alpha LOVE/Alpha pillow/Alpha He/Alpha LOVE/Alpha Pillow/Alpha <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.87164366
+81,옥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+82,님/Noun 이/Josa 스트리머/Noun 를/Josa 열렬히/Adjective 응원/Noun 합니다/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
+83,아이작/Noun 하시냐/Verb 고요/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,2.6226044e-06
+84,미띵넝/Noun ~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99907213
+85,옥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+86,시발/Noun 년/Noun 이/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999989
+87,씨발/Noun 럼/Noun 이/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999942
+88,케케켕잉/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00084251165
+89,슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+90,안/Noun 냥/Josa ~~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00035569072
+91,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+92,슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+93,차/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+94,"님/Suffix 1,000원/Number 그라샤/Noun !/Punctuation -/Punctuation 떽뜨ㅤㄸㅖㄱ뜨떽뜨ㅤㄸㅖㄱ뜨/Noun 떽뜨ㅤㄸㅖㄱ뜨떽뜨ㅤㄸㅖㄱ뜨/Noun 떽뜨ㅤㄸㅖㄱ뜨떽뜨ㅤㄸㅖㄱ뜨/Noun 떽뜨ㅤㄸㅖㄱ뜨떽뜨ㅤㄸㅖㄱ뜨/Noun 떽뜨ㅤㄸㅖㄱ뜨떽뜨ㅤㄸㅖㄱ뜨/Noun 떽뜨ㅤㄸㅖㄱ뜨떽뜨ㅤㄸㅖㄱ뜨/Noun ",0.99991095
+95,ㄹㅇ/KoreanParticle 루다/Noun 가/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00020819902
+96,폭/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.3113022e-06
+97,창석/Noun 이/Determiner 붕알/Noun 냄새/Noun 맞고싶다/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999988
+98,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+99,입닥쳐/Noun 개/Noun 1/Number 세/Modifier 끼/Noun 야/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999955
+100,옥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+101,와/Verb 사기꾼/Noun 이다/Josa !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9978527
+102,ㅋㅋㅋ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.006973475
+103,톰크루즈/Noun 비하/Verb ㅋㅋㅋ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,2.3663044e-05
+104,브베/Noun 초집/Noun 중/Suffix <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+105,슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+106,다른/Noun 케릭터ㅤㅎㅐㅎ/Noun 요/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,3.5762787e-06
+107,과자/Noun 쳐/Verb 먹든/Verb 상관없는데/Adjective 노래/Noun 꺼/Verb 달라고요/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999701
+108,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+109,창석/Noun 아/Josa 너/Noun 당뇨/Noun 관리/Noun 안해/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.98982394
+110,개띠껍/Noun 게/Josa 말/Noun 하네/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99960214
+111,노/Noun 킁킁/Adverb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,8.165836e-06
+112,금액/Noun 얘기/Noun 해/Noun 라/Josa 마음/Noun 변한다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.1920929e-07
+113,옘병/Noun 하고있네/Verb ㅋㅋㅋ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9861368
+114,ㅤㅆㅔㄱㅤㅆㅔㄱㅤㅆㅔㄱ/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.989236
+115,브베/Noun 돈괴뮬새기/Noun ㅋㅋㅋ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99887496
+116,옥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+117,개/Noun -/Punctuation 노/Noun -/Punctuation 잼/Noun ./Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,2.0861626e-07
+118,진짜/Noun 500/Number 개/Noun 충전/Noun 해놨으니까/Verb 오늘/Noun 춤오지게/Verb 출/Verb 준비/Noun 하고/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.007583976
+119,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+120,어디/Noun 건방지게/Adjective 팔/Noun 걸/Noun 치고/Josa 다리/Noun 꼬/Noun 고/Josa 쳐/Verb 앉아서/Verb 일을하냐/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.999998
+121,브베/Noun 가/Josa 싫으면/Adjective 옥/Noun 장애인/Noun 같으면/Adjective 슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.001542598
+122,어허/Exclamation ~~~/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,2.0861626e-07
+123,슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+124,브베/Noun 님/Suffix ㅤㅆㅖㄲ쓰/Noun 요/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9891678
+125,그냥/Noun 적당히/Adjective 아무/Modifier 거나/Noun 쳐해/Verb 벙신/Noun 아/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99999607
+126,ㅋㅋㅋ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.006973475
+127,브베/Noun 야/Josa 팬티/Noun 나이/Noun 먹고/Verb 왜/Noun 삼각팬티/Noun 입어/Verb ?/Punctuation 드로즈/Noun 왜/Noun 안/VerbPrefix 입음/Adjective ?/Punctuation <PAD> <PAD,0.9999565
+128,이/Determiner 새/Modifier 기/Noun 후원/Noun 으로/Josa 욕/Noun 하지마라/Verb 속/Noun 으로/Josa 좋아하면서/Adjective 그/Determiner 돈/Noun 으로/Josa 안뫄방/Noun 간다/Noun ㆍ/Fo,0.9999504
+129,모아이/Noun 석/Modifier 상이/Noun 딱이다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,6.246567e-05
+130,슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+131,폭탄/Noun 좀꺼/Adjective 폭탄/Noun 좀/Noun 써/Verb 폭탄/Noun 좀꺼/Adjective 폭탄/Noun 좀/Noun 써/Verb 폭탄/Noun 좀꺼/Adjective 폭탄/Noun 좀/Noun 써/Verb 폭탄/Noun 좀꺼/Adje,2.5331974e-05
+132,왠/Modifier 일로/Noun 소통/Noun 을/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00060510635
+133,슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+134,창석/Noun 이부/Noun 랄/Noun 냄/Verb 샘/Noun 자고싶다/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99999964
+135,아프리카/Noun 말고/Josa 트위치/Noun 옴/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,4.7683716e-07
+136,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+137,브베/Noun 페도필리아/Noun 해명/Noun 하/Suffix 라/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9973481
+138,ㅋㅋㅋ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.006973475
+139,ㅤㅎㅏㄺ/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9696583
+140,브베/Noun 엄마/Noun 살아계셔/Verb ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9919038
+141,브베/Noun 형/Suffix 뮤직비디오/Noun 언제/Noun 만들어요/Verb 현기증/Noun 나/Josa 요/Noun 브베/Noun 형/Suffix 뮤직비디오/Noun 언제/Noun 만들어요/Verb 현기증/Noun 나/Josa 요/Modifier 브베,0.92216206
+142,가슴/Noun 캠/Noun ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9998069
+143,씹/Verb ㅡ/KoreanParticle 노잼/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999722
+144,영/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+145,지금/Noun 누가/Noun 창석/Noun 이/Josa 빨아주고이/Verb ㅛ/KoreanParticle 다/Adverb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.99959135
+146,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+147,님/Noun 이/Josa 스트리머/Noun 를/Josa 열렬히/Adjective 응원/Noun 합니다/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
+148,허공/Noun 에다가/Josa 때리는거/Verb ㅈㄴ/KoreanParticle 웃기/Noun 네/Josa ㅋㅋ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99999
+149,캬/Noun 연극/Noun 보는거/Verb 같어/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00022560358
+150,느그/Modifier 아부지/Noun 는/Josa 뒤ㅤㅈㅕㅅ/Noun 냐/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99907595
+151,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+152,슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+153,뭐/Noun 냐/Josa 한글패치/Noun 실화/Noun 냐/Josa 슈부랄/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.94474125
+154,영/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+155,옥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+156,IRL/Alpha 로/Noun 해/Noun 걍/Adverb 병신/Noun 아/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99980056
+157,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+158,무슨/Modifier 일/Modifier 인지/Noun 말/Noun 도안/Noun 하/Suffix 는/Josa 병신/Noun 이/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99700105
+159,신경/Noun 쓰이면/Verb 신/Modifier 경/Modifier 정신과/Noun 가/Josa 씨/Noun 1/Number 발아/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99998105
+160,아가리/Noun 닫고/Verb 겜/Noun 해/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99991304
+161,브베/Noun 형/Suffix 안녕/Noun !!!/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+162,볍신/Noun 세기/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9992871
+163,브베/Noun 브베/Noun 극혐/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9977598
+164,밥먹엇어/Noun 요/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0011642873
+165,인/Noun 싸/Verb 컴/Noun ㅋㅋㅋ/KoreanParticle 시바/Noun 이름/Noun 봐/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.98390996
+166,창석/Noun 이/Determiner 붕알/Noun 냄새/Noun 맞고싶다/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999988
+167,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+168,오늘/Noun 미애/Noun 가/Josa 말대꾸/Noun 함/Noun ?/Punctuation 표정/Noun 왜/Noun 저래/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9855318
+169,보호/Noun 병사/Noun 야/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9998021
+170,창석/Noun 이/Determiner 붕알/Noun 냄새/Noun ㅏㅈ/KoreanParticle 고싶다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9999893
+171,돈/Noun 에/Josa 환장한/Adjective 브베/Noun 가/Josa 돈/Noun 을/Josa 거부/Noun 하네/Verb ㄷㄷㄷ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD,0.99995387
+172,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+173,ㅇ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00047165155
+174,"미애/Noun ,,,/Punctuation 이/Noun ,,,/Punctuation 쉬불뇬/Noun ,,,/Punctuation ㅎㅎㅎ/KoreanParticle ,,,/Punctuation 나/Noun 두/Josa ,,,/Punctuation 함/Noun ",0.99991554
+175,와/Verb 스폰/Noun 한/Josa 다/Adverb 고하/Noun 니까/Josa 눈깔뒤집힌다/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9886826
+176,쳐/Verb 웃는거/Verb 진짜/Noun 개/Noun 병신/Noun 같다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999548
+177,브베/Noun 님/Suffix 안녕하세요/Adjective 제/Noun 닉네임/Noun 한번/Noun 만/Josa 읽어주세요/Verb ></Punctuation ></Punctuation ></Punctuation <PAD> <PAD> <PAD> <PAD> ,1.6093254e-06
+178,ㅈㄹ/KoreanParticle 마라/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99985397
+179,창석/Noun 이부/Noun 랄/Noun 냄새/Noun 맞고싶다/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99999976
+180,옥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+181,창석/Noun 이의/Noun 일기/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,2.0861626e-07
+182,못깽/Noun 꺼면서/Verb 왜/Noun 하냐/Verb ㅅ/KoreanParticle 1/Number 발룐/Noun 아/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99999285
+183,와/Verb 아프리카/Noun 제/Modifier 끼/Noun 고/Josa 트위치/Noun 킨거/Noun 냐/Josa ?/Punctuation 이/Determiner 시바/Noun 럼/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99997926
+184,슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+185,입/Noun 꼬리/Noun 씰룩이는거/Verb 봐라/Verb 혐오/Noun 스럽다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99997175
+186,슬/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+187,오늘/Noun 도/Josa 오프닝/Noun 만/Josa 듣/Verb 고갈/Noun 게/Josa 브베/Noun 야/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00011280179
+188,창/Noun 서/Josa 이부/Noun 랄/Noun 냄새/Noun 맞고싶다/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999949
+189,죽어라/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9930235
+190,창석/Noun 이의/Noun 과거/Noun 일기/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+191,야/Exclamation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9809575
+192,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+193,바깥/Noun 에도/Josa 안/VerbPrefix 나가면서/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00015443563
+194,불/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.00017607212
+195,칼/Noun 로/Josa 브베/Noun 배/Noun 찔러서/Verb 심장/Noun 꺼내자/Verb ~-/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999197
+196,얘/Noun 들/Suffix 아/Josa 도/Noun Ne/Alpha 하지말자/Verb 전부/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.4901161e-07
+197,이/Noun 미띵녕/Noun 아/Josa 오늘/Noun 도/Josa 왜/Noun 지각/Noun 했샤/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9989473
+198,옥/Noun 뜨라/Verb 따랑/Verb 해/Noun 헉헉/Adverb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9721709
+199,옥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+200,보/Noun -/Punctuation 지/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999564
+201,시작/Noun 하/Suffix 자마자/Noun 화/Noun 내/Determiner 려면/Noun 방송/Noun 집어/Verb 쳐라/Verb ㅆㅂ/KoreanParticle 시작/Noun 하/Suffix 자마자/Noun 화/Noun 내/Determiner 려면,0.99989355
+202,님/Noun 이/Josa 스트리머/Noun 를/Josa 열렬히/Adjective 응원/Noun 합니다/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
+203,결론/Noun =/Punctuation 도/Noun -/Punctuation 네/Noun 쏴라/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,9.545684e-05
+204,ㅋㅋㅋ/KoreanParticle 우리/Noun 가/Josa 더/Noun 잘아는데/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.2516975e-06
+205,ㅅ/KoreanParticle ./Punctuation ㅂ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.99999833
+206,이/Determiner 거/Noun 메이플/Noun 사막/Noun 에서/Josa 나오는/Verb 노래/Noun 인데/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0002913773
+207,옥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+208,어허/Exclamation 음란/Noun 성/Suffix ㅤㄸㅣㄱ/Noun !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999074
+209,아프리카/Noun 바빠서/Adjective 이만/Adverb 끌/Noun 게/Josa 몸/Noun 이/Josa 아파서/Adjective >/Punctuation 트위치/Noun :/Punctuation 나나/Noun 난나/Noun 나나/Noun 난/Josa ,9.23872e-07
+210,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+211,ㅋㅋㅋ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.006973475
+212,옥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+213,님/Noun 이/Josa 스트리머/Noun 를/Josa 열렬히/Adjective 응원/Noun 합니다/Verb ./Punctuation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.0
+214,귀신/Noun 안/VerbPrefix 믿으면/Verb 폐가/Noun 컨텐츠/Noun 해봐/Verb 돈/Noun 없다고/Adjective 안/VerbPrefix 할게/Verb 뻔하지만/Adjective 거지/Noun 시키/Verb <PAD> <PAD> <PAD,0.999222
+215,톰크루즈/Noun 도/Josa 대머리/Noun 냐/Josa ?/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.97341895
+216,뚝/Noun 빼기/Noun 깨질래/Verb ㅅ/KoreanParticle 1/Number 발룐/Noun 아/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999856
+217,창석/Noun 이/Determiner 붕알/Noun 냄새/Noun 맞고/Verb 파/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999887
+218,옥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+219,ㅋㅋㅋ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.006973475
+220,뭐/Noun 야/Josa 브베/Noun 여기/Noun 서하/Noun 냐/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,6.9111586e-05
+221,오빠/Noun 자세/Noun 가/Josa 왜/Noun 이렇게/Adverb 건방지/Adjective 샤/Noun 뚜/Noun 두리/Noun 맞을라고/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.9999635
+222,싹둑/Noun 이/Josa 채팅/Noun 창/Noun 관리/Noun 중/Noun 입니다/Adjective <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.0
+223,아/Exclamation 개패/Noun 고/Josa 싶다/Verb ㄱ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99992585
+224,이ㅤㅅㅐㄲ/Noun 왜/Noun 안/VerbPrefix 오냐/Verb ??/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9567654
+225,지/Verb 욕/Noun 하는데/Verb 리듬타네/Verb 진짜/Noun 병진/Noun 인가/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9996569
+226,"gksrb/Alpha 5496/Number 님/Suffix ,/Punctuation 1,000원/Number 그라샤/Noun !/Punctuation -/Punctuation 브베/Noun 님/Suffix 저/Noun 는/Josa 지체/Noun 장애/Noun",0.9909742
+227,브베/Noun 소아성애/Noun 자/Suffix 해명/Noun 하/Suffix 라/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9998602
+228,소환/Noun 술/Noun 유도/Noun 하네/Verb 시/Noun ㅂ/KoreanParticle 발/Noun ㅋㅋㅋ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PA,0.99997187
+229,옥/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,1.9788742e-05
+230,개/Noun 나이스/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.045059532
+231,뭐/Noun 야/Josa 이색기/Noun 복돌이/Noun 였음/Verb ㅆㅂ/KoreanParticle 년/Noun 이/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99999976
+232,시/Modifier 이발/Noun 브베/Noun 개/Noun 새/Modifier 애끼/Noun 야/Josa 방송/Noun 안/VerbPrefix 끄냐/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <,0.99999607
+233,어허/Exclamation !/Punctuation <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,3.093481e-05
+234,소통/Noun 도/Josa 안/VerbPrefix 하는/Verb 쓰레기/Noun 새끼/Noun 가/Josa 좆/Noun 같은/Adjective 논리/Noun 펴네/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> ,0.9999331
+235,붸개/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9796908
+236,브베/Noun 년/Noun 아/Josa 욕/Noun 그만/Modifier 좀/Noun 하고/Josa 싶어/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9999728
+237,지가/Verb 보고싶은/Verb 채팅/Noun 만/Josa 눈/Noun 에/Josa 들어오는/Verb 신기한/Adjective 능력/Noun 의/Josa 소유자/Noun ㅉㅉ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <,3.4570694e-06
+238,ㅋㅋㅋ/KoreanParticle 안마방/Noun vip/Alpha 유지/Noun 해야지/Verb <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.99962986
+239,브빡/Noun 이/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.95481133
+240,그건/Adverb 니/Noun 가/Josa 영어/Noun 를/Josa 존/Noun -/Punctuation 나/Noun 못/VerbPrefix 해서/Verb 그런거잖아/Adjective ㅋㅋㅋ/KoreanParticle <PAD> <PAD> <PAD> <PA,0.99991566
+241,카트/Noun 나/Josa 해/Noun <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.004751265
+242,ㄵ/KoreanParticle <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD>,0.9653636
+243,뭔/Modifier 개/Noun 씹/Verb ㅈ/KoreanParticle 같은/Adjective 논리/Noun 야/Josa <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <PAD> <P,0.99999535

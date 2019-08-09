@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request
+from run_model import run_model
 
 app = Flask(__name__)
 
@@ -26,6 +27,13 @@ def model():
 def download():
     return render_template('download.html')
 
+@app.route('/demo', methods=['GET', 'POST'])
+def demo():
+    if request.method == "POST":
+        query = request.form.get('query')
+        return render_template('demo.html', predict=run_model(query))
+    else:
+        return render_template('demo.html')
 
 if __name__ == '__main__':
     app.run()
