@@ -31,7 +31,8 @@ def download():
 def demo():
     if request.method == "POST":
         query = request.form.get('query')
-        return render_template('demo.html', predict=run_model(query))
+        result = "%.3f" % run_model(query)
+        return result
     else:
         return render_template('demo.html')
 
