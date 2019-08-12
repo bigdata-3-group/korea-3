@@ -13,7 +13,7 @@ def run_model(uploaded_txt):
     warnings.filterwarnings(action='ignore')
     print(uploaded_txt)
     morp = Okt()
-    morped = morp.morphs(uploaded_txt, norm=True, stem=True)
+    print(morped = morp.morphs(uploaded_txt, norm=True, stem=True))
     # print(morped)
 
     
@@ -45,10 +45,11 @@ def run_model(uploaded_txt):
                                      truncating='post',
                                      padding='post',
                                      value=pad_id)
-    print(x_padded)
+    # print(x_padded)
     # Load model
     new_model = keras.models.load_model('./model/cnn_oversample.h5')
 
     # predict
     predict_prob = new_model.predict(x_padded)
+    print(predict_prob)
     return predict_prob[0][1]
