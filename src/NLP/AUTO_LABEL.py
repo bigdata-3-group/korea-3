@@ -1,30 +1,16 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-get_ipython().run_line_magic('load_ext', 'watermark')
-get_ipython().run_line_magic('watermark', '-a mkjang -d -v')
-
-
-# ============유해도 필터링 함수===========
-
-# In[2]:
-
-
 import numpy as np
 import pandas as pd
 import json
 import re
 
-
-def AUTO_LABEL(dataset,dictionary):
+def auto_label(dataset,dictionary):
     '''
-    인풋으로 '비속어사전'(dictionary)과 '필터링할 파일'(dataset)을 사용하며
-    파일은 경로명을 입력하여줍니다.
+    인풋으로 '비속어사전'(dictionary)과 '필터링할 DataFrame'을 사용합니다.
      
-    그러면 이 함수는 해당 파일과 비속어사전을 매핑하여, 
+    그러면 이 함수는 해당 dataFrame과 비속어사전을 매핑하여, 
     비속어사전에 있는 단어가 해당파일에 있는 경우에
     필터링된 파일(dataset)에 유해함 여부를 1로써 나타냅니다.
     
@@ -34,9 +20,7 @@ def AUTO_LABEL(dataset,dictionary):
       
     '''
 # 1. 데이터 셋 불러오기
-    datasets = pd.DataFrame()
-    dump = pd.read_csv(dataset, engine='python')
-    datasets = pd.concat([datasets, dump])
+    datasets = dataset
         
 # 2. 비속어 사전 불러오기
     with open(dictionary,'r') as f:
@@ -44,6 +28,7 @@ def AUTO_LABEL(dataset,dictionary):
         list2=list(forbiddenword.values()) 
         dict=list2[0] 
         dict1="|".join(dict) 
+        
         
 # 3. filtered라는 컬럼을 데이터셋에 추가함. (디폴트0, 필터되어 유해하면 1로 변경)
     datasets['filtered']=0
@@ -53,17 +38,5 @@ def AUTO_LABEL(dataset,dictionary):
     idx = [i for i,d in enumerate(data) if re.search(dict1, d)]   
     datasets.iloc[idx,-1] = 1
     return datasets
-    #return datasets[datasets['filtered']==1]=>필터된거만 보고싶을때
-
-
-# In[3]:
-
-
-AUTO_LABEL('labeled (1).csv','word-fobidden.json')
-
-
-# In[ ]:
-
-
-
-
+#     return datasets[datasets['filtered']==1]
+#=>필터된거만 보고싶을때
