@@ -41,7 +41,10 @@ def download():
 def demo():
     if request.method == "POST":
         query = request.form.get('query')
-        result = "%.3f" % run_model(query)
+        result = run_model(query)
+        print("result = ",result)
+        result = "%.3f" % result
+        print("str result = ",result)
         return result
     else:
         return render_template('demo.html')
