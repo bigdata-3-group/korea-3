@@ -13,8 +13,8 @@ def run_model(uploaded_txt):
     warnings.filterwarnings(action='ignore')
     print(uploaded_txt)
     morp = Okt()
-    print(morped = morp.morphs(uploaded_txt, norm=True, stem=True))
-    # print(morped)
+    morped = morp.morphs(uploaded_txt, norm=True, stem=True)
+    print(morped)
 
     
     # load vocab
