@@ -5,7 +5,7 @@
 
 
 get_ipython().run_line_magic('load_ext', 'watermark')
-get_ipython().run_line_magic('watermark', '-a JaeEunPark -u -d -p sqlalchemy')
+get_ipython().run_line_magic('watermark', '-u -d -p sqlalchemy')
 
 
 # In[1]:
