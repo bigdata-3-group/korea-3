@@ -8,6 +8,7 @@ import re
 from scrapChat import afre_chat, twi_chat
 import pandas as pd
 from download import download
+from bs4 import BeautifulSoup
 
 
 def afreeca_get_video_urls(bj_id):
@@ -91,6 +92,51 @@ def twitch_get_video_urls(bj_id):
         urls.extend([_['url'] for _ in html['videos']])
         offset = re.search(r'offset=(\d*)', html['_links']['next']).group(1)
     return [re.search(r'videos(/\d+)', url).group(1) for url in urls]
+
+
+# json, requests, BeautifulSoup, re
+def youtube_get_video_urls(bj_id):
+    """
+    youtube bj_id를 받아서 영상의 url을 파싱해오는 함수(채널로 되어있는거 적용 x)
+    :param bj_id: str
+    :return: list, ex) ['/watch?v=aAKC8AD']
+    """
+    # request.session을 사용한다.
+    session = requests.session()
+
+    # 유튜브를 스크래핑 할 때 필요한 쿠키들을 저장해 놓은 것을 불러온다.
+    with open('youtube_cookies.cks', 'r') as f:
+        cookies = json.loads(f.read())
+
+    for cookie in cookies:
+        session.cookies.set(cookie["name"], cookie["value"])
+
+    domain = 'https://www.youtube.com'  # 도메인 주소
+    url = domain + '/user/' + bj_id + '/videos'  # 시작 주소
+    urlList = []
+
+    while True:
+        html = session.get(url)
+        if 'browse_ajax' in url:
+            dom = BeautifulSoup(html.json()['content_html'], 'lxml')
+        else:
+            dom = BeautifulSoup(html.text, 'lxml')
+
+        urls = [_['href'] for _ in
+                dom.select('h3.yt-lockup-title a.yt-uix-sessionlink.yt-uix-tile-link')]
+
+        urlList.extend(urls)
+
+        if 'browse_ajax' in url:
+            target = html.json()['load_more_widget_html']
+            if not target:
+                break
+            dom = BeautifulSoup(target, 'lxml')
+
+        nextUrl = dom.select_one('.load-more-button.yt-uix-button')['data-uix-load-more-href']
+        url = domain + nextUrl
+
+    return urlList
 
 
 def afreeca_make_datasets(bj_id, urls, n=3):
