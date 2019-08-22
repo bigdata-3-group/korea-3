@@ -49,3 +49,4 @@ def twi_chat(url):
             'cursor':res['_next']
         }
     return chatdata
+
