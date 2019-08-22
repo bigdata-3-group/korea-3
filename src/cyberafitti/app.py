@@ -30,7 +30,7 @@ def first_strat():
     Session = sessionmaker(bind=create_engine('sqlite:///server.db'))
 
     # 테스트 용으로 1회 실행되는 스레드입니다.
-    threading.Thread(target=run, args=[Session(), Bj, Platform]).start()
+    # threading.Thread(target=run, args=[Session(), Bj, Platform]).start()
     # 7일마다 이 함수를 실행한다.(반복 실행)
     # threading.Timer(60.0*60.0*24*7,run).start()
 
@@ -97,10 +97,11 @@ def run(session, Bj, Platform):
 def index():
     return render_template('index.html')
 
+
 @app.route('/youtube', methods=['GET', 'POST'])
 def youtube():
     # return render_template('youtube.html')
-    return render_template('prepare.html')
+    return render_template('youtube.html')
 
 
 @app.route('/afreeca', methods=['GET', 'POST'])
@@ -128,14 +129,20 @@ def download():
 @app.route('/demo', methods=['GET', 'POST'])
 def demo():
     if request.method == "POST":
-        query = request.form.get('query')
+        query = list(request.form.get('query'))
+        print(query)
         result = run_model(query)
         print("result = ", result)
         result = "%.3f" % result
         print("str result = ",result)
         return result
     else:
-        return render_template('demo.html')
+        return render_template('Ndemo.html')
+
+# @app.route('/demo')
+# def demo():
+#     return render_template('Ndemo.html')
+
 
 
 if __name__ == '__main__':
