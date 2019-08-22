@@ -3,6 +3,11 @@ from bs4 import BeautifulSoup
 from requests.compat import urlparse
 from xml.etree import ElementTree
 import numpy
+from selenium import webdriver
+import time
+import re
+import os
+import random
 
 
 def afre_chat(url):
@@ -49,3 +54,111 @@ def twi_chat(url):
             'cursor':res['_next']
         }
     return chatdata
+
+
+def youtube(url):
+    seed = 'https://www.youtube.com' + url + '&app=desktop'
+    n = 1
+    netloc = "www.youtube.com"
+    path = ["/watch"]
+    param = []
+    seed_list = []
+    bj = []
+    title = []
+    temp_path_param = []
+    temp_param = "&app=desktop"
+    p = re.compile("[0-9\:\,]+\\n[ㄱ-ㅎㅏ-ㅣ가-힣0-9\,\'A-Za-z\s]+[ㄱ-ㅎㅏ-ㅣ가-힣]")
+    text_temp = []
+    path_temp = '/Users/user/Downloads/'
+    driver = webdriver.Chrome()
+    q = -1
+    break_key = 0
+    sub_index = 0
+
+    param.append('?' + seed.split('/')[3].split('?')[1])  # 시작 seed 주소의 parameter
+
+    for c in range(n):
+        i = c - sub_index
+        print(i)
+        break_key = 0
+
+        html = download("get", seed)
+        dom = BeautifulSoup(html.text, "lxml")
+
+        print("seed : " + seed)
+        url = seed
+        seed_list.append(seed)
+
+        try:
+            bj.append([_.text for _ in dom.select("div.yt-user-info > a")][0])
+            title.append([_.text for _ in dom.select("#eow-title")][0])
+
+        except IndexError:  # 영상이 차단된 경우
+            break_key = 1
+            seed = seed_list[-2]
+            sub_index += 2
+            continue
+
+        temp_path_param.append(
+            [_['href'] for _ in dom.select(".content-link.spf-link.yt-uix-sessionlink.spf-link")][random.randint(0, 3)])
+
+        path.append(temp_path_param[i].split("?")[0])
+        param.append("?" + temp_path_param[i].split("?")[1] + temp_param)
+
+        seed = "https://" + netloc + path[i + 1] + param[i + 1]
+
+        driver.get("https://savesubs.com/")
+        driver.find_element_by_css_selector(".search_wrap > div").click()
+        driver.find_element_by_name("url").send_keys(url)
+        driver.find_element_by_css_selector(".search_wrap > input").click()
+        time.sleep(15)
+        try:
+            for k in driver.find_elements_by_css_selector(".list-reset > li"):
+                if (k.find_elements_by_css_selector("span")[0].text == "SRT") & (
+                        (k.find_elements_by_css_selector("span")[1].text == "KOREAN (AUTO-GENERATED)") | (
+                        k.find_elements_by_css_selector("span")[1].text == "KOREAN")):
+                    k.find_element_by_css_selector("a").click()
+                    break
+            else:
+                break_key = 1
+
+        except IndexError:  # 자막이 없는 경우
+            break_key = 1
+            continue
+
+        if break_key:
+            time.sleep(5)
+            continue
+
+        time.sleep(15)
+
+        q += 1
+
+        temp = []
+
+        for r, d, f in os.walk('/Users/user/Downloads/'):
+            temp.append(f)
+            # 파일을 다운로드 받는 default 경로가 /Users/user/Downloads/ 이고,
+            # Downloads 폴더 안에 어떠한 파일도 없어야 함
+
+        print(temp)
+        if temp[0][1] == "desktop.ini":
+            filepath = path_temp + temp[0][0]
+        else:
+            filepath = path_temp + temp[0][1]
+        print(filepath)
+        f = open(filepath, encoding='UTF8')
+        text = p.findall(f.read())
+        f.close()
+        os.remove(filepath)
+        text_temp.append(text)
+
+        temp1 = []
+        temp2 = []
+
+        for _ in text_temp[q]:
+            temp1.extend(re.findall(r'(.+?),\d\d\d\n(.+)', _))
+        temp2.append(temp1)
+        temp1 = []
+
+        return [(temp2[0][x][1], temp2[0][x][0]) for x in range(len(temp2[0]))]

@@ -51,8 +51,7 @@ def run(session, Bj, Platform):
         print("urlList = ", urlList)
         if len(urlList) < 3:
             continue
-        bj = bj_pl[0]
-        platform = bj_pl[1]
+        bj, platform = bj_pl
         print(platform, type(platform))
         print('bj={}, platform={}'.format(bj, platform))
         data = vod.make_dataset(bj, urlList, platform, 3)
@@ -71,7 +70,7 @@ def run(session, Bj, Platform):
         # 받은 결과로 유해하다면 db에 blacklist를 1로 변환하고, blockUrl_list.js파일로 만들어 저장해준다.
         platform_id = session.query(Platform).filter_by(name=platform).first().id
         bj_db = session.query(Bj).filter(and_(Bj.name==bj, Bj.platform_id==platform_id)).first()
-        urlList.append("/"+bj) # /bj아이디 형식도 차단 목록에 넣어 주어야 함.
+        urlList.append("/"+bj) # /bj아이디 형식도 차단 목록에 넣어 주어야 함. -> 유튜브는 다르다.
         if result*100 >= 8:
             print('유해!!!!!!!!')
             bj_db.blacklist = 1

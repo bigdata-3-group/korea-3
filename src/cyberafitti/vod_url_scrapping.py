@@ -71,27 +71,29 @@ def parse_url(bjList):
 
 
 def twitch_get_video_urls(bj_id):
-    '''
-    트위치 bj의 영상 url을 불러옵니다.
-    :param bj_id:
-    :return: list, 파싱한 url들이 담긴 list를 반환한다.
-    '''
-    urls = []
-    offset = 0
+    """
+    트위치 비제이의 영상 목록을 파싱해오는 함수
+    :param bj_id: str, bj의 아이디를 입력
+    :return: list, url들이 들어있는 list
+    """
+    data = {"operationName": "FilterableVideoTower_Videos",
+            "variables": {"limit": 30, "channelOwnerLogin": bj_id, "broadcastType": None, "videoSort": "TIME"},
+            "extensions": {"persistedQuery": {"version": 1,
+                                              "sha256Hash": "2023a089fca2860c46dcdeb37b2ab2b60899b52cca1bfa4e720b260216ec2dc6"}}}
+    lst = []
     while True:
-        url = "https://api.twitch.tv/kraken/channels/" + bj_id + "/videos"
-        params = {
-            'broadcast_type': 'archive',
-            'limit': 100,
-            'offset': offset
-        }
-        html = download('get', url, param=params).json()
-        if not 'videos' in html.keys() or len(html['videos']) == 0:
+        data1 = json.dumps(data)
+        html = download("post", "https://gql.twitch.tv/gql", data=data1)
+        dom = html.json()
+        dom['data']['user']['videos']['edges'][len(dom['data']['user']['videos']['edges']) - 1]
+        lst.extend(['/' + _['node']['id'] for _ in dom['data']['user']['videos']['edges']])
+        if dom['data']['user']['videos']['pageInfo']['hasNextPage'] == True:
+            data['variables']['cursor'] = \
+            dom['data']['user']['videos']['edges'][len(dom['data']['user']['videos']['edges']) - 1]['cursor']
+        else:
             break
 
-        urls.extend([_['url'] for _ in html['videos']])
-        offset = re.search(r'offset=(\d*)', html['_links']['next']).group(1)
-    return [re.search(r'videos(/\d+)', url).group(1) for url in urls]
+    return lst
 
 
 # json, requests, BeautifulSoup, re
