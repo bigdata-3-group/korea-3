@@ -97,7 +97,6 @@ def run(session, Bj, Platform):
 def index():
     return render_template('index.html')
 
-
 @app.route('/youtube', methods=['GET', 'POST'])
 def youtube():
     # return render_template('youtube.html')
