@@ -31,5 +31,14 @@ def bpe_to_words(input_numpy):
     
     return reduce(lambda x,y:re.sub(y, y+"__", x), set(re.findall(r'[가-힣]', text)), text)
 
+def num_to_char(lst):
+    """
+    ex) [111,222,333,444,555]->abcde
+    """
+    ntoh = [byt.fromhex(t) for t in [_.split('x')[1] for _ in [hex(x) for x in lst]]]
+    byt2=b''
+    byt2 = byt2.join(ntoh)
+    return byt2.decode()
+
 if __name__ == '__main__':
     print(bp_tokenize(['시발', 'ㅋㅋ', 'ㅅㅂ', 'ㅅ1ㅂ', 'ㅄ']))

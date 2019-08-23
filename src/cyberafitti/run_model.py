@@ -1,55 +1,58 @@
+from utils.bp_processing import bp_tokenize
+from keras.preprocessing.sequence import pad_sequences
 import numpy as np
-import pandas as pd
-from konlpy.tag import Okt
-import tensorflow as tf
-from tensorflow.python.keras.preprocessing import sequence
-from tensorflow import keras
-import pickle
-import warnings
+import torch
+from attention.attention_model import StructuredSelfAttention
+from torch.autograd import Variable
+import os
 
-
-
-def run_model(uploaded_txt):
-    warnings.filterwarnings(action='ignore')
-    print(uploaded_txt)
-    morp = Okt()
-    morped = [morp.morphs(_, norm=True, stem=True) for _ in uploaded_txt]
-    print(morped)
+class RunAttentionModel(object):
+    
 
     
-    # load vocab
-    with open('./NLP/vocab/vocab_index.pickle', 'rb') as f:
-        vocab_index = pickle.load(f)
-    with open('./NLP/vocab/vocab_inverted_index.pickle', 'rb') as f:
-        vocab_inverted_index = pickle.load(f)
 
-    def text_to_index(tokens):
-        oov_id = 1
-        indexes = []
-        for tok in tokens:
-            if tok in vocab_index:
-                indexes.append(vocab_index[tok])
-            else:
-                indexes.append(oov_id)
+    def __init__(self, input_text):
+        '''
+        input_text : 1-d sequence of String, Series 가능
+        '''
 
-        return indexes
+        # model parameter 
+        self._MAX_LEN = 30
+        self._VOCAB_SIZE = 260
+        self._EMB_DIM = 10
+
+        self.input_text = input_text
+        # model load
+        self.model = torch.load(os.getcwd()+'/model/self_attention_bp.pt')
+        
+    def predict(self):
+        # bpe preprocessing
+        self.tokenized = bp_tokenize(self.input_text)
+        # padding preprocessing
+        self.input_padded = pad_sequences(self.tokenized, maxlen=self._MAX_LEN)
+        # batch size initial
+        self.model.batch_size = np.array(self.input_padded).shape[0]
+        # hidden state initial
+        self.model.hidden_state = self.model.init_hidden()
+        input_tensor = Variable(torch.from_numpy(self.input_padded).type(torch.LongTensor))
+
+        self.pred, _ = self.model(input_tensor)
+        
+        return
+
+    def run_demo(self):
+        '''
+        데모 실행 시 호출
+        return : 1-d numpy array, 유해정도 probabilyty
+        '''
+
+        return self.pred.data.numpy()
 
 
-    pad_id = 0
+    def run_bj(self):
+        '''
+        return : float, bj 유해 비율 
+        '''
+        return self.pred.sum().data.numpy() / len(self.input_text)
 
-    x_variable = [text_to_index(_) for _ in morped]
-    
-    sentence_size = 20
-    x_padded = sequence.pad_sequences(x_variable,
-                                     maxlen=sentence_size,
-                                     truncating='post',
-                                     padding='post',
-                                     value=pad_id)
-    # print(x_padded)
-    # Load model
-    new_model = keras.models.load_model('./model/cnn_oversample.h5')
 
-    # predict
-    predict_class = new_model.predict_classes(x_padded)
-    print(predict_class)
-    return sum(predict_class) / len(x_padded)
