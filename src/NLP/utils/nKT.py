@@ -145,21 +145,22 @@ def prep1(textt = '존ㄴ ㅂ신 병ㅅ 새ㄲ ㅈ나 ㅅ발 ㅁㅊ놈아'):
 # In[3]:
 
 
-def prep2(datasets):
+def prep2(X, y):
     '''
-    dataframe을 넣어주세요
+    comments, label 을 넣어주세요
     '''
+    listy = list(y)
     chat = list()
-    for i,j in enumerate(datasets.comment.values):
+    for i,x in tqdm(enumerate(X)):
         temp = []
-        temp.append(prep1(j))
+        temp.append(prep1(x))
         if temp == [[]]:
-            datasets.drop(i, inplace=True)
+            del listy[i]
             continue
         else:
             chat.extend(temp)
     
-    return chat
+    return chat, listy
 
 
 # In[ ]:
