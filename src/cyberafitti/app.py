@@ -117,8 +117,8 @@ def twitch():
 
 
 @app.route('/model')
-def model():
-    return render_template('model.html')
+def information():
+    return render_template('information.html')
 
 
 @app.route('/download')

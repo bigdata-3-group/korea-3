@@ -5,7 +5,7 @@ import requests
 from collections import defaultdict
 import json
 import re
-from scrapChat import afre_chat, twi_chat
+from scrapChat import afre_chat, twi_chat, youtube_jamak
 import pandas as pd
 from download import download
 from bs4 import BeautifulSoup
@@ -45,7 +45,7 @@ def get_video_urls(bj_id, platform):
     elif platform == 'twitch':
         return twitch_get_video_urls(bj_id)
     else:
-        return
+        return youtube_get_video_urls(bj_id)
 
 
 def parse_url(bjList):
@@ -173,6 +173,23 @@ def twitch_make_datasets(bj_id, urls, n=3):
 
     return result.reset_index()
 
+
+def youtube_make_datasets(bj_id, urls, n=3):
+    '''
+    파싱해온 urls를 넣으면 영상 3개에서 chatingdata를 뽑아온다.
+    :param bj_id: str
+    :param urls: list, url = '/123345'
+    :param n: 채팅 데이터를 스크래핑할 영상 개수 default = 3
+    :return: DataFrame, columns = [0, 1, 2] : (comment, writer, time)
+    '''
+    result = pd.DataFrame()
+    for _ in urls[:n]:
+        chatdata = pd.DataFrame(youtube_jamak(_))
+        result = pd.concat([result, chatdata])
+
+    return result.reset_index()
+
+
 def make_dataset(bj_id, urls, platform, n=3):
     '''
     플랫폼을 같이 받아서 데이터 셋을 만들어주는 함수
@@ -188,5 +205,4 @@ def make_dataset(bj_id, urls, platform, n=3):
     elif platform =='twitch':
         return twitch_make_datasets(bj_id, urls, n)
     else :
-        print('여기는 유튜브임')
-        return
+        return youtube_make_datasets(bj_id, urls, n)

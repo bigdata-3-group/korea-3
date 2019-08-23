@@ -25,11 +25,17 @@
     font-size: 5rem;
     font-weight: bold;
 }
+.semi-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
 .footer{
     bottom:0;
     position:absolute;
     padding-bottom: 1rem;
-    padding-right: 1rem;
+}
+.accent {
+    font-weight: bold;
 }
 nav{
     background-color:transparent;

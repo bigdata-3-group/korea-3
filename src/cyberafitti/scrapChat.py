@@ -3,11 +3,8 @@ from bs4 import BeautifulSoup
 from requests.compat import urlparse
 from xml.etree import ElementTree
 import numpy
-from selenium import webdriver
-import time
+import requests
 import re
-import os
-import random
 
 
 def afre_chat(url):
@@ -56,109 +53,34 @@ def twi_chat(url):
     return chatdata
 
 
-def youtube(url):
-    seed = 'https://www.youtube.com' + url + '&app=desktop'
-    n = 1
-    netloc = "www.youtube.com"
-    path = ["/watch"]
-    param = []
-    seed_list = []
-    bj = []
-    title = []
-    temp_path_param = []
-    temp_param = "&app=desktop"
-    p = re.compile("[0-9\:\,]+\\n[ㄱ-ㅎㅏ-ㅣ가-힣0-9\,\'A-Za-z\s]+[ㄱ-ㅎㅏ-ㅣ가-힣]")
-    text_temp = []
-    path_temp = '/Users/user/Downloads/'
-    driver = webdriver.Chrome()
-    q = -1
-    break_key = 0
-    sub_index = 0
+def youtube_jamak(url_id,lst=None):
+    if lst==None:
+        lst=[]
+    headers={
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36",
+        "x-client-data": "CI62yQEIpbbJAQjEtskBCKmdygEIqKPKAQjiqMoBCJetygEIza3KAQjKr8oB"}
+    url_id = re.search(r'v=(.+)', url_id).group(1)
+    id=url_id
+    base = 'https://www.youtube.com/watch?v=url_id'
+    jamak_url_base='https://www.youtube.com/api/timedtext?v=url_id&asr_langs=de%2Cen%2Ces%2Cfr%2Cit%2Cja%2Cko%2Cnl%2Cpt%2Cru&caps=asr&xorp=true&hl=ko&ip=0.0.0.0&ipbits=0&expire=expire&sparams=ip%2Cipbits%2Cexpire%2Cv%2Casr_langs%2Ccaps%2Cxorp&signature=signature&key=yt8&kind=asr&lang=ko&fmt=srv3'
+    video_url = base.replace(requests.compat.urlparse(base)[4],'v={}'.format(url_id))
+    jamak_url=jamak_url_base.replace(requests.compat.urlparse(jamak_url_base)[4].split('&')[0],'v={}'.format(url_id))
+    html = download('get',video_url)
+    dom = BeautifulSoup(html.text, 'lxml')
+    res = [re.findall(r'signature=(.+?)(\\\\u0026|\\u0026)', _.text) for _ in dom.select('script') if "signature" in _.text]
+    result = [x[0] for _ in res for x in _]
+    change_url = jamak_url.replace(requests.compat.urlparse(jamak_url)[4].split('&')[9],'signature={}'.format(result[0]))
+    change_url=change_url.replace(requests.compat.urlparse(jamak_url)[4].split('&')[7],re.findall(r'expire=\d+',html.text)[-1])
+    try:
+        resp=requests.request('get', change_url,headers=headers)
+        dom =BeautifulSoup(resp.text,'lxml')
+        lst.append(dom)
+        resp.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        if 400<=e.response.status_code<500 :
+            youtube_jamak(id,lst)
+    return [_.text for _ in lst[len(lst)-1].find_all('s')]
 
-    param.append('?' + seed.split('/')[3].split('?')[1])  # 시작 seed 주소의 parameter
 
-    for c in range(n):
-        i = c - sub_index
-        print(i)
-        break_key = 0
 
-        html = download("get", seed)
-        dom = BeautifulSoup(html.text, "lxml")
-
-        print("seed : " + seed)
-        url = seed
-        seed_list.append(seed)
-
-        try:
-            bj.append([_.text for _ in dom.select("div.yt-user-info > a")][0])
-            title.append([_.text for _ in dom.select("#eow-title")][0])
-
-        except IndexError:  # 영상이 차단된 경우
-            break_key = 1
-            seed = seed_list[-2]
-            sub_index += 2
-            continue
-
-        temp_path_param.append(
-            [_['href'] for _ in dom.select(".content-link.spf-link.yt-uix-sessionlink.spf-link")][random.randint(0, 3)])
-
-        path.append(temp_path_param[i].split("?")[0])
-        param.append("?" + temp_path_param[i].split("?")[1] + temp_param)
-
-        seed = "https://" + netloc + path[i + 1] + param[i + 1]
-
-        driver.get("https://savesubs.com/")
-        driver.find_element_by_css_selector(".search_wrap > div").click()
-        driver.find_element_by_name("url").send_keys(url)
-        driver.find_element_by_css_selector(".search_wrap > input").click()
-        time.sleep(15)
-        try:
-            for k in driver.find_elements_by_css_selector(".list-reset > li"):
-                if (k.find_elements_by_css_selector("span")[0].text == "SRT") & (
-                        (k.find_elements_by_css_selector("span")[1].text == "KOREAN (AUTO-GENERATED)") | (
-                        k.find_elements_by_css_selector("span")[1].text == "KOREAN")):
-                    k.find_element_by_css_selector("a").click()
-                    break
-            else:
-                break_key = 1
-
-        except IndexError:  # 자막이 없는 경우
-            break_key = 1
-            continue
-
-        if break_key:
-            time.sleep(5)
-            continue
-
-        time.sleep(15)
-
-        q += 1
-
-        temp = []
-
-        for r, d, f in os.walk('/Users/user/Downloads/'):
-            temp.append(f)
-            # 파일을 다운로드 받는 default 경로가 /Users/user/Downloads/ 이고,
-            # Downloads 폴더 안에 어떠한 파일도 없어야 함
-
-        print(temp)
-        if temp[0][1] == "desktop.ini":
-            filepath = path_temp + temp[0][0]
-        else:
-            filepath = path_temp + temp[0][1]
-        print(filepath)
-        f = open(filepath, encoding='UTF8')
-        text = p.findall(f.read())
-        f.close()
-        os.remove(filepath)
-        text_temp.append(text)
-
-        temp1 = []
-        temp2 = []
-
-        for _ in text_temp[q]:
-            temp1.extend(re.findall(r'(.+?),\d\d\d\n(.+)', _))
-        temp2.append(temp1)
-        temp1 = []
-
-        return [(temp2[0][x][1], temp2[0][x][0]) for x in range(len(temp2[0]))]
