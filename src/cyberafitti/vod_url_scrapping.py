@@ -26,7 +26,7 @@ def afreeca_get_video_urls(bj_id):
         result = download('get', url, param=param).json()['data']
         if not result:
             break
-        video_list.extend(["/"+str(_['title_no']) for _ in result])
+        video_list.extend([str(_['title_no']) for _ in result])
         i += 1
     return video_list
 
@@ -107,7 +107,7 @@ def youtube_get_video_urls(bj_id):
     session = requests.session()
 
     # 유튜브를 스크래핑 할 때 필요한 쿠키들을 저장해 놓은 것을 불러온다.
-    with open('youtube_cookies.cks', 'r') as f:
+    with open('./data/youtube_cookies.cks', 'r') as f:
         cookies = json.loads(f.read())
 
     for cookie in cookies:
@@ -145,16 +145,18 @@ def afreeca_make_datasets(bj_id, urls, n=3):
     '''
     파싱해온 urls를 넣으면 영상 3개에서 chatingdata를 뽑아온다.
     :param bj_id: str
-    :param urls: list, url = '/123345'
+    :param urls: list, url = '123345'
     :param n: 채팅 데이터를 스크래핑할 영상 개수 default = 3
     :return: DataFrame, columns = [0, 1, 2] : (comment, writer, time)
     '''
     result = pd.DataFrame()
     for _ in urls[:n]:
-        url = 'http://vod.afreecatv.com/PLAYER/STATION' + _
+        url = 'http://vod.afreecatv.com/PLAYER/STATION/' + _
         chatdata = pd.DataFrame(afre_chat(url))
+        chatdata['url'] = _
         result = pd.concat([result, chatdata])
 
+    result.rename(columns = {0: 'content', 1: 'writer', 2: 'time'}, inplace=True)
     return result.reset_index()
 
 
@@ -164,13 +166,15 @@ def twitch_make_datasets(bj_id, urls, n=3):
     :param bj_id: str, bj 아이디
     :param urls: list, '/123435'형태의 url이 들어있는 list
     :param n: int, 스크래핑 하고 싶은 영상 개수 (default=3)
-    :return: DataFrame, columns = [0, 1, 2] : (comment, writer, time)
+    :return: DataFrame, columns = (content, writer, time, url)
     '''
     result = pd.DataFrame()
     for _ in urls[:n]:
         chatdata = pd.DataFrame(twi_chat(_))
+        chatdata['url'] = _
         result = pd.concat([result, chatdata])
 
+    result.rename(columns = {0:'content', 1:'writer', 2:'time'}, inplace=True)
     return result.reset_index()
 
 
@@ -180,13 +184,15 @@ def youtube_make_datasets(bj_id, urls, n=3):
     :param bj_id: str
     :param urls: list, url = '/123345'
     :param n: 채팅 데이터를 스크래핑할 영상 개수 default = 3
-    :return: DataFrame, columns = [0, 1, 2] : (comment, writer, time)
+    :return: DataFrame, columns = content, url
     '''
     result = pd.DataFrame()
     for _ in urls[:n]:
         chatdata = pd.DataFrame(youtube_jamak(_))
+        chatdata['url'] = _
         result = pd.concat([result, chatdata])
 
+    result.rename(columns={0:'content'}, inplace=True)
     return result.reset_index()
 
 
