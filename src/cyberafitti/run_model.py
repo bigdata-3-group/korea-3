@@ -56,3 +56,14 @@ class RunAttentionModel(object):
         return self.pred.sum().data.numpy() / len(self.input_text)
 
 
+if __name__ == '__main__':
+    import run_model
+    from attention.attention_model import StructuredSelfAttention
+    tmp = run_model.RunAttentionModel(['ㅁㅊ','개년아','ㅈㄹ'])
+
+    tmp.predict()
+
+    print(tmp.run_bj())
+
+    print(tmp.run_demo())
+
