@@ -44,8 +44,6 @@ def chat_to_morp(chat):
     sentence_size = 10
     x_padded = sequence.pad_sequences(x_variable,
                                     maxlen=sentence_size,
-                                    truncating='post',
-                                    padding='post',
                                     value=pad_id)
 
     return x_padded
