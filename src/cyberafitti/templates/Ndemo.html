@@ -10,44 +10,34 @@
     <div class="empty-row"></div>
     <div class="empty-row"></div>
 
-    <div class="container h-100">
-        <div class="d-flex justify-content-center h-100">
-            <div class="searchbar">
-              <input class="search_input" type="text" name="query" placeholder="텍스트를 입력해보세요">
-              <a id="search" class="search_icon"><i class="fas fa-search"></i></a>
+    <form action="{{url_for('demo')}}" method='post'>
+        <div class="form-group form-row">
+            <div class='col-md-3'></div>
+            <div class='col-md-6'>
+                <input class="form-control" name="query" type="text" placeholder="당신은 얼마나 아름다운 언어를 사용하시나요?">
             </div>
+            <div class='col-md-1'>
+                <button type="submit" id="search" class="form-control btn-sm btn btn-primary btn-block"><i class="fas fa-search"></i></button>
+            </div>
+            <div class='col-md-2'></div>
         </div>
-    </div>
+    </form>
+
+    {% if query %}
+      <div class="row text-center">
+        <div class="offset-md-2 col-md-8">
+            <p>{{ query }}</p>
+            <p><span class="accent warning">{{ result }}%</span> 유해합니다.</p>
+        </div>
+      </div>
+    {% endif %}
 
 <script>
-
-$('.search_input').focus(function(){
-    $(".searchbar").unbind('hover');
-});
-
 var query = $('input[name=query]');
 $('#search').click(function(){
     var loading = $('<div class="cover-wrap"/>').append($('<div class="display-wrap"/>').append($("<img src='/static/images/loading.gif'/>")));
     var container = $(".container");
     container.after(loading);
-    var queryStr = query.val();
-    $.ajax({
-       url:'/demo',
-        type:'POST',
-        data:{
-           query:queryStr,
-        },
-        success:function(response){
-           loading = loading.detach();
-           if(response.length() > 8) {
-               window.location.replace({{url_for(500)}})
-           }
-        },
-        error:function(err){
-           console.log('error 발생');
-           window.location.href=err.status
-        }
-    });
 });
 </script>
   {%  endblock contents %}

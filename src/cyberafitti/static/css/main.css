@@ -16,3 +16,11 @@
     max-width: 2rem;
     max-height: 2rem;
 }
+#search{
+    height:2.5rem;
+    width:2.5rem;
+    border-radius: 50%;
+}
+.warning{
+    color:red;
+}

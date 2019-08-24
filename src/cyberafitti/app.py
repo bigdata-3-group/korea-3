@@ -163,11 +163,11 @@ def download():
 def demo():
     if request.method == "POST":
         query = request.form.get('query')
-        demoTmp = run_model.RunAttentionModel(query)
-        demoTmp.predict()
-        result = demoTmp.run_demo()
-        print("result = ", result)
-        return result
+        # demoTmp = run_model.RunAttentionModel(query)
+        # demoTmp.predict()
+        # result = int(demoTmp.run_demo()*100)
+        result = 50
+        return render_template("Ndemo.html", result=result, query=query)
     else:
         return render_template('Ndemo.html')
 
