@@ -30,7 +30,7 @@ def first_strat():
     Session = sessionmaker(bind=create_engine('sqlite:///server.db'))
 
     # 테스트 용으로 1회 실행되는 스레드입니다.
-    threading.Thread(target=run, args=[Session(), Bj, Platform]).start()
+    # threading.Thread(target=run, args=[Session(), Bj, Platform]).start()
     # 7일마다 이 함수를 실행한다.(반복 실행)
     # threading.Timer(60.0*60.0*24*7,run).start()
 
@@ -51,8 +51,7 @@ def run(session, Bj, Platform):
         print("urlList = ", urlList)
         if len(urlList) < 3:
             continue
-        bj = bj_pl[0]
-        platform = bj_pl[1]
+        bj, platform = bj_pl
         print(platform, type(platform))
         print('bj={}, platform={}'.format(bj, platform))
         data = vod.make_dataset(bj, urlList, platform, 3)
@@ -71,7 +70,7 @@ def run(session, Bj, Platform):
         # 받은 결과로 유해하다면 db에 blacklist를 1로 변환하고, blockUrl_list.js파일로 만들어 저장해준다.
         platform_id = session.query(Platform).filter_by(name=platform).first().id
         bj_db = session.query(Bj).filter(and_(Bj.name==bj, Bj.platform_id==platform_id)).first()
-        urlList.append("/"+bj) # /bj아이디 형식도 차단 목록에 넣어 주어야 함.
+        urlList.append("/"+bj) # /bj아이디 형식도 차단 목록에 넣어 주어야 함. -> 유튜브는 다르다.
         if result*100 >= 8:
             print('유해!!!!!!!!')
             bj_db.blacklist = 1
@@ -98,10 +97,11 @@ def run(session, Bj, Platform):
 def index():
     return render_template('index.html')
 
+
 @app.route('/youtube', methods=['GET', 'POST'])
 def youtube():
     # return render_template('youtube.html')
-    return render_template('prepare.html')
+    return render_template('youtube.html')
 
 
 @app.route('/afreeca', methods=['GET', 'POST'])
@@ -117,8 +117,8 @@ def twitch():
 
 
 @app.route('/model')
-def model():
-    return render_template('model.html')
+def information():
+    return render_template('information.html')
 
 
 @app.route('/download')
@@ -129,14 +129,20 @@ def download():
 @app.route('/demo', methods=['GET', 'POST'])
 def demo():
     if request.method == "POST":
-        query = request.form.get('query')
+        query = list(request.form.get('query'))
+        print(query)
         result = run_model(query)
         print("result = ", result)
         result = "%.3f" % result
         print("str result = ",result)
         return result
     else:
-        return render_template('demo.html')
+        return render_template('Ndemo.html')
+
+# @app.route('/demo')
+# def demo():
+#     return render_template('Ndemo.html')
+
 
 
 if __name__ == '__main__':
