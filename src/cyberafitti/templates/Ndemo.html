@@ -39,8 +39,9 @@ $('#search').click(function(){
         },
         success:function(response){
            loading = loading.detach();
-           if(response.length() > 8):
-            window.location.replace({{url_for(500)}})
+           if(response.length() > 8) {
+               window.location.replace({{url_for(500)}})
+           }
         },
         error:function(err){
            console.log('error 발생');
