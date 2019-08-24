@@ -40,6 +40,7 @@ def first_strat():
 
 def run(session, Bj, Platform):
     # 확인하지 않은 bjList [(bj_id, platform)]을 가져와서
+    # bjList = [(_.name, _.platform.name) for _ in session.query(Bj).filter_by(seen=0).all()]
     bjList = [(_.name, _.platform.name) for _ in session.query(Bj).filter_by(seen=0).all()][:1]
     print(bjList)
 
@@ -161,11 +162,7 @@ def download():
 @app.route('/demo', methods=['GET', 'POST'])
 def demo():
     if request.method == "POST":
-        # import run_model
-        # from attention.attention_model import StructuredSelfAttention
         query = list(request.form.get('query'))
-        print(pd.Series([query]))
-        query = pd.Series([query])
         demoTmp = run_model.RunAttentionModel(query)
         demoTmp.predict()
         result = demoTmp.run_demo()
@@ -192,5 +189,4 @@ def error500(err):
 
 
 if __name__ == '__main__':
-    app.run()
-    # app.run(host="0,0,0,0")
+    app.run(host="0.0.0.0", port="8000")

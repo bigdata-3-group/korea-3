@@ -5,6 +5,7 @@ import torch
 from attention.attention_model import StructuredSelfAttention
 from torch.autograd import Variable
 import os
+import pickle
 
 class RunAttentionModel(object):
     
@@ -23,7 +24,7 @@ class RunAttentionModel(object):
 
         self.input_text = input_text
         # model load
-        self.model = torch.load(os.getcwd()+'/model/self_attention_bp.pt')
+        self.model = torch.load(os.getcwd()+'\\model\\self_attention_bp.pt')
         
     def predict(self):
         # bpe preprocessing
@@ -59,11 +60,12 @@ class RunAttentionModel(object):
 if __name__ == '__main__':
     import run_model
     from attention.attention_model import StructuredSelfAttention
-    tmp = run_model.RunAttentionModel(['ㅁㅊ','개년아','ㅈㄹ'])
+    print("여기는 run_model임",__name__)
 
-    tmp.predict()
 
-    print(tmp.run_bj())
-
-    print(tmp.run_demo())
+    # tmp.predict()
+    #
+    # print(tmp.run_bj())
+    #
+    # print(tmp.run_demo())
 
