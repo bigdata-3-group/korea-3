@@ -1,12 +1,12 @@
 
 /*Ndemo 페이지에 대한 css--------------------------------*/
-body,html{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background: #9B111E !important;
-    }
+/*body,html{*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    background: #9B111E !important;*/
+/*    }*/
 
 
 
@@ -43,12 +43,12 @@ body,html{
     }
 
     .search_icon{
-    height: 40px;
-    width: 40px;
-    float: right;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    color:white;
+        height: 40px;
+        width: 40px;
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        color:white;
     }

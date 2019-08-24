@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='stylesheet' href="{{ url_for('static', filename='bootstrap/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/full.css') }}">
+    <script src="https://kit.fontawesome.com/128a736b7f.js"></script>
+
+
+    <title>Cyberaffiti</title>
+
+
+</head>
+
+
+<body>
+    <div class="board">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="{{ url_for('index') }}">
+                <img class="logo" src="{{ url_for('static', filename='images/logo.png') }}">
+                Cyberaffiti</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('introduce') }}">소개</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('download') }}">다운로드</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            시뮬레이션
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{{ url_for('demo') }}">Demo</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="{{ url_for('youtube') }}">유튜브</a>
+                            <a class="dropdown-item" href="{{ url_for('twitch') }}">트위치</a>
+                            <a class="dropdown-item" href="{{ url_for('afreeca') }}">아프리카</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container-fluid board-content">

@@ -53,6 +53,7 @@ def twi_chat(url):
     return chatdata
 
 
+<<<<<<< HEAD
 
 def youtube_jamak(url_id,lst=None):
     if lst==None:
@@ -68,20 +69,26 @@ def youtube_jamak(url_id,lst=None):
     video_url = base.replace(requests.compat.urlparse(base)[4],'v={}'.format(url_id))
     jamak_url=jamak_url_base.replace(requests.compat.urlparse(jamak_url_base)[4].split('&')[0],'v={}'.format(url_id))
     html = download('get',video_url)
+=======
+def youtube_jamak(url_id):
+    url = "https://www.youtube.com"+url_id
+    html = download('get', url)
+>>>>>>> 97a360676d4e051f4956750ea83318b4e4ba76fb
     dom = BeautifulSoup(html.text, 'lxml')
-    res = [re.findall(r'signature=(.+?)(\\\\u0026|\\u0026)', _.text) for _ in dom.select('script') if "signature" in _.text]
-    result = [x[0] for _ in res for x in _]
-    change_url = jamak_url.replace(requests.compat.urlparse(jamak_url)[4].split('&')[9],'signature={}'.format(result[0]))
-    change_url=change_url.replace(requests.compat.urlparse(jamak_url)[4].split('&')[7],re.findall(r'expire=\d+',html.text)[-1])
-    try:
-        resp=requests.request('get', change_url,headers=headers)
-        dom =BeautifulSoup(resp.text,'lxml')
-        lst.append(dom)
-        resp.raise_for_status()
-    except requests.exceptions.HTTPError as e:
-        if 400<=e.response.status_code<500 :
-            youtube_jamak(id,lst)
-    return [_.text for _ in lst[len(lst)-1].find_all('s')]
+    if len([_.text for _ in dom.select('script') if 'captionTracks' in _.text]) <= 0:
+        return None
+    else:
+        target = [_.text for _ in dom.select('script') if 'captionTracks' in _.text][0]
+        target = re.sub(r'\\','', target)
+        target = re.sub(r'u0026', '&', target)
+        capUrl = re.search(r'\{\"captionTracks\":\[\{\"baseUrl\"\:\"(.+)\",\"n',target).group(1)
+        capUrl = re.sub(r'&lang=(.+)', '&lang=ko', capUrl)
+        cap = download('get', capUrl)
+        caption = cap.text
+        caption = re.sub(r'&lt;','<',caption)
+        caption = re.sub(r'&gt;', '>', caption)
+        cDom = BeautifulSoup(caption, 'lxml')
+        return [_.text for _ in cDom.select('text')]
 
 
 

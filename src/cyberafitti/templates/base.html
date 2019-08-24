@@ -4,8 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
     <link rel="stylesheet" href="{{url_for('static', filename='bootstrap/bootstrap.css')}}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/loading.css') }}">
 
     <!-- Bootstrap CSS -->
     <script src="{{url_for('static', filename='js/jquery-3.4.1.min.js')}}"></script>
@@ -14,14 +15,6 @@
 
 
     <title>Cyberaffiti</title>
-    <style>
-        .empty_row{
-            height: 50px;
-        }
-        nav{
-            {#margin-top:0.5rem;#}
-        }
-        </style>
 
 
   </head>
@@ -33,6 +26,10 @@
         {% endblock contents %}
 
     </div>
+    <div class="empty-row"></div>
+    <div class="empty-row"></div>
+    <div class="empty-row"></div>
+    <div class="empty-row"></div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
