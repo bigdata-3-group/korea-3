@@ -1,8 +1,36 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <title>Cyberaffiti</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="{{url_for('static', filename='bootstrap/bootstrap.css')}}" >
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/loading.css') }}">
 
-  {% extends 'base.html' %}
-  {% block contents %}
+    <!-- Bootstrap CSS -->
+    <script src="{{url_for('static', filename='js/jquery-3.4.1.min.js')}}"></script>
+    <script src="https://kit.fontawesome.com/128a736b7f.js"></script>
+    <script src="{{ url_for('static', filename='js/Chart.bundle.min.js') }}"></script>
 
-    <div class="empty-row"></div>
+    <style>
+        #particles-js {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(to bottom, rgba(117, 114, 113, 0.8) 10%, rgba(40, 49, 77, 0.8) 30%, rgba(29, 35, 71, 0.8) 50%, rgba(19, 25, 28, 0.8) 80%, rgba(15, 14, 14, .8) 100%), url(https://38.media.tumblr.com/tumblr_m00c3czJkM1qbukryo1_500.gif);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: 50% 50%;
+        }
+    </style>
+
+  </head>
+  <body>
+    {% include 'nav.html' %}
+    <div id='particles-js' style="display: none"></div>
+    <div class="container-fluid">
     <div class="empty-row"></div>
     <div class="empty-row"></div>
     <div class="empty-row"></div>
@@ -11,10 +39,10 @@
     <div class="empty-row"></div>
 
     <form action="{{url_for('demo')}}" method='post'>
-        <div class="form-group form-row">
+        <div class="form-group form-row searchbox">
             <div class='col-md-3'></div>
             <div class='col-md-6'>
-                <input class="form-control" name="query" type="text" placeholder="당신은 얼마나 아름다운 언어를 사용하시나요?">
+                <input id="query" class="form-control search_input" name="query" type="text" placeholder="당신은 얼마나 아름다운 언어를 사용하시나요?">
             </div>
             <div class='col-md-1'>
                 <button type="submit" id="search" class="form-control btn-sm btn btn-primary btn-block"><i class="fas fa-search"></i></button>
@@ -22,6 +50,7 @@
             <div class='col-md-2'></div>
         </div>
     </form>
+
 
     {% if query %}
       <div class="row text-center">
@@ -34,12 +63,143 @@
 
 <script>
 var query = $('input[name=query]');
-$('#search').click(function(){
-    var loading = $('<div class="cover-wrap"/>').append($('<div class="display-wrap"/>').append($("<img src='/static/images/loading.gif'/>")));
-    var container = $(".container");
-    container.after(loading);
+var alert = $('<div class="alert alert-danger"/>');
+var particle = $('#particles-js');
+console.log(particle);
+$('form').submit(function(e){
+    e.preventDefault();
+
+    var queryTag = $('#query');
+    var query = queryTag.val();
+    if(!query){
+        queryTag.after(alert.text('문장을 입력하세요'));
+    }
+    else{
+        particle.css("display","inline-block");
+
+          particlesJS("particles-js", {
+          "particles": {
+            "number": {
+              "value": 400,
+              "density": {
+                "enable": true,
+                "value_area": 800
+              }
+            },
+            "color": {
+              "value": "#ffffff"
+            },
+            "shape": {
+              "type": "image",
+              "stroke": {
+                "width": 3,
+                "color": "#fff"
+              },
+              "polygon": {
+                "nb_sides": 5
+              },
+              "image": {
+                "src": "http://www.dynamicdigital.us/wp-content/uploads/2013/02/starburst_white_300_drop_2.png",
+                "width": 100,
+                "height": 100
+              }
+            },
+            "opacity": {
+              "value": 0.7,
+              "random": false,
+              "anim": {
+                "enable": false,
+                "speed": 1,
+                "opacity_min": 0.1,
+                "sync": false
+              }
+            },
+            "size": {
+              "value": 5,
+              "random": true,
+              "anim": {
+                "enable": false,
+                "speed": 20,
+                "size_min": 0.1,
+                "sync": false
+              }
+            },
+            "line_linked": {
+              "enable": false,
+              "distance": 50,
+              "color": "#ffffff",
+              "opacity": 0.6,
+              "width": 1
+            },
+            "move": {
+              "enable": true,
+              "speed": 5,
+              "direction": "bottom",
+              "random": true,
+              "straight": false,
+              "out_mode": "out",
+              "bounce": false,
+              "attract": {
+                "enable": true,
+                "rotateX": 300,
+                "rotateY": 1200
+              }
+            }
+          },
+          "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+              "onhover": {
+                "enable": true,
+                "mode":  "bubble"
+              },
+              "onclick": {
+                "enable": true,
+                "mode": "repulse"
+              },
+              "resize": true
+            },
+            "modes": {
+              "grab": {
+                "distance": 150,
+                "line_linked": {
+                  "opacity": 1
+                }
+              },
+              "bubble": {
+                "distance": 200,
+                "size": 40,
+                "duration": 2,
+                "opacity": 8,
+                "speed": 3
+              },
+              "repulse": {
+                "distance": 200,
+                "duration": 0.2
+              },
+              "push": {
+                "particles_nb": 4
+              },
+              "remove": {
+                "particles_nb": 2
+              }
+            }
+          },
+          "retina_detect": true
+        });
+        {#container.before(loading);#}
+        {#this.submit();#}
+    }
+
 });
 </script>
-  {%  endblock contents %}
+<script src='{{ url_for('static', filename='js/particles.min.js' )}}'></script>
+</div>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{{ url_for('static', filename='bootstrap/bootstrap.min.js') }}"></script>
+  </body>
+
+</html>
 
