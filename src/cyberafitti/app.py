@@ -162,7 +162,7 @@ def download():
 @app.route('/demo', methods=['GET', 'POST'])
 def demo():
     if request.method == "POST":
-        query = list(request.form.get('query'))
+        query = request.form.get('query')
         demoTmp = run_model.RunAttentionModel(query)
         demoTmp.predict()
         result = demoTmp.run_demo()
