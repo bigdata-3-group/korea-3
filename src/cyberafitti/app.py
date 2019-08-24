@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, url_for
-from run_model import run_model
+import run_model
+from attention.attention_model import StructuredSelfAttention
 import threading
 from flask_sqlalchemy import SQLAlchemy
 import vod_url_scrapping as vod
@@ -8,7 +9,7 @@ from sqlalchemy import and_, or_, create_engine
 from sqlalchemy.orm import sessionmaker
 import json
 from collections import defaultdict
-
+import pandas as pd
 
 app = Flask(__name__)
 
@@ -17,7 +18,6 @@ db = SQLAlchemy()
 db.init_app(app)
 
 # server.db에는 table이 2개 입니다. bj와 platform
-# bj table에 유해도 %를 저장할 column 추가 필요합니다.
 
 # 현재 프로그램이 돌아가는 방식은 서버가 시작되고 첫 request가 들어오면 스레드가 실행되며
 # db에 있는 유해도를 확인하지 않은 bj에 대하여 url(차단 파일에 들어가는 형식 ex) /234567, /watch=kljaooo)을 파싱해 옵니다
@@ -40,7 +40,7 @@ def first_strat():
 
 def run(session, Bj, Platform):
     # 확인하지 않은 bjList [(bj_id, platform)]을 가져와서
-    bjList = [(_.name, _.platform.name) for _ in session.query(Bj).filter_by(seen=0).all()]
+    bjList = [(_.name, _.platform.name) for _ in session.query(Bj).filter_by(seen=0).all()][:1]
     print(bjList)
 
     # 영상들의 url을 파싱해오고
@@ -70,13 +70,19 @@ def run(session, Bj, Platform):
 
         # 모델에 전달해준다.
         # result = run_model(data['content']) # 채팅 데이터가 data['content']
-        result = [int(run_model(data[data['url']==u]['content'])*100)
-                      if len(data[data['url']==u])>0 else 'unkown'
-                  for u in urlList]
+        result = []
+        for u in urlList:
+
+            if len(data[data['url'] == u]) > 0:
+                tmp = run_model.RunAttentionModel(data[data['url'] == u]['content'])
+                tmp.predict()
+                result.append(int(tmp.run_bj()*100))
+            else:
+                result.append('unkown')
+
         check_result = [ _ for _ in result if type(_) is int] # 확인한 영상에 대하여 평균을 낸다(bj유해도)
         if len(check_result) == 0:
             bj_db.seen = 1
-            bj_db.per = bj_result
             session.commit()
             continue
         bj_result = sum(check_result)/len(check_result)
@@ -95,6 +101,7 @@ def run(session, Bj, Platform):
             # 블랙 리스트라면 이 사람의 영상들 url 목록을 기존 차단 파일에 추가해준다.
             with open('./data/blacklist.json', 'r') as f:
                 blacklist = json.load(f)
+
 
             for k, v in zip(urlList, result):
                 blacklist[k] = v
@@ -154,12 +161,15 @@ def download():
 @app.route('/demo', methods=['GET', 'POST'])
 def demo():
     if request.method == "POST":
+        # import run_model
+        # from attention.attention_model import StructuredSelfAttention
         query = list(request.form.get('query'))
-        print(query)
-        result = run_model(query)
+        print(pd.Series([query]))
+        query = pd.Series([query])
+        demoTmp = run_model.RunAttentionModel(query)
+        demoTmp.predict()
+        result = demoTmp.run_demo()
         print("result = ", result)
-        result = "%.3f" % result
-        print("str result = ",result)
         return result
     else:
         return render_template('Ndemo.html')
