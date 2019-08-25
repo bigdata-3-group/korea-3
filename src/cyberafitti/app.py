@@ -171,7 +171,9 @@ def demo():
         query = request.form.get('query')
         demoTmp = run_model.RunAttentionModel([query])
         demoTmp.predict()
-        result = int(demoTmp.run_demo()[0][0] * 100)
+        result = demoTmp.run_demo()[0][0]
+        print(result)
+        result = int(result * 100)
         return render_template("Ndemo.html", result=result, query=query)
     else:
         return render_template('Ndemo.html')
