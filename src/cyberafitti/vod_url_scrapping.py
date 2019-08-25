@@ -114,7 +114,7 @@ def youtube_get_video_urls(bj_id):
         session.cookies.set(cookie["name"], cookie["value"])
 
     domain = 'https://www.youtube.com'  # 도메인 주소
-    url = domain + '/' + bj_id + '/videos'  # 시작 주소
+    url = domain + bj_id + '/videos'  # 시작 주소
     urlList = []
 
     while True:
