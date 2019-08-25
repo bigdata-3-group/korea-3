@@ -7,12 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="{{url_for('static', filename='bootstrap/bootstrap.css')}}" >
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/loading.css') }}">
 
     <!-- Bootstrap CSS -->
     <script src="{{url_for('static', filename='js/jquery-3.4.1.min.js')}}"></script>
     <script src="https://kit.fontawesome.com/128a736b7f.js"></script>
-    <script src="{{ url_for('static', filename='js/Chart.bundle.min.js') }}"></script>
+    <script src='{{ url_for('static', filename='js/particles.min.js' )}}'></script>
 
     <style>
         #particles-js {
@@ -63,13 +62,11 @@
 
 
 <script>
-    particlesJS("particles-js", {{ url_for('static',filename='css/snow.json') }});
+    particlesJS("particles-js", {{ url_for('static', filename='css/snow.json') }});
 </script>
 <script>
 var query = $('input[name=query]');
 var alert = $('<div class="alert alert-danger"/>');
-var particle = $('#particles-js');
-console.log(particle);
 $('form').submit(function(e){
     e.preventDefault();
 
@@ -84,7 +81,6 @@ $('form').submit(function(e){
 
 });
 </script>
-<script src='{{ url_for('static', filename='js/particles.min.js' )}}'></script>
 </div>
 
     <!-- Optional JavaScript -->
