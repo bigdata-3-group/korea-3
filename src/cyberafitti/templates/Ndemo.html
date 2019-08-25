@@ -29,7 +29,7 @@
   </head>
   <body>
     {% include 'nav.html' %}
-    <div id='particles-js' style="display: none"></div>
+    <div id='particles-js'></div>
     <div class="container-fluid">
     <div class="empty-row"></div>
     <div class="empty-row"></div>
@@ -61,6 +61,11 @@
       </div>
     {% endif %}
 
+
+<script>
+
+    particlesJS("particles-js", {{ url_for('static',filename='css/snow.json') }});
+</script>
 <script>
 var query = $('input[name=query]');
 var alert = $('<div class="alert alert-danger"/>');
@@ -187,7 +192,6 @@ $('form').submit(function(e){
           },
           "retina_detect": true
         });
-        {#container.before(loading);#}
         this.submit();
     }
 
