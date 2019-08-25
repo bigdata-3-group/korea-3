@@ -14,7 +14,6 @@
     <script src='{{ url_for('static', filename='js/particles.min.js' )}}'></script>
     <script>
         var query = "{{ query|safe }}";
-        console.log(query);
         if(query){
             $(window).ready(function(){
                 $('#myModal').modal('show');
