@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
 {% block contents %}
+    <div class="empty-row"></div>
     <div class="row">
         <div class="offset-md-2 col-md-8">
             <p class="semi-title">Download</p>
@@ -9,16 +10,19 @@
 
     <div class="empty-row"></div>
     <div class="empty-row"></div>
+    <div class="empty-row"></div>
+    <div class="empty-row"></div>
+    <div class="empty-row"></div>
 
     <div class="row text-center">
         <div class="offset-md-2 col-md-8">
-            <i class="download-icon fab fa-chrome"></i>
+            <img class="download-img" src="{{ url_for('static', filename='images/chrome.png') }}">
         </div>
     </div>
     <div class="empty-row"></div>
-    <div class='row'>
+    <div class='row text-center'>
         <div class="offset-md-2 col-md-8">
-            <a class="btn-block btn btn-primary btn-lg" href="https://chrome.google.com/webstore/category/extensions">Download here</a>
+            <a class="btn btn-link" href="https://chrome.google.com/webstore/category/extensions">Download here</a>
         </div>
     </div>
 {% endblock contents %}

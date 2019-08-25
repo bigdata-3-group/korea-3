@@ -24,8 +24,9 @@
 .warning{
     color:red;
 }
-.download-icon{
-    font-size: 15rem;
+.download-img{
+    min-width: 15rem;
+    min-height: 15rem;
 }
 #particles-js {
   position: absolute;
