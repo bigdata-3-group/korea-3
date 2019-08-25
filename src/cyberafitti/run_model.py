@@ -62,6 +62,7 @@ class RunAttentionModel(object):
 if __name__ == '__main__':
     import run_model
     from attention.attention_model import StructuredSelfAttention
+<<<<<<< HEAD
     tmp = run_model.RunAttentionModel(["이 새끼 진짜 진상", '이 샛기 찐상'])
 
     tmp.predict()
@@ -69,4 +70,13 @@ if __name__ == '__main__':
     print(tmp.run_bj())
 
     print(tmp.run_demo())
+=======
+    # tmp = run_model.RunAttentionModel("이 새끼 진짜 진상")
+    #
+    # tmp.predict()
+    #
+    # print(tmp.run_bj())
+    #
+    # print(tmp.run_demo())
+>>>>>>> ndemo
 
