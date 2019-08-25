@@ -139,26 +139,29 @@ def lst_to_sepsumnum(lst):
     return [str_to_sep_numlst(x,True) for x in lst]
 
 
-# In[98]:
+# In[123]:
 
 
 def sum_238(a):
     try:
         temp =238*238*a[0]+238*a[1]+a[2]-12889781
-    except IndexError as e:
-        print("한글이 아닙니다")
-    return temp
+        
+    except IndexError:
+        print("한글이 아닙니다 리스트에서 한글 아닌것을 지우세요")    
+    return temp    
 
 
-# In[99]:
+# In[116]:
 
 
 def sum_238s(a):
-     try:
+    try:
         temp =str(238*238*a[0]+238*a[1]+a[2]-12889781)
-    except IndexError as e:
-        print("한글이 아닙니다")
-    return temp  
+        return temp
+    except IndexError:
+        print("한글이 아닙니다 리스트에서 한글 아닌것을 지우세요")
+        raise
+    return temp
 
 
 # In[93]:
@@ -178,7 +181,7 @@ def findchar(x):
     return num_to_char(a)
 
 
-# In[94]:
+# In[107]:
 
 
 def sepnum_to_char(lst):
