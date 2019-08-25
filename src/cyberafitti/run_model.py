@@ -54,13 +54,15 @@ class RunAttentionModel(object):
         '''
         return : float, bj 유해 비율 
         '''
-        return self.pred.sum().data.numpy() / len(self.input_text)
+        bj_count = torch.round(self.pred.type(torch.DoubleTensor).squeeze(1)).sum().data.numpy()
+        
+        return bj_count / len(self.input_text)
 
 
 if __name__ == '__main__':
     import run_model
     from attention.attention_model import StructuredSelfAttention
-    tmp = run_model.RunAttentionModel("이 새끼 진짜 진상")
+    tmp = run_model.RunAttentionModel(["이 새끼 진짜 진상", '이 샛기 찐상'])
 
     tmp.predict()
 
