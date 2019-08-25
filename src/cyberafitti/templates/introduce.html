@@ -86,12 +86,14 @@
                     </tr>
                 </thead>
                 <tbody>
+                    {% for bj in black %}
                     <tr>
-                        <td>1</td>
-                        <td>철구</td>
-                        <td>아프리카tv</td>
-                        <td>12%</td>
+                        <td>{{bj[0]}}</td>
+                        <td>{{bj[1]}}</td>
+                        <td>{{bj[2]}}</td>
+                        <td>{{bj[3]}}</td>
                     </tr>
+                    {% endfor %}
                 </tbody>
             </table>
         </div>

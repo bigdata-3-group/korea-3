@@ -30,8 +30,8 @@ db.init_app(app)
 @app.before_first_request
 def first_strat():
     Session = sessionmaker(bind=create_engine('sqlite:///server.db'))
-    with open('./data/blacklist.json', 'w') as f:
-        json.dump(defaultdict(str), f)
+    # with open('./data/blacklist.json', 'w') as f:
+    #     json.dump(defaultdict(str), f)
     # 테스트 용으로 1회 실행되는 스레드입니다.
     # threading.Thread(target=run, args=[Session(), Bj, Platform]).start()
     # 7일마다 이 함수를 실행한다.(반복 실행)
@@ -59,8 +59,8 @@ def run(session, Bj, Platform):
         bj, platform = bj_pl
         print(platform, type(platform))
         print('bj={}, platform={}'.format(bj, platform))
-        # data = vod.make_dataset(bj, urlList, platform, len(urlList)) # 모든 영상 검사
-        data = vod.make_dataset(bj, urlList, platform, 3) # 영상 2개 검사 -> 마지막 파라미터 조절해서 검사 가능
+        data = vod.make_dataset(bj, urlList, platform, len(urlList)) # 모든 영상 검사
+        # data = vod.make_dataset(bj, urlList, platform, 3) # 영상 3개 검사 -> 마지막 파라미터 조절해서 검사 가능
         print("data.len = ", len(data))
         print(data.keys())
 
@@ -151,7 +151,13 @@ def twitch():
 
 @app.route('/introduce')
 def introduce():
-    return render_template('introduce.html')
+    black = [(i+1, _.nick, _.platform_id, _.per) for i, _ in
+             enumerate(Bj.query.order_by(Bj.per.desc()).limit(10).all())]
+    mapper = {1:'유튜브', 2:'아프리카tv', 3:"트위치"}
+    black = pd.DataFrame(black)
+    black[2] = black[2].map({1: '유튜브', 2: '아프리카tv', 3: "트위치"})
+    black = black.values
+    return render_template('introduce.html', black=black)
 
 
 @app.route('/download')

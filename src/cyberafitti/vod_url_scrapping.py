@@ -99,7 +99,7 @@ def twitch_get_video_urls(bj_id):
 # json, requests, BeautifulSoup, re
 def youtube_get_video_urls(bj_id):
     """
-    youtube bj_id를 받아서 영상의 url을 파싱해오는 함수(채널로 되어있는거 적용 x)
+    youtube bj_id를 받아서 영상의 url을 파싱해오는 함수(채널로 되어있는거 적용 o)
     :param bj_id: str
     :return: list, ex) ['/watch?v=aAKC8AD']
     """
@@ -114,7 +114,7 @@ def youtube_get_video_urls(bj_id):
         session.cookies.set(cookie["name"], cookie["value"])
 
     domain = 'https://www.youtube.com'  # 도메인 주소
-    url = domain + '/user/' + bj_id + '/videos'  # 시작 주소
+    url = domain + '/' + bj_id + '/videos'  # 시작 주소
     urlList = []
 
     while True:
