@@ -56,7 +56,7 @@ def createJS(texts, weights):
         heat_text += "<span style='background-color:rgba(" + color + "," + intensity[i] + ")'>" + space + tokens[i] + "</span>";
     }
     
-    document.body.innerHTML += heat_text;
+    $('#attention').append(heat_text);
     
     """
 

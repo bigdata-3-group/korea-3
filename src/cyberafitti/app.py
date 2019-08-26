@@ -67,7 +67,7 @@ def run(session, Bj, Platform):
 
 
         # 파일로 저장해주고
-        data.to_csv('./data/'+bj+'('+platform+')'+'.csv')
+        data.to_csv('./data/chat'+bj+'('+platform+')'+'.csv')
 
         # 모델에 전달해준다.
         # result = run_model(data['content']) # 채팅 데이터가 data['content']
@@ -173,9 +173,9 @@ def demo():
         demoTmp = run_model.RunAttentionModel([query])
         demoTmp.predict()
         result = demoTmp.run_demo()[0][0]
-        print(result)
         result = int(result * 100)
-        return render_template("Ndemo.html", result=result, query=query)
+        script = demoTmp.visualize()
+        return render_template("Ndemo.html", result=result, script=script)
     else:
         return render_template('Ndemo.html')
 

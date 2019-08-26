@@ -55,11 +55,11 @@
 
     <div class="empty-row"></div>
 
-    <div class="row">
-        <div class='offset-md-2 col-md-8'>
-            <div>특정 예시 가지고 어탠션 시각화를 넣을 예정이다.</div>
+    <div class="row text-center">
+        <div id='attention' class='offset-md-2 col-md-8 accent' style="font-size: 1.5rem">
+
         </div>
-    </div>
+    s</div>
 
     <div class="empty-row"></div>
 
@@ -113,6 +113,9 @@
         </div>
     </div>
 
+    <script>
+        {{ script|safe }}
+    </script>
     <script>
         var ctx = document.getElementById('harm').getContext('2d');
         var chart = new Chart(ctx, {
