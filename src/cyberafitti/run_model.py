@@ -26,7 +26,7 @@ class RunAttentionModel(object):
 
         self.input_text = input_text
         # model load
-        self.model = torch.load(os.getcwd()+'/model/self_attention_bp.pt')
+        self.model = torch.load(os.getcwd()+'/model/self_attention_bp_mixed_10.pt')
         
     def predict(self):
         # bpe preprocessing
