@@ -174,7 +174,7 @@ def demo():
         demoTmp.predict()
         result = demoTmp.run_demo()[0][0]
         result = int(result * 100)
-        script = demoTmp.visualization()
+        script = demoTmp.visualize()
         return render_template("Ndemo.html", result=result, script=script)
     else:
         return render_template('Ndemo.html')
