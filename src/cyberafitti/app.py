@@ -153,10 +153,11 @@ def twitch():
 def introduce():
     black = [(i+1, _.nick, _.platform_id, _.per) for i, _ in
              enumerate(Bj.query.filter_by(blacklist=1).order_by(Bj.per.desc()).limit(10).all())]
-    mapper = {1:'유튜브', 2:'아프리카tv', 3:"트위치"}
-    black = pd.DataFrame(black)
-    black[2] = black[2].map({1: '유튜브', 2: '아프리카tv', 3: "트위치"})
-    black = black.values
+    if black:
+        mapper = {1: '유튜브', 2: '아프리카tv', 3: "트위치"}
+        black = pd.DataFrame(black)
+        black[2] = black[2].map({1: '유튜브', 2: '아프리카tv', 3: "트위치"})
+        black = black.values
     return render_template('introduce.html', black=black)
 
 
