@@ -182,7 +182,7 @@ def demo():
 @app.route('/mandoo')
 def mandoo():
     query = request.args.get('test')
-    return '"test":3'
+    return '{"test":3}'
 
 @app.errorhandler(403)
 def error404(err):
