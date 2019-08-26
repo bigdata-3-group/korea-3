@@ -27,6 +27,8 @@
 .download-img{
     min-width: 10rem;
     min-height: 10rem;
+    max-width: 15rem;
+    max-height: 15rem;
 }
 #particles-js {
   position: absolute;
