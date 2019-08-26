@@ -45,12 +45,12 @@
         for (var i = 0; i < intensity.length; i++) {
             intensity[i] = (intensity[i] - min_intensity) / denominator;
         }
-        var heat_text = "";
+        var heat_text = "<p>";
         var space = "";
         for (var i = 0; i < tokens.length; i++) {
             heat_text += "<span style='background-color:rgba(" + color + "," + intensity[i] + ")'>" + space + tokens[i] + "</span>";
         }
-        
+        heat_text += "</p>"
         $('#attention').append(heat_text);
         
         
