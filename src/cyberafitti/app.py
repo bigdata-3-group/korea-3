@@ -179,6 +179,10 @@ def demo():
     else:
         return render_template('Ndemo.html')
 
+@app.route('/mandoo')
+def mandoo():
+    query = request.args.get('test')
+    return '안녕 만두야'
 
 @app.errorhandler(403)
 def error404(err):
