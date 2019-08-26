@@ -181,6 +181,11 @@ def demo():
 
 @app.route('/mandoo')
 def mandoo():
+    # 주소가 오면 받아서 blacklist에 있는 것인지 확인하고 있으면(어차피 차단될것) 아무것도 반환 안 하고
+    # 블랙리스트에 없으면
+    # 파싱해서 유해도 산출한 후 유해하면 전송 {"차단url":유해도}
+    # 그러면 아직 유해하지 않은 것들은 계속 확인하는가? 들어올 때 마다?
+    # -> 서버가 힘들거 같음 ...
     query = request.args.get('test')
     return '{"zilioner83" : 15}'
 
