@@ -12,6 +12,14 @@
     <script src="{{url_for('static', filename='js/jquery-3.4.1.min.js')}}"></script>
     <script src="https://kit.fontawesome.com/128a736b7f.js"></script>
     <script src='{{ url_for('static', filename='js/particles.min.js' )}}'></script>
+    <script>
+        var query = "{{ query|safe }}";
+        if(query){
+            $(window).ready(function(){
+                $('#myModal').modal('show');
+            });
+        }
+    </script>
 
     <style>
         #particles-js {
@@ -36,30 +44,7 @@
     <div class="empty-row"></div>
     <div class="empty-row"></div>
     <div class="empty-row"></div>
-    <div class="empty-row"></div>
-    <div class="empty-row"></div>
 
-    {% if query %}
-        <div class="modal" id="exampleModalCenter" tabindex="-1" role="dialog" >
-          <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalCenterTitle">당신이 입력한 문장의 유해정도</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
-              <div class="modal-body">
-                <p>{{query}}</p>
-                <p><span class="accent warning">{{ result }}%</span> 유해합니다.</p>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-    {% endif %}
 
     <form action="{{url_for('demo')}}" method='post'>
         <div class="form-group form-row searchbox">
@@ -73,6 +58,26 @@
             <div class='col-md-2'></div>
         </div>
     </form>
+
+    <div class="modal" id="myModal" tabindex="-1" role="dialog" >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">당신이 입력한 문장의 유해정도</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>{{query}}</p>
+            <p><span class="accent warning">{{ result }}%</span> 유해합니다.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 {#    {% if query %}#}
