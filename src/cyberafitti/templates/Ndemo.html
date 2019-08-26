@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/128a736b7f.js"></script>
     <script src='{{ url_for('static', filename='js/particles.min.js' )}}'></script>
     <script>
-        var query = "{{ script|safe }}";
+        var query = "{{ result }}";
         if(query){
             $(window).ready(function(){
                 $('#myModal').modal('show');
