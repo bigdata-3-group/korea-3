@@ -67,7 +67,8 @@ class RunAttentionModel(object):
         '''
         
         # 텍스트를 어텐션 모델 인풋 길이와 똑같게끔 만들어준다.
-        chat_to_bytelength = chat_to_byteLength(self.input_text[0])[-50:]
+        chat_to_bytelength = chat_to_byteLength(self.input_text[0])
+        chat_to_bytelength = '_'*(50-len(chat_to_bytelength)) + chat_to_bytelength
 
         # 어텐션 차원을 합한다.
         wts_add = torch.sum(self.attwts, 1).data.numpy()[0]
