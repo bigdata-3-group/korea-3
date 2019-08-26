@@ -4,7 +4,7 @@ from torch.autograd import Variable
 import torch.nn.functional as F
 import torch.utils.data as data_utils
  
-EMB_DIM = 30
+EMB_DIM = 10
 VOCAB_SIZE = 260
 class StructuredSelfAttention(torch.nn.Module):
     """
