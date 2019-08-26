@@ -6,6 +6,8 @@ from attention.attention_model import StructuredSelfAttention
 from torch.autograd import Variable
 import os
 import pickle
+from utils.visualize_attention import *
+
 
 class RunAttentionModel(object):
     
@@ -18,7 +20,7 @@ class RunAttentionModel(object):
         '''
 
         # model parameter 
-        self._MAX_LEN = 30
+        self._MAX_LEN = 50
         self._VOCAB_SIZE = 260
         self._EMB_DIM = 10
 
@@ -37,7 +39,7 @@ class RunAttentionModel(object):
         self.model.hidden_state = self.model.init_hidden()
         input_tensor = Variable(torch.from_numpy(self.input_padded).type(torch.LongTensor))
 
-        self.pred, _ = self.model(input_tensor)
+        self.pred, self.attwts = self.model(input_tensor)
         
         return
 
@@ -58,15 +60,33 @@ class RunAttentionModel(object):
         
         return bj_count / len(self.input_text)
 
+    def visualize(self):
+        '''
+        어텐션 시각화 함수
+        return : (String type) javaScript
+        '''
+        
+        # 텍스트를 어텐션 모델 인풋 길이와 똑같게끔 만들어준다.
+        chat_to_bytelength = chat_to_byteLength(self.input_text[0])[-50:]
+
+        # 어텐션 차원을 합한다.
+        wts_add = torch.sum(self.attwts, 1).data.numpy()[0]
+
+        
+        return createJS(chat_to_bytelength, wts_add)
+
+
+
 
 if __name__ == '__main__':
     import run_model
     from attention.attention_model import StructuredSelfAttention
-    tmp = run_model.RunAttentionModel(["이 새끼 진짜 진상", '이 샛기 찐상'])
+    tmp = run_model.RunAttentionModel(['이걸 어텐션 시각화 해보시오 좆1밥아ㅋㅋ'])
 
     tmp.predict()
+    print(tmp.visualize())
 
-    print(tmp.run_bj())
+    # print(tmp.run_bj())
 
-    print(tmp.run_demo())
+    # print(tmp.run_demo())
 
