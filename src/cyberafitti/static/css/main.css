@@ -25,12 +25,8 @@
     color:red;
 }
 .download-img{
-    min-width:10rem;
-    min-height: 10rem;
-    max-widows: 15rem;
-    max-height: 15rem;
-    width:13rem;
-    height: 13rem;
+    width:17rem;
+    height: 17rem;
 }
 #particles-js {
   position: absolute;
