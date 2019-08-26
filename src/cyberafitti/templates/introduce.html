@@ -113,7 +113,11 @@
         </div>
     </div>
 
-    <script></script>
+    <script src="{{ url_for('static', filename='js/example(5).js') }}"></script>
+    <script src="{{ url_for('static', filename='js/example(4).js') }}"></script>
+    <script src="{{ url_for('static', filename='js/example(3).js') }}"></script>
+    <script src="{{ url_for('static', filename='js/example(2).js') }}"></script>
+    <script src="{{ url_for('static', filename='js/example(1).js') }}"></script>
     <script>
         var ctx = document.getElementById('harm').getContext('2d');
         var chart = new Chart(ctx, {
