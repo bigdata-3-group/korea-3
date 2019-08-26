@@ -49,8 +49,8 @@ var trigram_weights = [1.1435853e-09,6.9881509e-08,7.9397472e-10,1.7882783e-08,1
     var space = "";
     for (var i = 0; i < tokens.length; i++) {
         heat_text += "<span style='background-color:rgba(" + color + "," + intensity[i] + ")'>" + space + tokens[i] + "</span>";
-    }
-    heat_text += "</p>"
+    };
+    heat_text += "</p>";
     $('#attention').append(heat_text);
     
     
