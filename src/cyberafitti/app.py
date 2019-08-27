@@ -214,7 +214,7 @@ def mandoo():
     user = res['private']
     url = res["url"]
     chat = res["chat"]
-    print("private = {}, url = {}, chat = {}".format(url, chat))
+    print("private = {}, url = {}, chat = {}".format(user, url, chat))
     if "http" in url:
         stream[user][url][1] += 1
         tmp = run_model.RunAttentionModel([chat])
