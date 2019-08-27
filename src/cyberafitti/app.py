@@ -195,7 +195,7 @@ def parseUrl(url):
         netloc = 'afreeca'
         path = urls[2].split('/')[-1]
     else:
-        path = urls[2].split('/')[-1]
+        path = '/'+urls[2].split('/')[-1]
     return netloc, path
 
 @app.route('/mandoo')
