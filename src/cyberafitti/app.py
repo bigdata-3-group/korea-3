@@ -225,10 +225,10 @@ def mandoo():
         result = int(tmp.run_demo()*100)
         print("result = ", result)
         st[1] += 1
-        if result > 79:
+        if result > 49:
             st[0] += 1
             print("욕설 : {}, 채팅수 : {}".format(st[0], st[1]))
-        if st[0] > 2:
+        if st[0] > 11:
             per = int(st[0] / st[1] * 100)
             return '{"' + url + '":' + str(per) + '}'
         else:
