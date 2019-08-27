@@ -71,7 +71,7 @@
                 </button>
               </div>
               <div class="modal-body" id="attention">
-                <br>
+                <br><br>
                 <p class="text-right"><span class="accent warning">{{ result }}%</span> 유해합니다.</p>
               </div>
               <div class="modal-footer">
@@ -199,7 +199,7 @@
     </script>
     <script>
     var query = $('input[name=query]');
-    var alert = $('<div class="alert alert-danger"/>');
+    var alert = $('<br><div class="alert alert-danger"/>');
     $('form').submit(function(e){
         e.preventDefault();
 
