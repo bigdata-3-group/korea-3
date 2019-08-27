@@ -216,12 +216,12 @@ def mandoo():
     chat = res["chat"]
     print("private = {}, url = {}, chat = {}".format(user, url, chat))
     if "http" in url:
-        stream[user][url][1] += 1
         tmp = run_model.RunAttentionModel([chat])
         tmp.predict()
         result = int(tmp.run_demo()*100)
         print("result = ", result)
         url = requests.compat.urlparse(url)[2]
+        stream[user][url][1] += 1
         if result > 79:
             stream[user][url][0] += 1
             if stream[user][url][0] > 7:
