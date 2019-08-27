@@ -209,6 +209,7 @@ def mandoo():
 
     chat = request.args.get('chat') # chat
     print(chat)
+    return "N"
     # if chat:
     #     tmp = run_model.RunAttentionModel([chat])
     #     tmp.predict()
