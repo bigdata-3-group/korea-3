@@ -226,11 +226,12 @@ def mandoo():
         st[1] += 1
         if result > 79:
             st[0] += 1
+            if st[0] > 3:
+                per = int(st[0] / st[1] * 100)
+                return '{"' + url + '":' + str(per) + '}'
         else:
             return "N"
-        if st[0] > 7:
-            per = int(st[0] / st[1] * 100)
-            return '{"' + url + '":' + str(per) + '}'
+
         return "N"
     else:
         return "N"
