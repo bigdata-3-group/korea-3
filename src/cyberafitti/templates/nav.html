@@ -9,35 +9,33 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             {% if request.path =='/introduce' %}
-          <li class="nav-item active">
-            <a class="nav-link" href="{{ url_for('introduce') }}"> 소개 <span class="sr-only">(current)</span></a>
-          </li>
-        {% else %}
-            <li class="nav-item">
+              <li class="nav-item active">
                 <a class="nav-link" href="{{ url_for('introduce') }}"> 소개 <span class="sr-only">(current)</span></a>
-            </li>
-        {% endif %}
-        {% if request.path =='/download' %}
-            <li class="nav-item active">
-                <a class="nav-link" href="{{ url_for('download') }}"> 다운로드 <span class="sr-only">(current)</span></a>
-            </li>
-        {% else %}
-            <li class="nav-item">
-                <a class="nav-link" href="{{ url_for('download') }}"> 다운로드 <span class="sr-only">(current)</span></a>
-            </li>
-        {% endif %}
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    시뮬레이션
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="{{ url_for('demo') }}">Demo</a>
-{#                    <div class="dropdown-divider"></div>#}
-{#                    <a class="dropdown-item" href="{{ url_for('youtube') }}">유튜브</a>#}
-{#                    <a class="dropdown-item" href="{{ url_for('twitch') }}">트위치</a>#}
-{#                    <a class="dropdown-item" href="{{ url_for('afreeca') }}">아프리카</a>#}
-                </div>
-            </li>
+              </li>
+            {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('introduce') }}"> 소개 <span class="sr-only">(current)</span></a>
+                </li>
+            {% endif %}
+            {% if request.path =='/download' %}
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('download') }}"> 다운로드 <span class="sr-only">(current)</span></a>
+                </li>
+            {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('download') }}"> 다운로드 <span class="sr-only">(current)</span></a>
+                </li>
+            {% endif %}
+            {% if request.path =='/demo' %}
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('demo') }}"> Demo <span class="sr-only">(current)</span></a>
+                </li>
+            {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('demo') }}"> Demo <span class="sr-only">(current)</span></a>
+                </li>
+            {% endif %}
+
         </ul>
     </div>
 </nav>

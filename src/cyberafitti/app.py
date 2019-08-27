@@ -11,8 +11,6 @@ import json
 from collections import defaultdict
 import pandas as pd
 import requests
-import re
-from scrapChat import afre_chat, twi_chat, youtube_jamak
 
 app = Flask(__name__)
 
@@ -84,7 +82,11 @@ def run(session, Bj, Platform):
             else:
                 result.append('unkown')
 
+        if platform == 'twitch':
+            urlList = [_ for _ in urlList]
         check_result = [ _ for _ in result if type(_) is int] # 확인한 영상에 대하여 평균을 낸다(bj유해도)
+        platform_id = session.query(Platform).filter_by(name=platform).first().id
+        bj_db = session.query(Bj).filter(and_(Bj.name == bj, Bj.platform_id == platform_id)).first()
         if len(check_result) == 0:
             bj_db.seen = 1
             session.commit()
@@ -94,8 +96,6 @@ def run(session, Bj, Platform):
         # print("bj_result=", bj_result)
 
         # 받은 결과로 유해하다면 db에 blacklist를 1로 변환하고, blockUrl_list.js파일로 만들어 저장해준다.
-        platform_id = session.query(Platform).filter_by(name=platform).first().id
-        bj_db = session.query(Bj).filter(and_(Bj.name==bj, Bj.platform_id==platform_id)).first()
         if bj_db.platform_id != 1: # 유튜브가 아니면 /bj_id도 추가해주어야 함.
             urlList.append("/"+bj) # /bj아이디 형식도 차단 목록에 넣어 주어야 함. -> 유튜브는 다르다.
             result.append(bj_result)
@@ -134,24 +134,6 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/youtube', methods=['GET', 'POST'])
-def youtube():
-    # return render_template('youtube.html')
-    return render_template('prepare.html')
-
-
-@app.route('/afreeca', methods=['GET', 'POST'])
-def afreeca():
-    # return render_template('afreeca.html')
-    return render_template('prepare.html')
-
-
-@app.route('/twitch', methods=['GET', 'POST'])
-def twitch():
-    # return render_template('twitch.html')
-    return render_template('prepare.html')
-
-
 @app.route('/introduce')
 def introduce():
     black = [(i+1, _.nick, _.platform_id, _.per) for i, _ in
@@ -159,7 +141,7 @@ def introduce():
     if black:
         mapper = {1: '유튜브', 2: '아프리카tv', 3: "트위치"}
         black = pd.DataFrame(black)
-        black[2] = black[2].map({1: '유튜브', 2: '아프리카tv', 3: "트위치"})
+        black[2] = black[2].map(mapper)
         black = black.values
     return render_template('introduce.html', black=black)
 
@@ -183,22 +165,6 @@ def demo():
         return render_template('Ndemo.html')
 
 
-def parseUrl(url):
-    urls = requests.compat.urlparse(url)
-    # 도메인 파싱
-    netloc = re.search('\.(.+?)\.', urls[1]).group(1)
-    if netloc == 'youtube':
-        if 'watch?' not in url:
-            return '', ''
-        path = urls[2] + '?' + urls[4]
-    elif netloc == 'afreecatv':
-        netloc = 'afreeca'
-        path =  urls[2].split('/')[-1]
-    else: # twitch 여기를 손봐야 될거같아
-        path = '/'+urls[2].split('/')[-1]
-    return netloc, path
-
-
 stream = defaultdict(lambda: defaultdict(lambda:[0,0]))
 
 @app.route('/mandoo', methods=["POST"])
@@ -206,8 +172,6 @@ def mandoo():
     # 주소가 오면 받아서 blacklist에 있는 것인지 확인하고 있으면(어차피 차단될것) 아무것도 반환 안 하고
     # 블랙리스트에 없으면
     # 파싱해서 유해도 산출한 후 유해하면 전송 {"차단url":유해도}
-    # 그러면 아직 유해하지 않은 것들은 계속 확인하는가? 들어올 때 마다?
-    # -> 서버가 힘들거 같음 ...
     # 실시간용(스트리밍용)
 
     res = json.loads(request.form.get('chat')) # chat
@@ -225,10 +189,10 @@ def mandoo():
         result = int(tmp.run_demo()*100)
         print("result = ", result)
         st[1] += 1
-        if result > 49:
+        if result > 49: # 50% 이상이면 유해한 채팅
             st[0] += 1
             print("욕설 : {}, 채팅수 : {}".format(st[0], st[1]))
-        if st[0] > 11:
+        if st[0] > 11: # 100개중 12개 이상 나오면 유해하다 판단하고 차단
             per = int(st[0] / st[1] * 100)
             return '{"' + url + '":' + str(per) + '}'
         else:

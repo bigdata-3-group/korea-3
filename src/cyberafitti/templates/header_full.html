@@ -33,18 +33,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ url_for('download') }}">다운로드</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            시뮬레이션
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ url_for('demo') }}">Demo</a>
-{#                            <div class="dropdown-divider"></div>#}
-{#                            <a class="dropdown-item" href="{{ url_for('youtube') }}">유튜브</a>#}
-{#                            <a class="dropdown-item" href="{{ url_for('twitch') }}">트위치</a>#}
-{#                            <a class="dropdown-item" href="{{ url_for('afreeca') }}">아프리카</a>#}
-                        </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('demo') }}">Demo</a>
                     </li>
+
                 </ul>
             </div>
         </nav>
