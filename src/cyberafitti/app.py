@@ -211,13 +211,13 @@ def mandoo():
     url = res["url"]
     chat = res["chat"]
     print("url = {}, chat = {}".format(url, chat))
-    if chat:
+    if "http" in url:
         tmp = run_model.RunAttentionModel([chat])
         tmp.predict()
         result = int(tmp.run_demo()*100)
         print("result = ", result)
         url = requests.compat.urlparse(url)[2]
-        if result >= 8:
+        if result > 79:
             return '{"'+url+'":'+str(result)+'}'
         else:
             return "N"
