@@ -4,7 +4,7 @@ import re
 from functools import reduce
 
 def chat_to_byteLength(text):
-    return reduce(lambda x,y:re.sub(y, y+"__", x), set(re.findall(r'[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]', text)), text)
+    return reduce(lambda x,y:re.sub(y, y+"__", x), set(re.findall(r'[ㄱ-ㅎㅏ-ㅣ가-힣]', text)), text)
 
 def createJS(texts, weights):
     """
