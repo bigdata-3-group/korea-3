@@ -188,13 +188,13 @@ def parseUrl(url):
     # 도메인 파싱
     netloc = re.search('\.(.+?)\.', urls[1]).group(1)
     if netloc == 'youtube':
-        if 'watch' not in url:
+        if 'watch?' not in url:
             return '', ''
         path = urls[2] + '?' + urls[4]
     elif netloc == 'afreecatv':
         netloc = 'afreeca'
-        path = urls[2].split('/')[-1]
-    else:
+        path =  urls[2].split('/')[-1]
+    else: # twitch 여기를 손봐야 될거같아
         path = '/'+urls[2].split('/')[-1]
     return netloc, path
 
@@ -205,39 +205,53 @@ def mandoo():
     # 파싱해서 유해도 산출한 후 유해하면 전송 {"차단url":유해도}
     # 그러면 아직 유해하지 않은 것들은 계속 확인하는가? 들어올 때 마다?
     # -> 서버가 힘들거 같음 ...
-    query = request.args.get('test')
+    # 실시간용(스트리밍용)
 
-    print("query = ", query)
-    platform, url = parseUrl(query)
-    print('platform = ', platform)
-    print('url = ', url)
-    if platform == '' or url == '' :
-        return 'N'
-    # 블랙리스트 확인 --> 서버 터질 우려 있음 매번 열면...
-    # 주기적으로 업데이트 해주고 전역변수로 만들어야 할 듯
-    with open('./data/blacklist.json', 'r') as f:
-        blacklist = json.load(f)
+    chat = request.args.get('chat') # chat
+    print(chat)
+    # if chat:
+    #     tmp = run_model.RunAttentionModel([chat])
+    #     tmp.predict()
+    #     result = int(tmp.run_demo()*100)
+    #     print("result = ", result)
+    #     return result
+    # else:
+    #     return
 
-    # 이미 블랙리스트에 있으면 N 반환
-    if url in blacklist:
-        return 'N'
 
-    # 없으면 채팅 긁어와서 모델을 돌리고 유해도 판정하여 반환
-    try:
-        data = vod.make_dataset([url], platform, n=1)
-        print("파싱 완료", data.shape)
-        # tmp = run_model.RunAttentionModel(data)
-        # tmp.predict()
-        # result = int(tmp.run_bj()*100)
-        result = 12;
-        if result > 5:
-            print(json.dumps({url:result}))
-            return json.dumps({url:result})
-        else:
-            return 'N'
-    except:
-        print("error 발생")
-        return 'N' # 에러발생(못찾거나 등등 이면 N을 반환해줄거임
+    # 기존에 있는 영상 채팅/ 자막 가져옴
+    # print("query = ", query)
+    # platform, url = parseUrl(query)
+    # print('platform = ', platform)
+    # print('url = ', url)
+    # if platform == '' or url == '' :
+    #     return 'N'
+    # # 블랙리스트 확인 --> 서버 터질 우려 있음 매번 열면...
+    # # 주기적으로 업데이트 해주고 전역변수로 만들어야 할 듯
+    # with open('./data/blacklist.json', 'r') as f:
+    #     blacklist = json.load(f)
+    #
+    # # 이미 블랙리스트에 있으면 N 반환
+    # if url in blacklist:
+    #     return 'N'
+    #
+    # # 없으면 채팅 긁어와서 모델을 돌리고 유해도 판정하여 반환
+    # try:
+    #     data = vod.make_dataset([url], platform, n=1)
+    #     print("파싱 완료", data.shape)
+    #     tmp = run_model.RunAttentionModel(data)
+    #     tmp.predict()
+    #     result = int(tmp.run_bj()*100)
+    #     print("result = ",result);
+    #     # result = 12;
+    #     if result >= 8:
+    #         print(json.dumps({url:result}))
+    #         return json.dumps({url:result})
+    #     else:
+    #         return 'N'
+    # except:
+    #     print("error 발생")
+    #     return 'N' # 에러발생(못찾거나 등등 이면 N을 반환해줄거임
 
 
 
