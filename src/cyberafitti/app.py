@@ -207,7 +207,7 @@ def mandoo():
     # -> 서버가 힘들거 같음 ...
     # 실시간용(스트리밍용)
 
-    res = request.form.get('chat') # chat
+    res = json.loads(request.form.get('chat')) # chat
     url = res["url"]
     chat = res["chat"]
     print("url = {}, chat = {}".format(url, chat))
@@ -217,7 +217,10 @@ def mandoo():
         result = int(tmp.run_demo()*100)
         print("result = ", result)
         url = requests.compat.urlparse(url)[2]
-        return '{"'+url+'":'+str(result)+'}'
+        if result >= 8:
+            return '{"'+url+'":'+str(result)+'}'
+        else:
+            return "N"
     else:
         return "N"
 
