@@ -223,7 +223,7 @@ def mandoo():
         if result > 79:
             stream['url'] += 1
             if stream['url'] > 7:
-                return '{"' + url + '":' + str(result) + '}'
+                return '{"' + url + '":' + str(8) + '}'
             return "N"
         else:
             return "N"
