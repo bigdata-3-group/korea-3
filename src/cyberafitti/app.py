@@ -198,6 +198,9 @@ def parseUrl(url):
         path = '/'+urls[2].split('/')[-1]
     return netloc, path
 
+
+stream = defaultdict(int)
+
 @app.route('/mandoo', methods=["POST"])
 def mandoo():
     # 주소가 오면 받아서 blacklist에 있는 것인지 확인하고 있으면(어차피 차단될것) 아무것도 반환 안 하고
@@ -218,7 +221,10 @@ def mandoo():
         print("result = ", result)
         url = requests.compat.urlparse(url)[2]
         if result > 79:
-            return '{"'+url+'":'+str(result)+'}'
+            stream['url'] += 1
+            if stream['url'] > 8:
+                return '{"' + url + '":' + str(result) + '}'
+            return "N"
         else:
             return "N"
     else:
