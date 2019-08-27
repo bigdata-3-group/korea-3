@@ -212,24 +212,26 @@ def mandoo():
 
     res = json.loads(request.form.get('chat')) # chat
     user = res['private']
-    url = res["url"]
+    url = requests.compat.urlparse(res['url'])[2]
     chat = res["chat"]
     print("private = {}, url = {}, chat = {}".format(user, url, chat))
+    st = stream[user][url]
+    if st[0] < 8 and st[1] >=100:
+        st[0], st[1] = 0, 0
     if "http" in url:
         tmp = run_model.RunAttentionModel([chat])
         tmp.predict()
         result = int(tmp.run_demo()*100)
         print("result = ", result)
-        url = requests.compat.urlparse(url)[2]
-        stream[user][url][1] += 1
+        st[1] += 1
         if result > 79:
-            stream[user][url][0] += 1
-            if stream[user][url][0] > 7:
-                per = int(stream[user][url][0]/stream[user][url][1] * 100)
-                return '{"' + url + '":' + str(per) + '}'
-            return "N"
+            st[0] += 1
         else:
             return "N"
+        if st[0] > 7:
+            per = int(st[0] / st[1] * 100)
+            return '{"' + url + '":' + str(per) + '}'
+        return "N"
     else:
         return "N"
 
