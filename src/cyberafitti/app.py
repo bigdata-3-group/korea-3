@@ -199,7 +199,7 @@ def parseUrl(url):
     return netloc, path
 
 
-stream = defaultdict(int)
+stream = defaultdict(lambda: defaultdict(lambda:[0,0]))
 
 @app.route('/mandoo', methods=["POST"])
 def mandoo():
@@ -211,19 +211,22 @@ def mandoo():
     # 실시간용(스트리밍용)
 
     res = json.loads(request.form.get('chat')) # chat
+    user = res['private']
     url = res["url"]
     chat = res["chat"]
-    print("url = {}, chat = {}".format(url, chat))
+    print("private = {}, url = {}, chat = {}".format(url, chat))
     if "http" in url:
+        stream[user][url][1] += 1
         tmp = run_model.RunAttentionModel([chat])
         tmp.predict()
         result = int(tmp.run_demo()*100)
         print("result = ", result)
         url = requests.compat.urlparse(url)[2]
         if result > 79:
-            stream['url'] += 1
-            if stream['url'] > 7:
-                return '{"' + url + '":' + str(8) + '}'
+            stream[user][url][0] += 1
+            if stream[user][url][0] > 7:
+                per = int(stream[user][url][0]/stream[user][url][1] * 100)
+                return '{"' + url + '":' + str(per) + '}'
             return "N"
         else:
             return "N"
