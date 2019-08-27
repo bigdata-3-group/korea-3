@@ -141,7 +141,7 @@ def youtube_get_video_urls(bj_id):
     return urlList
 
 
-def afreeca_make_datasets(bj_id, urls, n=3):
+def afreeca_make_datasets(urls, n=3):
     '''
     파싱해온 urls를 넣으면 영상 3개에서 chatingdata를 뽑아온다.
     :param bj_id: str
@@ -160,7 +160,7 @@ def afreeca_make_datasets(bj_id, urls, n=3):
     return result.reset_index()
 
 
-def twitch_make_datasets(bj_id, urls, n=3):
+def twitch_make_datasets(urls, n=3):
     '''
     트위치 영상 채팅 데이터 스크래핑 하는 함수
     :param bj_id: str, bj 아이디
@@ -178,7 +178,7 @@ def twitch_make_datasets(bj_id, urls, n=3):
     return result.reset_index()
 
 
-def youtube_make_datasets(bj_id, urls, n=3):
+def youtube_make_datasets(urls, n=3):
     '''
     파싱해온 urls를 넣으면 영상 3개에서 chatingdata를 뽑아온다.
     :param bj_id: str
@@ -196,7 +196,7 @@ def youtube_make_datasets(bj_id, urls, n=3):
     return result.reset_index()
 
 
-def make_dataset(bj_id, urls, platform, n=3):
+def make_dataset(urls, platform, n=3):
     '''
     플랫폼을 같이 받아서 데이터 셋을 만들어주는 함수
     :param bj_id: str, bj 아이디
@@ -207,8 +207,8 @@ def make_dataset(bj_id, urls, platform, n=3):
     '''
     print('platform = ', platform)
     if platform =='afreeca':
-        return afreeca_make_datasets(bj_id, urls, n)
+        return afreeca_make_datasets(urls, n)
     elif platform =='twitch':
-        return twitch_make_datasets(bj_id, urls, n)
+        return twitch_make_datasets(urls, n)
     else :
-        return youtube_make_datasets(bj_id, urls, n)
+        return youtube_make_datasets(urls, n)

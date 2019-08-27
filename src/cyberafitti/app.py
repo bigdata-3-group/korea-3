@@ -10,6 +10,9 @@ from sqlalchemy.orm import sessionmaker
 import json
 from collections import defaultdict
 import pandas as pd
+import requests
+import re
+from scrapChat import afre_chat, twi_chat, youtube_jamak
 
 app = Flask(__name__)
 
@@ -59,8 +62,8 @@ def run(session, Bj, Platform):
         bj, platform = bj_pl
         print(platform, type(platform))
         print('bj={}, platform={}'.format(bj, platform))
-        data = vod.make_dataset(bj, urlList, platform, len(urlList)) # 모든 영상 검사
-        # data = vod.make_dataset(bj, urlList, platform, 3) # 영상 3개 검사 -> 마지막 파라미터 조절해서 검사 가능
+        data = vod.make_dataset(urlList, platform, len(urlList)) # 모든 영상 검사
+        # data = vod.make_dataset(urlList, platform, 3) # 영상 3개 검사 -> 마지막 파라미터 조절해서 검사 가능
         print("data.len = ", len(data))
         print(data.keys())
 
@@ -179,6 +182,23 @@ def demo():
     else:
         return render_template('Ndemo.html')
 
+
+def parseUrl(url):
+    urls = requests.compat.urlparse(url)
+    # 도메인 파싱
+    netloc = re.search('\.(.+?)\.', urls[1]).group(1)
+    if netloc == 'youtube':
+        if 'watch' not in url:
+            return '', ''
+        path = urls[2] + '?' + urls[4]
+    elif netloc == 'afreecatv':
+        netloc = 'afreeca'
+        path = urls[2].split('/')[-1]
+    else:
+        path = urls[2].split('/')[-1]
+    return netloc, path
+
+import time
 @app.route('/mandoo')
 def mandoo():
     # 주소가 오면 받아서 blacklist에 있는 것인지 확인하고 있으면(어차피 차단될것) 아무것도 반환 안 하고
@@ -187,7 +207,41 @@ def mandoo():
     # 그러면 아직 유해하지 않은 것들은 계속 확인하는가? 들어올 때 마다?
     # -> 서버가 힘들거 같음 ...
     query = request.args.get('test')
-    return '{"zilioner83" : 15}'
+    time.sleep(10)
+    return '{"zilioner83": 15}'
+    # print("query = ", query)
+    # platform, url = parseUrl(query)
+    # print('platform = ', platform)
+    # print('url = ', url)
+    # if platform == '' or url == '' :
+    #     return 'N'
+    # # 블랙리스트 확인 --> 서버 터질 우려 있음 매번 열면...
+    # # 주기적으로 업데이트 해주고 전역변수로 만들어야 할 듯
+    # with open('./data/blacklist.json', 'r') as f:
+    #     blacklist = json.load(f)
+    #
+    # # 이미 블랙리스트에 있으면 N 반환
+    # if url in blacklist:
+    #     return 'N'
+    #
+    # # 없으면 채팅 긁어와서 모델을 돌리고 유해도 판정하여 반환
+    # try:
+    #     data = vod.make_dataset([url], platform, n=1)
+    #     print("파싱 완료", data.shape)
+    #     # tmp = run_model.RunAttentionModel(data)
+    #     # tmp.predict()
+    #     # result = int(tmp.run_bj()*100)
+    #     result = 12;
+    #     if result > 5:
+    #         print(json.dumps({url:result}))
+    #         return json.dumps({url:result})
+    #     else:
+    #         return 'N'
+    # except:
+    #     print("error 발생")
+    #     return 'N' # 에러발생(못찾거나 등등 이면 N을 반환해줄거임
+
+
 
 @app.errorhandler(403)
 def error404(err):
