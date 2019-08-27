@@ -198,7 +198,7 @@ def parseUrl(url):
         path = '/'+urls[2].split('/')[-1]
     return netloc, path
 
-@app.route('/mandoo')
+@app.route('/mandoo', methods=["POST"])
 def mandoo():
     # 주소가 오면 받아서 blacklist에 있는 것인지 확인하고 있으면(어차피 차단될것) 아무것도 반환 안 하고
     # 블랙리스트에 없으면
@@ -207,17 +207,16 @@ def mandoo():
     # -> 서버가 힘들거 같음 ...
     # 실시간용(스트리밍용)
 
-    chat = request.args.get('chat') # chat
+    chat = request.form.get('chat') # chat
     print(chat)
-    return "N"
-    # if chat:
-    #     tmp = run_model.RunAttentionModel([chat])
-    #     tmp.predict()
-    #     result = int(tmp.run_demo()*100)
-    #     print("result = ", result)
-    #     return result
-    # else:
-    #     return
+    if chat:
+        tmp = run_model.RunAttentionModel([chat])
+        tmp.predict()
+        result = int(tmp.run_demo()*100)
+        print("result = ", result)
+        return result
+    else:
+        return "N"
 
 
     # 기존에 있는 영상 채팅/ 자막 가져옴
