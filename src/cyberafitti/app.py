@@ -222,7 +222,7 @@ def mandoo():
         url = requests.compat.urlparse(url)[2]
         if result > 79:
             stream['url'] += 1
-            if stream['url'] > 8:
+            if stream['url'] > 7:
                 return '{"' + url + '":' + str(result) + '}'
             return "N"
         else:
