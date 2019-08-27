@@ -207,14 +207,17 @@ def mandoo():
     # -> 서버가 힘들거 같음 ...
     # 실시간용(스트리밍용)
 
-    chat = request.form.get('chat') # chat
-    print(chat)
+    res = request.form.get('chat') # chat
+    url = res["url"]
+    chat = res["chat"]
+    print("url = {}, chat = {}".format(url, chat))
     if chat:
         tmp = run_model.RunAttentionModel([chat])
         tmp.predict()
         result = int(tmp.run_demo()*100)
         print("result = ", result)
-        return result
+        url = requests.compat.urlparse(url)[2]
+        return '{"'+url+'":'+str(result)+'}'
     else:
         return "N"
 
