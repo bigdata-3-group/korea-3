@@ -218,7 +218,7 @@ def mandoo():
     if "http" in url:
         url = requests.compat.urlparse(url)[2]
         st = stream[user][url]
-        if st[0] < 8 and st[1] >= 100:
+        if st[1] >= 100:
             st[0], st[1] = 0, 0
         tmp = run_model.RunAttentionModel([chat])
         tmp.predict()
@@ -227,6 +227,7 @@ def mandoo():
         st[1] += 1
         if result > 79:
             st[0] += 1
+            print("욕설 : {}, 채팅수 : {}".format(st[0], st[1]))
             if st[0] > 3:
                 per = int(st[0] / st[1] * 100)
                 return '{"' + url + '":' + str(per) + '}'
