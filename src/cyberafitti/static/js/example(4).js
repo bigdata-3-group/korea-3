@@ -45,12 +45,12 @@ var trigram_weights = [2.7294667e-05,1.3046348e-05,1.4977582e-05,3.4313205e-05,7
     for (var i = 0; i < intensity.length; i++) {
         intensity[i] = (intensity[i] - min_intensity) / denominator;
     }
-    var heat_text = "";
+    var heat_text = "<p>";
     var space = "";
     for (var i = 0; i < tokens.length; i++) {
         heat_text += "<span style='background-color:rgba(" + color + "," + intensity[i] + ")'>" + space + tokens[i] + "</span>";
     }
-
+    heat_text += "</p>"
     $('#attention').prepend(heat_text);
 
 
