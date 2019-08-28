@@ -67,9 +67,9 @@ class RunAttentionModel(object):
         '''
         
         # 텍스트를 어텐션 모델 인풋 길이와 똑같게끔 만들어준다.
-        chat_to_bytelength = chat_to_byteLength(self.input_text[0])
+        chat_to_bytelength = chat_to_byteLength(self.input_text[0])[-50:]
         chat_to_bytelength = '_'*(50-len(chat_to_bytelength)) + chat_to_bytelength
-
+        print(len(chat_to_bytelength))
         # 어텐션 차원을 합한다.
         wts_add = torch.sum(self.attwts, 1).data.numpy()[0]
 
@@ -82,7 +82,7 @@ class RunAttentionModel(object):
 if __name__ == '__main__':
     import run_model
     from attention.attention_model import StructuredSelfAttention
-    tmp = run_model.RunAttentionModel(['이걸 어텐션 시각화 해보시오 좆1밥아ㅋㅋ'])
+    tmp = run_model.RunAttentionModel(['ㅋ'])
 
     tmp.predict()
     print(tmp.visualize())
