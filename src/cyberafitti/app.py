@@ -143,6 +143,8 @@ def introduce():
         black = pd.DataFrame(black)
         black[2] = black[2].map(mapper)
         black = black.values
+
+    texts = [''];
     return render_template('introduce.html', black=black)
 
 
