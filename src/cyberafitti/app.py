@@ -142,9 +142,9 @@ def introduce():
         mapper = {1: '유튜브', 2: '아프리카tv', 3: "트위치"}
         black = pd.DataFrame(black)
         black[2] = black[2].map(mapper)
+        black[3] = black[3].astype({3:'int'})
         black = black.values
 
-    texts = [''];
     return render_template('introduce.html', black=black)
 
 
