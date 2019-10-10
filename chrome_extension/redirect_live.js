@@ -5,7 +5,7 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     console.log(request);
     request = JSON.stringify(request);
     $.ajax({
-        url: "http://150.95.153.18:8000/mandoo",
+        url: "http://127.0.0.1:5000/mandoo",
         type: "POST",
         data: { "chat" : request},
         success: function (response) {
